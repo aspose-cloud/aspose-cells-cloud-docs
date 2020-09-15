@@ -189,6 +189,8 @@ public void Run\_PivotTable\_PivotFilter()
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "2a2aa16c2d9fd7e46b1b19f5fea5842b" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

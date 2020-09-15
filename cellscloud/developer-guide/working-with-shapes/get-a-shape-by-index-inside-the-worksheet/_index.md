@@ -207,6 +207,8 @@ InputStream responseStream = ProcessCommand(signedURL, "GET");
 
 {{< tab tabNum="4" >}}
 
+{{< gist "aspose-cloud" "dd6d8ac9aacd9be6085356c07dbbadd0" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

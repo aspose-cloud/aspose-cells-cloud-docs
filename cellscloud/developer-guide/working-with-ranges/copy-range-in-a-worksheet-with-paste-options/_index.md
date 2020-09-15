@@ -153,6 +153,8 @@ using (Stream stream = ProcessCommand(surl, "Post", strJson, "json"))
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "4b9529b9d4238c301f3ee4855843874b" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

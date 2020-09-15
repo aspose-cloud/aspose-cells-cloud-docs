@@ -43,7 +43,7 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/cells/test1.xlsx/worksheets/Sheet1
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
 
@@ -100,6 +100,8 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availabl
 {{< /tab >}}
 
 {{< tab tabNum="10" >}}
+
+{{< gist "aspose-cloud" "feb9010fa22a96a97ea6fe75e08221d7" >}}
 
 {{< /tab >}}
 

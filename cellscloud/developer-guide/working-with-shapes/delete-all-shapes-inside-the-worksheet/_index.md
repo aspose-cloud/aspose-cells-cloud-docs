@@ -131,6 +131,8 @@ InputStream responseStream = ProcessCommand(signedURL, "DELETE");
 
 {{< tab tabNum="4" >}}
 
+{{< gist "aspose-cloud" "a92427978a88b27918aeec5929efff97" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

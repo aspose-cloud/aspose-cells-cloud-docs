@@ -151,6 +151,8 @@ public void Run\_PivotTable\_Move()
 
 {{< tab tabNum="2" >}}
 
+{{< gist "aspose-cloud" "60360c7d035abd1b2c9e36c68c9f00fb" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

@@ -417,6 +417,8 @@ InputStream responseStream = ProcessCommand(strURI, "POST", xmlBody, "XML");
 
 {{< tab tabNum="4" >}}
 
+{{< gist "aspose-cloud" "c76d8684f0bb9a96cb74f64433a43b88" >}}
+
 {{< /tab >}}
 
 {{< /tabs >}}

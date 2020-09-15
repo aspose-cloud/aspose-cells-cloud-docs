@@ -77,7 +77,7 @@ curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/char
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks-html/)
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Objective C" tabName8="Perl" tabName9="Android" tabName10="Go" >}}
 
@@ -134,6 +134,8 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 {{< /tab >}}
 
 {{< tab tabNum="10" >}}
+
+{{< gist "aspose-cloud" "7fa79c30fca0c594c18c0f3937b6bcc9" >}}
 
 {{< /tab >}}
 
