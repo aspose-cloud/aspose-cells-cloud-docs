@@ -20,11 +20,8 @@ This example shows how to clear modify password of a workbook using Aspose.Cells
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/writeProtection?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json" 
 
 ```

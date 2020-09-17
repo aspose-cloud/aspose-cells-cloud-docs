@@ -20,9 +20,7 @@ This example shows how to convert an OleObject to image using Aspose.Cells Cloud
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Embeded\_OleObject\_Sample\_Book1.xlsx/worksheets/Sheet1/oleobjects/0?format=png&appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" 
 
 ```

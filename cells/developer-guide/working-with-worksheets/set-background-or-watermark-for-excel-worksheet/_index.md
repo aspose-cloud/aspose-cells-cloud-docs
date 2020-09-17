@@ -20,13 +20,9 @@ This example shows how to set a background image or watermark image for a worksh
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/background?appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -T Creative.jpg \
-
      -H "Content-Type: multipart/form-data" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,13 +20,9 @@ This example shows how to import double array into worksheet using Aspose.Cells 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"DoubleArray","Source":{"FileSourceType":1,"FilePath":"Array\_double\_json.txt"}}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

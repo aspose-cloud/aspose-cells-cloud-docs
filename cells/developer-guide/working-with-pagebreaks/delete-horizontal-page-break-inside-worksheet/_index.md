@@ -20,11 +20,8 @@ This example shows how to delete Horizontal Page Break inside Worksheet using A
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/sampleExcelPageBreaks.xlsx/worksheets/Sheet1/horizontalpagebreaks/0?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

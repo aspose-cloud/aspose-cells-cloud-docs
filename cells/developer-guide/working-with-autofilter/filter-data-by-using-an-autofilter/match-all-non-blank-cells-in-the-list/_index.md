@@ -20,11 +20,8 @@ This example shows how to match all non-blank cells in the list using Aspose.Cel
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/matchNonBlanks?fieldIndex=0&appSID=xxxx&signature=xxxx" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

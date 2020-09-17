@@ -20,11 +20,8 @@ This example shows how to delete all OleObjects from a worksheet using Aspose.Ce
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Embeded\_OleObject\_Sample\_Book1.xlsx/worksheets/Sheet1/oleobjects?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

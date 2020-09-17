@@ -20,11 +20,8 @@ This example shows how to delete a Filter for a Filter Column using Aspose.Cells
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/filter?fieldIndex=0&criteria=Year&appSID=xxxx&signature=xxxx" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

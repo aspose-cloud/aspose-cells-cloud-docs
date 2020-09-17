@@ -20,11 +20,8 @@ This example shows how to rename a worksheet using Aspose.Cells Cloud API in you
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/rename?newname=newSheet&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

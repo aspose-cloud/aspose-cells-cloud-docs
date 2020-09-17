@@ -20,11 +20,8 @@ This example shows how to add a cell area for format condition using Aspose.Cell
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/0/area?cellArea=A1:C3&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to create an empty workbook using Aspose.Cells Cloud API 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signature=XXXX" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

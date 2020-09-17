@@ -20,11 +20,8 @@ This example shows how to get AutoFilter description using Aspose.Cells Cloud A
 ```java
 
  curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter?appSID=xxxx&signature=xxxx" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

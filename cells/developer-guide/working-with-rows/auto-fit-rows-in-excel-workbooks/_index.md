@@ -20,13 +20,9 @@ This example shows how to automatically fit rows height and width using Aspose.C
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/autofitrows?appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"AutoFitMergedCells":true, "IgnoreHidden":true}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

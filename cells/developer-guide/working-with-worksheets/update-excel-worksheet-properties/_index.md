@@ -20,13 +20,9 @@ This example shows how to update properties of a worksheet using Aspose.Cells Cl
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1?appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"DisplayRightToLeft":true, "DisplayZeros":true, "FirstVisibleColumn":1, "FirstVisibleRow":1, "Name":"sheet1", "Index":0, "IsGridlinesVisible":true, "IsOutlineShown":true, "IsPageBreakPreview":true, "IsVisible":true, "IsRowColumnHeadersVisible":true, "IsRulerVisible":true, "IsSelected":true, "TransitionEntry":true, "TransitionEvaluation":true, "Type":"Worksheet", "ViewType":"PageBreakPreview", "Zoom":80}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to get fill format of a chart area from a worksheet using
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0/chartArea/fillFormat?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -23,9 +23,7 @@ The Aspose for Cloud SDKs can be downloaded from the following page: [Available 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/task/runtask?appSid=B01A15E5-1B83-4B9A-8EB3-0F2BFA6AC766&signature=8IHfiBxpe9TI7ks%2BLflwMGPzSis" \
-
 -X POST \
-
 -F 'json={
 
   "Tasks": [
@@ -103,9 +101,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/task/runtask?appSid=B01A15E5-1B83-4B
   ]
 
 };type=application/json' \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: application/json"
 
 ```

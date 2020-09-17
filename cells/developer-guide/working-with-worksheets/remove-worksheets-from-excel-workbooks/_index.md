@@ -20,11 +20,8 @@ This example shows how to remove a worksheet from a workbook using Aspose.Cells 
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet3?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

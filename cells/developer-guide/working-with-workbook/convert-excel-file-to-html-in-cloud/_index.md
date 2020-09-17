@@ -20,9 +20,7 @@ This example shows how to convert excel file to HTML using Aspose.Cells Cloud AP
 ```java
 
 curl -v "https://api.aspose.cloud/v3.0/cells/convert?format=HTML&outPath=GoFiles&appSID=XXXX&signature=XXXX" \
-
 	-X PUT \
-
 	-H "accept: multipart/form-data" 
 
 	-H "Content-Type: multipart/form-data" 

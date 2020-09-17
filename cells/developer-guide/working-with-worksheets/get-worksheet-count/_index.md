@@ -20,11 +20,8 @@ This example shows how to get worksheet count using Aspose.Cells Cloud API in yo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

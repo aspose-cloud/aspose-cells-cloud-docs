@@ -20,11 +20,8 @@ This example shows how to create a workbook from a SmartMarker template file usi
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Sample\_SmartMarker.xlsx&dataFile=Sample\_SmartMarker\_Data.xml&appSID=XXXX&signature=XXXX" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to remove cell area from conditional formatting using Asp
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/area?startRow=3&startColumn=3&totalRows=1&totalColumns=1&appSID=xxxx&signature=xxxx" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

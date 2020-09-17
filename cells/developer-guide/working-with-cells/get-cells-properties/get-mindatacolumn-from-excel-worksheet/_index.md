@@ -20,11 +20,8 @@ This example shows how to get index of first column which contains data in a wor
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/mindatacolumn?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json" 
 
 ```

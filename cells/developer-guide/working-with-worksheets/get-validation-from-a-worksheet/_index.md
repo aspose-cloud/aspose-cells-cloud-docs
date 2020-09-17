@@ -20,11 +20,8 @@ This example shows how to get validation from a worksheet using Aspose.Cells Clo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkBook.xlsx/worksheets/Sheet1/validations?range=A1:C10&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

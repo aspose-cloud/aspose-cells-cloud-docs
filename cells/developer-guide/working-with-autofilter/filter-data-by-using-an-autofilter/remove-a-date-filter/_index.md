@@ -20,11 +20,8 @@ This example shows how to remove a Date Filter from a worksheet using Aspose.Cel
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/dateFilter?fieldIndex=0&dateTimeGroupingType=Year&year=1920&appSID=xxxx&signature=xxxx" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

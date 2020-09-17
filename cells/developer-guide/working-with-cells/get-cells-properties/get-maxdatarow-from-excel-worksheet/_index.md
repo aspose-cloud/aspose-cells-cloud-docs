@@ -20,11 +20,8 @@ This example shows how to get index of last row which contains data in a workshe
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/maxdatarow?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json" 
 
 ```

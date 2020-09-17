@@ -20,11 +20,8 @@ This example shows how to unhide a worksheet in a workbook using Aspose.Cells Cl
 ```java
 
 curl -v "http://api.aspose.com/v/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/visible?isVisible=true&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

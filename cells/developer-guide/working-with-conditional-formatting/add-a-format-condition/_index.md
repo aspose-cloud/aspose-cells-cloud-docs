@@ -20,11 +20,8 @@ This example shows how to add a format condition using Aspose.Cells Cloud API in
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/0?cellArea=A1:C3&type=Expression&operatorType=Between&formula1=v1&formula2=v2&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

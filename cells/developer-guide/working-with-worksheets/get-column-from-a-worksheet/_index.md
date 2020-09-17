@@ -20,11 +20,8 @@ This example shows how to get a specific column from a worksheet using Aspose.Ce
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/columns/1?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

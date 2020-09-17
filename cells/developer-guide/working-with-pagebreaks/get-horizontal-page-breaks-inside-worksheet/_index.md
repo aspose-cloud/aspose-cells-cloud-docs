@@ -20,11 +20,8 @@ This example shows how to get Horizontal Page Breaks inside Worksheet using Aspo
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/sampleExcelPageBreaks.xlsx/worksheets/Sheet1/horizontalpagebreaks?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

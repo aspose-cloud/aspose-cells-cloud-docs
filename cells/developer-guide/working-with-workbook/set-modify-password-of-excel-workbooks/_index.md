@@ -20,13 +20,9 @@ This example shows how to set modify password of a workbook using Aspose.Cells C
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/writeProtection?appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -d '{"Password":"aspose"}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

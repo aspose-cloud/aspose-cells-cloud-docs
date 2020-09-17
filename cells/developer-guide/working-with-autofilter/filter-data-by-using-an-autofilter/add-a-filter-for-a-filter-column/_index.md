@@ -20,11 +20,8 @@ This example shows how to add a Filter for a Filter Column using Aspose.Cells Cl
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/filter?range=A1:B1&fieldIndex=0&criteria=Year&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" 
 
 ```

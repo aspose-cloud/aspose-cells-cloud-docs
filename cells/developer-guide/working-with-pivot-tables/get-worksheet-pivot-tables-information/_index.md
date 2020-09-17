@@ -20,11 +20,8 @@ This example shows how to get worksheet pivot tables information using Aspose.Ce
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,13 +20,9 @@ This example shows how to autofit multiple columns of the worksheet using Aspos
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/sampleAutoFit.xlsx/worksheets/Sheet1/autofitcolumns?lastColumn=5&firstColumn=0&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"AutoFitMergedCells" : true, "IgnoreHidden" : true, "OnlyAuto" : true}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to add a chart in a worksheet using Aspose.Cells Cloud AP
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/charts?chartType=Bar&area=B1:F2&title=SalesState&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

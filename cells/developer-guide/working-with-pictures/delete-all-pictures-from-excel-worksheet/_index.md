@@ -20,11 +20,8 @@ This example shows how to remove all images from a Excel Worksheet using Aspose.
 ```java
 
 curl -v "http://api.aspose.com/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Sheet6/pictures?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

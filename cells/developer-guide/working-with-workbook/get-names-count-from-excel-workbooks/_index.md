@@ -20,11 +20,8 @@ This example shows how to get names count from a workbook using Aspose.Cells Clo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/names?appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,9 +20,7 @@ This example shows how to filter a list using a color filter with Aspose.Cells C
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/colorFilter?range=A1:B1&fieldIndex=0&matchBlanks=true&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -d '{
 
   "Pattern": "Solid",
@@ -80,9 +78,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFil
   }
 
 }' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

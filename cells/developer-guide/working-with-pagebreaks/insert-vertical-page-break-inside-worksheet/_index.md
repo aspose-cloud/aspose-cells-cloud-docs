@@ -20,11 +20,8 @@ This example shows how to insert Vertical Page Break inside Worksheet using Asp
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/sampleExcelPageBreaks.xlsx/worksheets/Sheet1/verticalpagebreaks?column=9&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

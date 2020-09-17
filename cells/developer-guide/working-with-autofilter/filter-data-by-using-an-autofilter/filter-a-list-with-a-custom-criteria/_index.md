@@ -20,11 +20,8 @@ This example shows how to filter a list with a custom criteria using Aspose.Cell
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/custom?range=A1:B1&fieldIndex=0&operatorType1=LessOrEqual&criteria1=1&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

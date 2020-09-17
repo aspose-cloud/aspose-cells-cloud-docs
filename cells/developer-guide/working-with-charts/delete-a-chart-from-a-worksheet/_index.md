@@ -20,11 +20,8 @@ This example shows how to delete a chart from a worksheet using Aspose.Cells Clo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

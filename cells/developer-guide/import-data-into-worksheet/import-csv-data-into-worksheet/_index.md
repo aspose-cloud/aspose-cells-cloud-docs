@@ -20,13 +20,9 @@ This example shows how to import csv data into worksheet using Aspose.Cells for 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
-
 -X POST \
-
 -d '{"SeparatorString":",", "ConvertNumericData":true, "FirstRow":1, "FirstColumn":2, "SourceFile":"TestImportDataCSV.csv", "DestinationWorksheet":"Sheet1", "IsInsert":true, "ImportDataType":"CSVData", "Source":null}' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

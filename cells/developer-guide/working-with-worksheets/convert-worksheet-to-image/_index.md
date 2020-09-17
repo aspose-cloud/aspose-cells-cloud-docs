@@ -20,9 +20,7 @@ This example shows how to convert a worksheet to image using Aspose.Cells Cloud 
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1?format=gif&appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json"
 
 ```

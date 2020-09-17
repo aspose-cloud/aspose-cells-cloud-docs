@@ -20,9 +20,7 @@ This example shows how to set the styles of selected cells in a worksheet using 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/test\_cells.xlsx/worksheets/Sheet3/cells/A1/style?appSid=XXXX&signature=XXXX" \
-
 -X POST \
-
 -d '{
 
        "BackgroundThemeColor": {
@@ -34,9 +32,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/test\_cells.xlsx/worksheets/Sheet3/c
         }
 
    }' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to freeze panes in a worksheet using Aspose.Cells Cloud A
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/freezepanes?row=1&column=1&freezedRows=1&freezedColumns=1&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

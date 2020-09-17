@@ -20,17 +20,13 @@ This example shows how to calculate all formulas in a workbook using Aspose.Cell
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/calculateformula?ignoreError=true&appSID=xxxx&signature=xxxx" \
-
 -X POST \
-
 -d '{
 
      "CalcStackSize": "1"
 
    }' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to set value of a cell in a worksheet using Aspose.Cells 
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/A3?value=1234&type=int&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,13 +20,9 @@ This example shows how to add pivot field into pivot table using Aspose.Cells Cl
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables/0/PivotField?pivotFieldType=Row&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -d '{"Data":[1,2]}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

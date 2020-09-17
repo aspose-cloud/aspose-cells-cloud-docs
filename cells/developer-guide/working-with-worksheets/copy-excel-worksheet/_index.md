@@ -20,9 +20,7 @@ This example shows how to copy a worksheet and save with new name in the same wo
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/NewSheet/copy?sourceSheet=Sheet3&appSid=XXXX&signature=XXXX" \
-
 -X POST \
-
 -d '{
 
      "CopyOptions": {
@@ -32,9 +30,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/NewSheet/copy?
      }
 
    }' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

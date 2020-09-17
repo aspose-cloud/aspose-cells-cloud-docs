@@ -20,11 +20,8 @@ This example shows how to set formula for a cell in a worksheet using Aspose.Cel
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/A3?value=1234&type=string&formula=sum(a1,a2)&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,13 +20,9 @@ This example shows how to update chart title in a Worksheet using Aspose.Cells C
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0/title?appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"Text":"Stock exchange"}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

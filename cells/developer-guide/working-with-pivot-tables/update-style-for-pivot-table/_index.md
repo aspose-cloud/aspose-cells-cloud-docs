@@ -20,13 +20,9 @@ This example shows how to update style for Pivot Table using Aspose.Cells Cloud 
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables/0/FormatAll?appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"Font":{"Name":"Arial", "Size":10}}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

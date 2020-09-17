@@ -20,11 +20,8 @@ This example shows how to delete a background image or watermark image anes of a
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/WorkSheetBackground\_Sample\_Test\_Book.xls/worksheets/Sheet1/background?appSID=xxxx&signature=xxxx" \
-
      -X DELETE \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

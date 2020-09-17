@@ -20,11 +20,8 @@ This example shows how to filter the Top 10 items in the list using Aspose.Cells
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/filterTop10?range=A1:B1&fieldIndex=0&isTop=true&itemCount=1&isPercent=true&matchBlanks=true&appSID=xxxx&signature=xxxx" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

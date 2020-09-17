@@ -20,11 +20,8 @@ This example shows how to remove conditional formatting using Aspose.Cells Cloud
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/0?appSID=xxxx&signature=xxxx" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

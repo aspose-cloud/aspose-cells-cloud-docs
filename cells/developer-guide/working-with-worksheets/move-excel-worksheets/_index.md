@@ -20,13 +20,9 @@ This example shows how to move a worksheet to a new location in a workbook using
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/position?appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"DestinationWorksheet":"Sheet5", "Position":"after"}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

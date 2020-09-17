@@ -20,13 +20,9 @@ This example shows how to sort worksheet data using Aspose.Cells Cloud API in yo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/sort?cellArea=A5:A10&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"CaseSensitive":false, "HasHeaders":false, "KeyList":[{"Key":0, "SortOrder":"descending"}], "SortLeftToRight":false}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

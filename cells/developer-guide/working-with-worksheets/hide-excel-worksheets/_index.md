@@ -20,11 +20,8 @@ This example shows how to hide a worksheet in a workbook using Aspose.Cells Clou
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/visible?isVisible=false&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

@@ -20,11 +20,8 @@ This example shows how to clear contents and styles of selected cells in a works
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/clearcontents?range=A2:C11&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

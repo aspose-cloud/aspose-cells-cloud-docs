@@ -20,11 +20,8 @@ This example shows how to refresh an AutoFilter using Aspose.Cells Cloud API in 
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/refresh?appSID=xxxx&signature=xxxx" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

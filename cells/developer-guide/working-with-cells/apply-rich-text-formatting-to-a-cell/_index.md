@@ -15,7 +15,6 @@ This example shows how to apply Rich Text Formatting to a Cell using Aspose.Cell
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A1/characters?appSid=xxxx&signature=xxxx" \
-
      -d '{
 
           "FontSetting": [
@@ -57,9 +56,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A
         }'    
 
      -X POST \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

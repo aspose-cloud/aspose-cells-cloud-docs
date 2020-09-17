@@ -20,13 +20,9 @@ This example shows how to autofit single row of the worksheet using Aspose.Cel
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/sampleAutoFit.xlsx/worksheets/Sheet1/autofitcolumns?firstRow=2&lastColumn=10&lastRow=2&firstColumn=1&appSID=xxxx&signature=xxxx" \
-
      -X POST \
-
      -d '{"AutoFitMergedCells" : true, "IgnoreHidden" : true, "OnlyAuto" : true}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

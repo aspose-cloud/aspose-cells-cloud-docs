@@ -20,11 +20,8 @@ This example shows how to get conditional formatting of worksheet detail informa
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings?appSID=xxxx&signature=xxxx" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

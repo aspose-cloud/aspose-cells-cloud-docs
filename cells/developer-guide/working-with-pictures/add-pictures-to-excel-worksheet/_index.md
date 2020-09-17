@@ -20,11 +20,8 @@ This example shows how to add a image to a Worksheet of a Excel document using A
 ```java
 
 curl -v "http://api.aspose.com/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Sheet6/pictures?picturePath=aspose-cloud.png&appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

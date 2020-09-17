@@ -20,11 +20,8 @@ This example shows how to clear all condition formattings using Aspose.Cells Cl
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings?appSID=xxxx&signature=xxxx" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json"
 
 ```

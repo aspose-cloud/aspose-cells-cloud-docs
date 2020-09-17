@@ -20,9 +20,7 @@ This example shows how to convert a chart to image using Aspose.Cells Cloud API 
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0?format=png&appSID=xxxx&signature=xxxx" \
-
      -X GET \
-
      -H "Content-Type: application/json"
 
 ```

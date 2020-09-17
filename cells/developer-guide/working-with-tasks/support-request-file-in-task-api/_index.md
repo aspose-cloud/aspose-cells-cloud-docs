@@ -15,13 +15,9 @@ This example shows how to request file using a http multipart request in workboo
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/SaveAs?newfilename=updatedWorkbook.xlsx&appSID=XXXX&signature=XXXX" \
-
      -X POST \
-
      -d '{"ClearData":true}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

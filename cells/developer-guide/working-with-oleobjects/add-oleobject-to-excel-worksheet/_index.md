@@ -20,13 +20,9 @@ This example shows how to add an OleObject to a worksheet using Aspose.Cells Clo
 ```java
 
 curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/oleobjects?appSID=xxxx&signature=xxxx" \
-
      -X PUT \
-
      -d '{"ImageSourceFullName":"aspose-logo.png", "IsAutoSize":true, "SourceFullName":"Sample\_Book2.xls", "UpperLeftRow":15, "Top":10, "UpperLeftColumn":5, "Left":10,"Width":400, "Height":400}' \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 ```

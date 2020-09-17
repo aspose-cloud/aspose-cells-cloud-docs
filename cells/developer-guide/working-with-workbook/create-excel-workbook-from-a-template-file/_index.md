@@ -20,11 +20,8 @@ This example shows how to create a workbook from a template file using Aspose.Ce
 ```java
 
 curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?templateFile=calendar.xlsx&appSID=XXXX&signature=XXXX" \
-
      -X PUT \
-
      -H "Content-Type: application/json" \
-
      -H "Accept: application/json"
 
 
