@@ -19,7 +19,7 @@ This example shows how to create a workbook from a SmartMarker template file usi
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Sample\_SmartMarker.xlsx&dataFile=Sample\_SmartMarker\_Data.xml&appSID=XXXX&signature=XXXX" \
+curl -v "http://api.aspose.com/v3.0/cells/newworkbook_14.xlsx?templateFile=Sample_SmartMarker.xlsx&dataFile=Sample_SmartMarker_Data.xml&appSID=XXXX&signature=XXXX" \
      -X PUT \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -36,13 +36,13 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
   "Workbook":{
 
-    "FileName":"newworkbook\_14.xlsx",
+    "FileName":"newworkbook_14.xlsx",
 
     "Links":[
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"self"
 
@@ -50,7 +50,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -62,7 +62,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -74,7 +74,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -86,7 +86,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -98,7 +98,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -110,7 +110,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -122,7 +122,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -134,7 +134,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -146,7 +146,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook\_14.xlsx?templateFile=Samp
 
       {
 
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook\_14.xlsx",
+        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
 
         "Rel":"alternate",
 
@@ -262,7 +262,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-create\_new\_workbook-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-create_new_workbook-.rb" >}}
 
 {{< /tab >}}
 

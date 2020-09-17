@@ -12,7 +12,7 @@ The following sample code illustrates how to work with Pivot Table using CellsOb
 
 ```csharp
 
-public void Run\_PivotTable\_TaskPivot()
+public void Run_PivotTable_TaskPivot()
 
 {
 
@@ -638,7 +638,7 @@ public void Run\_PivotTable\_TaskPivot()
 
     url = "http://api.aspose.com/v3.0/cells/task/runtask";
 
-    using (HttpWebResponse response = \_helper.CallPost(url, xml, "application/xml"))
+    using (HttpWebResponse response = _helper.CallPost(url, xml, "application/xml"))
 
     {
 

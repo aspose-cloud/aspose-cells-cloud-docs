@@ -19,7 +19,7 @@ This example shows how to remove all images from a Excel Worksheet using Aspose.
 
 ```java
 
-curl -v "http://api.aspose.com/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Sheet6/pictures?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6/pictures?appSID=xxxx&signature=xxxx" \
      -X DELETE \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -70,7 +70,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Pictures-delete\_all\_pictures\_in\_worksheet-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Pictures-delete_all_pictures_in_worksheet-.rb" >}}
 
 {{< /tab >}}
 

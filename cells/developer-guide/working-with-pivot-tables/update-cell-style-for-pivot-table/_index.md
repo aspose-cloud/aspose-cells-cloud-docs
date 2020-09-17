@@ -19,7 +19,7 @@ This example shows how to update cell style for Pivot Table using Aspose.Cells C
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables/0/Format?column=1&row=1&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Pivot_Table_Example.xls/worksheets/Sheet2/pivottables/0/Format?column=1&row=1&appSID=xxxx&signature=xxxx" \
      -X POST \
      -d '{"Font":{"Name":"Arial", "Size":10}}' \
      -H "Content-Type: application/json" \

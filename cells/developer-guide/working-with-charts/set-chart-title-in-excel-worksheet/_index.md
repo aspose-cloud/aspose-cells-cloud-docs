@@ -19,7 +19,7 @@ This example shows how to add title to a chart using Aspose.Cells Cloud API in y
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0/title?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/title?appSID=xxxx&signature=xxxx" \
      -X PUT \
      -d '{"Text":"Sales Chart"}' \
      -H "Content-Type: application/json" \
@@ -193,7 +193,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Shee
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0/title",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/title",
 
       "Rel": "self"
 
@@ -239,7 +239,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-add\_chart\_title-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-add_chart_title-.rb" >}}
 
 {{< /tab >}}
 

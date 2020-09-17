@@ -41,7 +41,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallGet(url, data, contentType))
+using (HttpWebResponse response = _helper.CallGet(url, data, contentType))
 
 {
 
@@ -75,7 +75,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallGet(url, data, contentType))
+using (HttpWebResponse response = _helper.CallGet(url, data, contentType))
 
 {
 
@@ -115,7 +115,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallPut(url, data, contentType))
+using (HttpWebResponse response = _helper.CallPut(url, data, contentType))
 
 {
 
@@ -155,7 +155,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallPut(url, data, contentType))
+using (HttpWebResponse response = _helper.CallPut(url, data, contentType))
 
 {
 
@@ -195,7 +195,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallDelete(url, data, contentType))
+using (HttpWebResponse response = _helper.CallDelete(url, data, contentType))
 
 {
 
@@ -235,7 +235,7 @@ string data = "";
 
 string contentType = "application/json";
 
-using (HttpWebResponse response = \_helper.CallDelete(url, data, contentType))
+using (HttpWebResponse response = _helper.CallDelete(url, data, contentType))
 
 {
 
@@ -265,7 +265,7 @@ string url = "http://api.aspose.com/v1.1/cells/" + workbookName + "/worksheets/"
 
 //Call POST method with the above URL
 
-using (HttpWebResponse response = \_helper.CallPost(url, string.Empty, contentType))
+using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentType))
 
 {
 
@@ -295,7 +295,7 @@ string url = "http://api.aspose.com/v1.1/cells/" + workbookName + "/worksheets/"
 
 //Call POST method with the above URL
 
-using (HttpWebResponse response = \_helper.CallPost(url, string.Empty, contentType))
+using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentType))
 
 {
 
@@ -325,7 +325,7 @@ string url = "http://api.aspose.com/v1.1/cells/" + workbookName + "/worksheets/"
 
 //Call POST method with the above URL
 
-using (HttpWebResponse response = \_helper.CallPost(url, string.Empty, contentType))
+using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentType))
 
 {
 
@@ -355,7 +355,7 @@ string url = "http://api.aspose.com/v1.1/cells/" + workbookName + "/worksheets/"
 
 //Call POST method with the above URL
 
-using (HttpWebResponse response = \_helper.CallPost(url, string.Empty, contentType))
+using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentType))
 
 {
 

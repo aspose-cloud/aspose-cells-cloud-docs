@@ -19,7 +19,7 @@ This example shows how to merge rows in an Excel Worksheet using Aspose.Cells Cl
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/cells/merge?startRow=10&startColumn=10&totalRows=10&totalColumns=10" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk3ODcxODksImV4cCI6MTU2OTg3MzU4OSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.mF1ctCv6x3Kszw2Izt6q4CwBg5vmeGvfHc-yjuYFh5f61jJckNpaJTLS0cpeKx7PUfKsEtdKt-UdhqKT9BJdmVGG305D7P7NGFs7fU3T0GXDFjxh0dzMRbbmhGQC9wHoa5PlV-BZ9xoNk-utW\_FqMP\_0GJ9zTgXBAFcE2uA8LD\_CyiGMLDCvOgPc614jHUqREfk2oJD0rPc6rrZiv3XL-zJUncUIyXxbNRJvIImcukC7w7TJfZQ3\_fPnw-xvjFwY3Bc8VfMdBZhmyFpiRH6\_7oinsP11FD8fPSUb5ph4M8x5XL1bgGLp54RUguMzzbj\_\_MgdT4dte8lGe8UkTN5Qyw"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/cells/merge?startRow=10&startColumn=10&totalRows=10&totalColumns=10" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk3ODcxODksImV4cCI6MTU2OTg3MzU4OSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.mF1ctCv6x3Kszw2Izt6q4CwBg5vmeGvfHc-yjuYFh5f61jJckNpaJTLS0cpeKx7PUfKsEtdKt-UdhqKT9BJdmVGG305D7P7NGFs7fU3T0GXDFjxh0dzMRbbmhGQC9wHoa5PlV-BZ9xoNk-utW_FqMP_0GJ9zTgXBAFcE2uA8LD_CyiGMLDCvOgPc614jHUqREfk2oJD0rPc6rrZiv3XL-zJUncUIyXxbNRJvIImcukC7w7TJfZQ3_fPnw-xvjFwY3Bc8VfMdBZhmyFpiRH6_7oinsP11FD8fPSUb5ph4M8x5XL1bgGLp54RUguMzzbj__MgdT4dte8lGe8UkTN5Qyw"
 
 ```
 
@@ -61,7 +61,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-merge\_cells-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-merge_cells-.rb" >}}
 
 {{< /tab >}}
 

@@ -70,7 +70,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-AutoFilter-put\_worksheet\_dynamic\_filter-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-AutoFilter-put_worksheet_dynamic_filter-.rb" >}}
 
 {{< /tab >}}
 

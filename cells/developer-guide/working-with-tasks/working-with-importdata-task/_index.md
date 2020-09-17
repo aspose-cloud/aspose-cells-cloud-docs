@@ -136,7 +136,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/task/runtask?appSid=B01A15E5-1B83-4B
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post\_run\_task-.rb" >}}
+{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post_run_task-.rb" >}}
 
 {{< /tab >}}
 

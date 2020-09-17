@@ -19,7 +19,7 @@ This example shows how to get a specific chart from a worksheet using Aspose.Cel
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0?appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -70,7 +70,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-get\_worksheet\_charts\_info-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-get_worksheet_charts_info-.rb" >}}
 
 {{< /tab >}}
 

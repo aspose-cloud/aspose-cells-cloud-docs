@@ -145,7 +145,7 @@ string url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Shee
 
 //Sign the url with your AppSID and AppKey.
 
-string signedURL = Sign(url, m\_AppSID, m\_AppKey);
+string signedURL = Sign(url, m_AppSID, m_AppKey);
 
 //Call process command with the signed URL.
 
@@ -169,7 +169,7 @@ Dim url As String = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/workshee
 
 'Sign the url with your AppSID and AppKey.
 
-Dim signedURL As String = Sign(url, m\_AppSID, m\_AppKey)
+Dim signedURL As String = Sign(url, m_AppSID, m_AppKey)
 
 'Call process command with the signed URL.
 
@@ -193,7 +193,7 @@ String url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Shee
 
 //Sign the url with your AppSID and AppKey.
 
-String signedURL = Sign(url, m\_AppSID, m\_AppKey);
+String signedURL = Sign(url, m_AppSID, m_AppKey);
 
 //Call process command with the signed URL.
 

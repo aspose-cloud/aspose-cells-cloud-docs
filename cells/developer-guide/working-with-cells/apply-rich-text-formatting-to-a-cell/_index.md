@@ -93,7 +93,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-post\_cell\_text\_formatting-.rb" >}}
+{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-post_cell_text_formatting-.rb" >}}
 
 {{< /tab >}}
 

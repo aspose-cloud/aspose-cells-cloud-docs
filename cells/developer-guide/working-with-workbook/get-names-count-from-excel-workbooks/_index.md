@@ -19,7 +19,7 @@ This example shows how to get names count from a workbook using Aspose.Cells Clo
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/names?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/names?appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -60,7 +60,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/names?appSID=xx
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Test\_Book.xls/names",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/names",
 
       "Rel": "self",
 
@@ -108,7 +108,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-read\_workbook\_names-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-read_workbook_names-.rb" >}}
 
 {{< /tab >}}
 

@@ -19,7 +19,7 @@ This example shows how to delete a chart from a worksheet using Aspose.Cells Clo
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0?appSID=xxxx&signature=xxxx" \
      -X DELETE \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -44,7 +44,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Shee
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts",
 
       "Rel": "self"
 
@@ -90,7 +90,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-delete\_worksheet\_chart\_by\_index-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-delete_worksheet_chart_by_index-.rb" >}}
 
 {{< /tab >}}
 

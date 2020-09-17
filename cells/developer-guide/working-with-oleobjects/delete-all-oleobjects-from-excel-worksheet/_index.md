@@ -19,7 +19,7 @@ This example shows how to delete all OleObjects from a worksheet using Aspose.Ce
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Embeded\_OleObject\_Sample\_Book1.xlsx/worksheets/Sheet1/oleobjects?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/worksheets/Sheet1/oleobjects?appSID=xxxx&signature=xxxx" \
      -X DELETE \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -70,7 +70,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-delete\_worksheet\_ole\_objects-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-delete_worksheet_ole_objects-.rb" >}}
 
 {{< /tab >}}
 

@@ -19,7 +19,7 @@ This example shows how to set the styles of selected cells in a worksheet using 
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/test\_cells.xlsx/worksheets/Sheet3/cells/A1/style?appSid=XXXX&signature=XXXX" \
+curl -v "http://api.aspose.cloud/v3.0/cells/test_cells.xlsx/worksheets/Sheet3/cells/A1/style?appSid=XXXX&signature=XXXX" \
 -X POST \
 -d '{
 
@@ -309,7 +309,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/test\_cells.xlsx/worksheets/Sheet3/c
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/test\_cells.xlsx/worksheets/Sheet3/cells/A1/style",
+      "Href": "http://api.aspose.cloud/v3.0/cells/test_cells.xlsx/worksheets/Sheet3/cells/A1/style",
 
       "Rel": "self",
 
@@ -357,7 +357,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-update\_cell\_style-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-update_cell_style-.rb" >}}
 
 {{< /tab >}}
 

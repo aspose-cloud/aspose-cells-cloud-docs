@@ -19,7 +19,7 @@ This example shows how to calculate formula in a worksheet using Aspose.Cells Cl
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet2/formulaResult?formula=SUM(A5:A10)&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet2/formulaResult?formula=SUM(A5:A10)&appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -76,7 +76,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-calculate\_formula\_value-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-calculate_formula_value-.rb" >}}
 
 {{< /tab >}}
 

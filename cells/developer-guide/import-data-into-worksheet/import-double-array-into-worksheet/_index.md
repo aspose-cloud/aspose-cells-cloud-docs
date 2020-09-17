@@ -21,7 +21,7 @@ This example shows how to import double array into worksheet using Aspose.Cells 
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
      -X POST \
-     -d '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"DoubleArray","Source":{"FileSourceType":1,"FilePath":"Array\_double\_json.txt"}}' \
+     -d '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"DoubleArray","Source":{"FileSourceType":1,"FilePath":"Array_double_json.txt"}}' \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
 
@@ -65,7 +65,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post\_import\_data-.rb" >}}
+{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post_import_data-.rb" >}}
 
 {{< /tab >}}
 

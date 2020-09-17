@@ -19,7 +19,7 @@ This example shows how to delete worksheet pivot tables using Aspose.Cells Cloud
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Pivot_Table_Example.xls/worksheets/Sheet2/pivottables?appSID=xxxx&signature=xxxx" \
      -X DELETE \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"

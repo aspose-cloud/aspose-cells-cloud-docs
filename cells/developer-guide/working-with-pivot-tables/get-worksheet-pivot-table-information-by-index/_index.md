@@ -19,7 +19,7 @@ This example shows how to get worksheet pivot table information by index using A
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/pivottables/0?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Pivot_Table_Example.xls/worksheets/Sheet2/pivottables/0?appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -35426,7 +35426,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/work
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Pivot\_Table\_Example.xls/worksheets/Sheet2/0",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Pivot_Table_Example.xls/worksheets/Sheet2/0",
 
       "Rel": "self"
 

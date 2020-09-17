@@ -19,7 +19,7 @@ This example shows how to get a specific OleObject from a worksheet using Aspose
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Embeded\_OleObject\_Sample\_Book1.xlsx/worksheets/Sheet1/oleobjects/0?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/worksheets/Sheet1/oleobjects/0?appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -64,7 +64,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-get\_worksheet\_ole\_object-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-get_worksheet_ole_object-.rb" >}}
 
 {{< /tab >}}
 

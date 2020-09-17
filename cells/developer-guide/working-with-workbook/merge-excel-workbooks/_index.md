@@ -19,7 +19,7 @@ This example shows how to merge multiple workbooks into a single workbook using 
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/merge?mergeWith=test2.xlsx" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk2MTk0NDUsImV4cCI6MTU2OTcwNTg0NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.at8j6tzptIioEjlSxLX63ouBnmECXvc0NagF9YUi9JU-npyc4dmui\_ZhCfQDyYexe8ryFrxF5g\_ZP7lhjirvM8p1BJfSR\_ferQkk1t-kCS-J4uvjsNzBW0kb9L4sm5u2DWka8-9vGt04psKRALHZRpC7PWBdNJZXYWHpecZXlgUz03PEq\_INKbl0fiDZohuKUTrUBa1xNZFdjz3iQoABRP7RmnNPdJrReAL6qZWriVNbPKBaVdMzNPfpRGT07sQa6S-pZvbq-5RiAkwBY9E6IBNwQdN3ykz2W7t8dyH7xFte6WiKERsnjIIhkdp0jjuhaT-F73F5Z1Au38yPZYcXzQ"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/merge?mergeWith=test2.xlsx" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk2MTk0NDUsImV4cCI6MTU2OTcwNTg0NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.at8j6tzptIioEjlSxLX63ouBnmECXvc0NagF9YUi9JU-npyc4dmui_ZhCfQDyYexe8ryFrxF5g_ZP7lhjirvM8p1BJfSR_ferQkk1t-kCS-J4uvjsNzBW0kb9L4sm5u2DWka8-9vGt04psKRALHZRpC7PWBdNJZXYWHpecZXlgUz03PEq_INKbl0fiDZohuKUTrUBa1xNZFdjz3iQoABRP7RmnNPdJrReAL6qZWriVNbPKBaVdMzNPfpRGT07sQa6S-pZvbq-5RiAkwBY9E6IBNwQdN3ykz2W7t8dyH7xFte6WiKERsnjIIhkdp0jjuhaT-F73F5Z1Au38yPZYcXzQ"
 
 ```
 
@@ -289,7 +289,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-merge\_workbooks-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-merge_workbooks-.rb" >}}
 
 {{< /tab >}}
 

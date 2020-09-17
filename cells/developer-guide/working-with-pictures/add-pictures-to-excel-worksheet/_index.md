@@ -19,7 +19,7 @@ This example shows how to add a image to a Worksheet of a Excel document using A
 
 ```java
 
-curl -v "http://api.aspose.com/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Sheet6/pictures?picturePath=aspose-cloud.png&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6/pictures?picturePath=aspose-cloud.png&appSID=xxxx&signature=xxxx" \
      -X PUT \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -66,7 +66,7 @@ curl -v "http://api.aspose.com/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Shee
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v1.1/cells/Sample\_Test\_Book.xls/worksheets/Sheet6/pictures",
+      "Href": "http://api.aspose.cloud/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6/pictures",
 
       "Rel": "self"
 
@@ -112,7 +112,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Pictures-add\_a\_new\_worksheet\_picture-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Pictures-add_a_new_worksheet_picture-.rb" >}}
 
 {{< /tab >}}
 

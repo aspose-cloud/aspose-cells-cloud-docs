@@ -62,20 +62,20 @@ After you have installed the Aspose Cloud Excel to Form Builder plugin it is rea
 1. Make sure you are logged-in to a WordPress site as Admin level account.
 1. Make sure you have set up Aspose App Key & Id on the plugin configuration page. For further details on how to get app keys, [click here ](http://www.aspose.com/docs/display/totalcloud/Creating+a+New+App+and+Getting+App+Key).  
 
-![todo:image\_alt\_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot11.png)
+![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot11.png)
 
 1. Navigate to the page “Aspose Cloud Excel to Form Builder” from the admin left menu.
 1. Select Excel Spreadsheet using WordPress Media Upload and click on “Generate Shortcodes” button. It will give data entry and listing shortcodes.  
 
-![todo:image\_alt\_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot2.png)
+![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot2.png)
 
 1. Add Data Entry short code on a new page for information collection.
 1. Start doing data entry on the page. By clicking on “Save” button, it will save the information to the spreadsheet. 
 
-![todo:image\_alt\_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot4.png)
+![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot4.png)
 
 
 
-![todo:image\_alt\_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot5.png)
+![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2015/02/screenshot5.png)
 ### **Video Demo**
 Please check [the video](https://www.youtube.com/watch?v=xs8g8aAUJMk) below to see the module in action.

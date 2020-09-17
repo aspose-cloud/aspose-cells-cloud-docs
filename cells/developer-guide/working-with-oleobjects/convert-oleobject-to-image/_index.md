@@ -19,7 +19,7 @@ This example shows how to convert an OleObject to image using Aspose.Cells Cloud
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Embeded\_OleObject\_Sample\_Book1.xlsx/worksheets/Sheet1/oleobjects/0?format=png&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/worksheets/Sheet1/oleobjects/0?format=png&appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" 
 
@@ -63,7 +63,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-get\_ole\_object\_in\_specified\_format-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-OLEObject-get_ole_object_in_specified_format-.rb" >}}
 
 {{< /tab >}}
 

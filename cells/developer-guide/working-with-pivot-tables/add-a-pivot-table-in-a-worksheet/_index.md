@@ -19,7 +19,7 @@ This example shows how to add a pivot table in a worksheet using Aspose.Cells Cl
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/pivottables?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet1/pivottables?appSID=xxxx&signature=xxxx" \
      -X PUT \
      -d '{"Name":"MyPivot", "SourceData":"A5:E10", "DestCellName":"H20", "UseSameSource":true, "PivotFieldRows":[1], "PivotFieldColumns":[1], "PivotFieldData ":[1]}' \
      -H "Content-Type: application/json" \
@@ -995,7 +995,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Shee
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/0",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet1/0",
 
       "Rel": "self"
 

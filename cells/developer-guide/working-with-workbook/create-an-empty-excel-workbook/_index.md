@@ -36,13 +36,13 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
   "Workbook": {
 
-    "FileName": "newworkbook\_01.xlsx",
+    "FileName": "newworkbook_01.xlsx",
 
     "Links": [
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "self"
 
@@ -50,7 +50,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -62,7 +62,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -74,7 +74,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -86,7 +86,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -98,7 +98,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -110,7 +110,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -122,7 +122,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -134,7 +134,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 
@@ -146,7 +146,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
       {
 
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook\_01.xlsx",
+        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
 
         "Rel": "alternate",
 

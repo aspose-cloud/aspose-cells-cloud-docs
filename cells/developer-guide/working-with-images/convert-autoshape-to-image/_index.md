@@ -19,7 +19,7 @@ This example shows how to convert an autoshape to image using Aspose.Cells Cloud
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet4/autoshapes/1?format=png&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet4/autoshapes/1?format=png&appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json"
 
@@ -63,7 +63,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-convert\_autoshape\_to\_different\_file\_formats-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-convert_autoshape_to_different_file_formats-.rb" >}}
 
 {{< /tab >}}
 

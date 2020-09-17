@@ -19,7 +19,7 @@ This example shows how to get merged cells from a worksheet using Aspose.Cells C
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/mergedCells/0?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet1/mergedCells/0?appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -46,7 +46,7 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Shee
 
     "link": {
 
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet1/cells/mergedcells/0",
+      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet1/cells/mergedcells/0",
 
       "Rel": "self"
 
@@ -90,7 +90,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-get\_worksheet\_merged\_cells-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-get_worksheet_merged_cells-.rb" >}}
 
 {{< /tab >}}
 

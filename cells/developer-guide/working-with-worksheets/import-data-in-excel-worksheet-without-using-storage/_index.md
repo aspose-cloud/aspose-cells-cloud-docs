@@ -21,8 +21,8 @@ This example shows you how to import data from a text file into the worksheet. B
 
 curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
 -X POST \
--F 'json={"BatchData":null,"DestinationWorksheet":"Sheet1","IsInsert":false,"ImportDataType":"BatchData","Source":{"FileSourceType":1,"FilePath":"Batch\_data\_json.txt"}};type=application/json' \
--F "Batch\_data\_json.txt=@Batch\_data\_json.txt;type=text/json" \
+-F 'json={"BatchData":null,"DestinationWorksheet":"Sheet1","IsInsert":false,"ImportDataType":"BatchData","Source":{"FileSourceType":1,"FilePath":"Batch_data_json.txt"}};type=application/json' \
+-F "Batch_data_json.txt=@Batch_data_json.txt;type=text/json" \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json"
 
@@ -60,7 +60,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post\_import\_data\_without\_using\_storage-.rb" >}}
+{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Workbook-post_import_data_without_using_storage-.rb" >}}
 
 {{< /tab >}}
 

@@ -122,7 +122,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-add\_new\_worksheet-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-add_new_worksheet-.rb" >}}
 
 {{< /tab >}}
 
@@ -164,7 +164,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< /tabs >}}
 
-![todo:image\_alt\_text](/images/icons/grey\_arrow\_down.png)
+![todo:image_alt_text](/images/icons/grey_arrow_down.png)
 
 Perl
 

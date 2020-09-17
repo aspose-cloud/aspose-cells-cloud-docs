@@ -325,7 +325,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 string strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0";
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey);
+strURI = Sign(strURI, m_AppSID, m_AppKey);
 
 //XML body that updates the end row, end column and style of list object or table
 
@@ -367,7 +367,7 @@ Stream responseStream = ProcessCommand(strURI, "POST", xmlBody, "XML");
 
 Dim strURI As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0"
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey)
+strURI = Sign(strURI, m_AppSID, m_AppKey)
 
 'XML body that updates the end row, end column and style of list object or table
 
@@ -397,7 +397,7 @@ Dim responseStream As Stream = ProcessCommand(strURI, "POST", xmlBody, "XML")
 
 String strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0";
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey);
+strURI = Sign(strURI, m_AppSID, m_AppKey);
 
 //XML body that updates the end row, end column and style of list object or table
 

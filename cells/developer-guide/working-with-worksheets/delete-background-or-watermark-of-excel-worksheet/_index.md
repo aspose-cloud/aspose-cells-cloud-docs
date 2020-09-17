@@ -19,7 +19,7 @@ This example shows how to delete a background image or watermark image anes of a
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/WorkSheetBackground\_Sample\_Test\_Book.xls/worksheets/Sheet1/background?appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/WorkSheetBackground_Sample_Test_Book.xls/worksheets/Sheet1/background?appSID=xxxx&signature=xxxx" \
      -X DELETE \
      -H "Content-Type: application/json" \
      -H "Accept: application/json"
@@ -70,7 +70,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-delete\_work\_sheet\_background-.rb" >}}
+{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Worksheet-delete_work_sheet_background-.rb" >}}
 
 {{< /tab >}}
 

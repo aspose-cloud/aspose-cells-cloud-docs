@@ -317,7 +317,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 string strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True";
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey);
+strURI = Sign(strURI, m_AppSID, m_AppKey);
 
 //Call Process Command with Signed URI
 
@@ -343,7 +343,7 @@ Stream responseStream = ProcessCommand(strURI, "PUT");
 
 Dim strURI As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True"
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey)
+strURI = Sign(strURI, m_AppSID, m_AppKey)
 
 'Call Process Command with Signed URI
 
@@ -369,7 +369,7 @@ Dim responseStream As Stream = ProcessCommand(strURI, "PUT")
 
 String strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True";
 
-strURI = Sign(strURI, m\_AppSID, m\_AppKey);
+strURI = Sign(strURI, m_AppSID, m_AppKey);
 
 //Call Process Command with Signed URI
 

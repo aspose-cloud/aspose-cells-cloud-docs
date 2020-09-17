@@ -19,7 +19,7 @@ This example shows how to convert a chart to image using Aspose.Cells Cloud API 
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample\_Test\_Book.xls/worksheets/Sheet5/charts/0?format=png&appSID=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0?format=png&appSID=xxxx&signature=xxxx" \
      -X GET \
      -H "Content-Type: application/json"
 
@@ -57,7 +57,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-get\_chart\_in\_specified\_format-.rb" >}}
+{{< gist "" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-get_chart_in_specified_format-.rb" >}}
 
 {{< /tab >}}
 

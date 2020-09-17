@@ -10,7 +10,7 @@ This example shows how to work with CellsObjectOperate Task using Aspose.Cells f
 ## **Source and Output Excel Files and Screenshot showing Updated PageSetup Properties**
 Please upload the [source excel file](attachments/1540329/1837215.xlsx) in your Cloud File System to run the example. After execution of the code you will get this [output excel file](attachments/1540329/1837216.xlsx). The following screenshot shows the updated **PageSetup** properties of the **Days** sheet.
 
-![todo:image\_alt\_text](working-with-cellsobjectoperate-task_1.png)
+![todo:image_alt_text](working-with-cellsobjectoperate-task_1.png)
 ## **Resource**
 The following Aspose.Cells for Cloud REST API resource has been used in the examples: [task](), [CellsObjectOperate task](), [saveResult task]().
 ## **REST Methods References**
