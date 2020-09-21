@@ -7,7 +7,7 @@ weight: 120
 
 ## **Introduction**
 This example shows how to get names count from a workbook using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example shows how to get names count from a workbook using Aspose.Cells Clo
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/names?appSID=xxxx&signature=xxxx" \
-     -X GET \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X GET "https://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/names" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -33,59 +30,35 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/names?appSID=xxxx
 ```java
 
  {
-
+  "Status": "string",
   "Names": {
-
-    "Count": 1,
-
-    "NameList": [
-
-      {
-
-        "link": {
-
-          "Href": "/TestRange",
-
-          "Rel": "self",
-
-          "Title": null,
-
-          "Type": null
-
-        }
-
-      }
-
-    ],
-
     "link": {
-
-      "Href": "http://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/names",
-
-      "Rel": "self",
-
-      "Title": null,
-
-      "Type": null
-
-    }
-
-  },
-
-  "Code": 200,
-
-  "Status": "OK"
-
+      "Href": "string",
+      "Rel": "string",
+      "Title": "string",
+      "Type": "string"
+    },
+    "Count": 0,
+    "NameList": [
+      {
+        "link": {
+          "Href": "string",
+          "Rel": "string",
+          "Title": "string",
+          "Type": "string"
+        }
+      }
+    ]
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="11" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" tabName11="Swift" >}}
 
 {{< tab tabNum="1" >}}
