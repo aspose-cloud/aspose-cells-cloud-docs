@@ -7,7 +7,7 @@ weight: 100
 
 ## **Introduction**
 This example shows how to set modify password of a workbook using Aspose.Cells Cloud API in your applications. 
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to set modify password of a workbook using Aspose.Cells C
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/writeProtection?appSID=xxxx&signature=xxxx" \
-     -X PUT \
-     -d '{"Password":"aspose"}' \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X PUT "https://api.aspose.cloud/v3.0/cells/Sample_Test_Book.xls/writeProtection" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"Password\": \"aspose\"}"
 
 ```
 
@@ -47,8 +43,8 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/writeProtection?a
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="11" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" tabName11="Swift" >}}
 
 {{< tab tabNum="1" >}}
