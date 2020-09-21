@@ -7,7 +7,7 @@ weight: 80
 
 ## **Introduction**
 This example shows how to protect a workbook using Aspose.Cells Cloud API in your applications.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
