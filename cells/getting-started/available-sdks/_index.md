@@ -11,7 +11,7 @@ Aspose.Cells for Cloud is a modern REST oriented API, that allows easy integrati
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project.
 ### **SDK benefits**
 Our supported SDKs are 100% tested and out of the box running. These SDKs are open source and have an MIT license. You can use them, and even customize them for absolutely free of charge.
-## **Supported SDKs**
+### **Supported SDKs**
 {{< tabs tabTotal="9" tabID="1" tabName1=".NET" tabName2="Java" tabName3="PHP" tabName4="Perl" tabName5="Ruby" tabName6="Python" tabName7="Node Js" tabName8="Swift" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}
