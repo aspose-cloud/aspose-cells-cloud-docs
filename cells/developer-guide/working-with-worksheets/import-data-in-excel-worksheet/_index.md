@@ -7,7 +7,7 @@ weight: 30
 
 ## **Introduction**
 This example shows how to import data from a text file into the worksheet using Aspose.Cells API. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
