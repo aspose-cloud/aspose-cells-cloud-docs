@@ -19,7 +19,7 @@ This example shows how to create a workbook from a SmartMarker template file usi
 
 ```java
 
-curl -X POST "http://api.aspose.com/v3.0/cells/newworkbook_14.xlsx?templateFile=Sample_SmartMarker.xlsx&dataFile=Sample_SmartMarker_Data.xml" -H "Content-Type: application/json" -H "Accept: application/json"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx/smartmarker?xmlFile=Sample_SmartMarker_Data.xml" -H "accept: multipart/form-data" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
