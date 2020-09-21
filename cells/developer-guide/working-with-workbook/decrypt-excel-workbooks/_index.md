@@ -7,7 +7,7 @@ weight: 70
 
 ## **Introduction**
 This example shows how to decrypt a workbook using Aspose.Cells Cloud API in your applications.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
