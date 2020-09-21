@@ -9,7 +9,7 @@ weight: 130
 
 ## **Introduction**
 This example allows you to split all or specific worksheets of a workbook file and save each worksheet as a new workbook, TIFF or any supported image format using Aspose.Cells Cloud API in your applications.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
@@ -21,7 +21,7 @@ This example allows you to split all or specific worksheets of a workbook file a
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/split?format=jpeg&from=1&to=1&horizontalResolution=0&verticalResolution=0" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk2MTk0NDUsImV4cCI6MTU2OTcwNTg0NSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.at8j6tzptIioEjlSxLX63ouBnmECXvc0NagF9YUi9JU-npyc4dmui_ZhCfQDyYexe8ryFrxF5g_ZP7lhjirvM8p1BJfSR_ferQkk1t-kCS-J4uvjsNzBW0kb9L4sm5u2DWka8-9vGt04psKRALHZRpC7PWBdNJZXYWHpecZXlgUz03PEq_INKbl0fiDZohuKUTrUBa1xNZFdjz3iQoABRP7RmnNPdJrReAL6qZWriVNbPKBaVdMzNPfpRGT07sQa6S-pZvbq-5RiAkwBY9E6IBNwQdN3ykz2W7t8dyH7xFte6WiKERsnjIIhkdp0jjuhaT-F73F5Z1Au38yPZYcXzQ"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/split?format=jpeg&from=1&to=1&horizontalResolution=0&verticalResolution=0" -H "accept: application/json"
 
 ```
 
@@ -71,8 +71,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/split?format=jpeg&fr
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="11" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" tabName11="Swift" >}}
 
 {{< tab tabNum="1" >}}
