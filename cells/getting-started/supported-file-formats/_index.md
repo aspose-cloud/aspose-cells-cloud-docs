@@ -5,8 +5,6 @@ url: /supported-file-formats/
 weight: 40
 ---
 
-## **Supported Load Formats**
-
 |**Format**|**Description**|**Load**|**Save**|
 | :- | :- | :- | :- |
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003 Workbook.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
