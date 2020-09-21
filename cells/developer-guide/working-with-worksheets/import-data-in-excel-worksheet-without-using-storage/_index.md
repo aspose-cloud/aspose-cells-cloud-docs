@@ -7,7 +7,7 @@ weight: 40
 
 ## **Introduction**
 This example shows you how to import data from a text file into the worksheet. Both text file and import options are sent in API request body. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,12 +19,7 @@ This example shows you how to import data from a text file into the worksheet. B
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
--X POST \
--F 'json={"BatchData":null,"DestinationWorksheet":"Sheet1","IsInsert":false,"ImportDataType":"BatchData","Source":{"FileSourceType":1,"FilePath":"Batch_data_json.txt"}};type=application/json' \
--F "Batch_data_json.txt=@Batch_data_json.txt;type=text/json" \
--H "Content-Type: multipart/form-data" \
--H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -F 'json={"BatchData":null,"DestinationWorksheet":"Sheet1","IsInsert":false,"ImportDataType":"BatchData","Source":{"FileSourceType":1,"FilePath":"Batch_data_json.txt"}};type=application/json' -F "Batch_data_json.txt=@Batch_data_json.txt;type=text/json" -H "Content-Type: multipart/form-data" -H "Accept: application/json"
 
 ```
 
@@ -42,8 +37,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&si
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Perl" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
