@@ -7,7 +7,7 @@ weight: 20
 
 ## **Introduction**
 This example shows how to create an empty workbook using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example shows how to create an empty workbook using Aspose.Cells Cloud API 
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signature=XXXX" \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X PUT "https://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?isWriteOver=false" -H "accept: application/json" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -33,203 +30,62 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 ```java
 
 {
-
+  "Status": "string",
   "Workbook": {
-
-    "FileName": "newworkbook_01.xlsx",
-
+    "FileName": "string",
     "Links": [
-
       {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "self"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "text/csv",
-
-        "Title": "Download As CSV"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "text/html",
-
-        "Title": "Download As HTML"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "application/vnd.oasis.opendocument.spreadsheet",
-
-        "Title": "Download As ODS"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "application/pdf",
-
-        "Title": "Download As PDF"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "text/plain",
-
-        "Title": "Download As Table Delimited Text Format"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "image/tiff",
-
-        "Title": "Download As TIFF"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "application/vnd.ms-excel",
-
-        "Title": "Download As Microsoft Excel 2003"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-
-        "Title": "Download As Microsoft Excel 2007"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/newworkbook_01.xlsx",
-
-        "Rel": "alternate",
-
-        "Type": "application/vnd.ms-xpsdocument",
-
-        "Title": "Download As XPS"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     ],
-
     "Worksheets": {
-
       "link": {
-
-        "Href": "/worksheets",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "DefaultStyle": {
-
       "link": {
-
-        "Href": "/defaultstyle",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "DocumentProperties": {
-
       "link": {
-
-        "Href": "/documentproperties",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Names": {
-
       "link": {
-
-        "Href": "/names",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Settings": {
-
       "link": {
-
-        "Href": "/settings",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
-    "IsWriteProtected": "False",
-
-    "IsProtected": "False",
-
-    "IsEncryption": "false"
-
-  },
-
-  "Code": "200",
-
-  "Status": "OK"
-
+    "IsWriteProtected": "string",
+    "IsProtected": "string",
+    "IsEncryption": "string",
+    "Password": "string"
+  }
 }
 
 ```
@@ -238,7 +94,7 @@ curl -v "http://api.aspose.cloud/v3.0/cells/newworkbook.xlsx?appSID=XXXX&signatu
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
 ## **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Perl" tabName4="Go" tabName5="Swift" >}}
 
