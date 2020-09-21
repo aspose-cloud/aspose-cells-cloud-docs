@@ -7,7 +7,7 @@ weight: 150
 
 ## **Introduction**
 This example shows how to convert excel file to HTML using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
@@ -19,24 +19,15 @@ This example shows how to convert excel file to HTML using Aspose.Cells Cloud AP
 
 ```java
 
-curl -v "https://api.aspose.cloud/v3.0/cells/convert?format=HTML&outPath=GoFiles&appSID=XXXX&signature=XXXX" \
-	-X PUT \
-	-H "accept: multipart/form-data" 
-
-	-H "Content-Type: multipart/form-data" 
-
-	-H "x-aspose-client: Containerize.Swagger" 
-
-	-d {"File":{}}
-
+curl -X PUT "https://api.aspose.cloud/v3.0/cells/convert?format=html" -H "accept: multipart/form-data" -H "Content-Type: multipart/form-data" -H "x-aspose-client: Containerize.Swagger" -d {"File":{}}
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="3" tabName1="C#" tabName2="Go" tabName3="Swift" >}}
 
 {{< tab tabNum="1" >}}

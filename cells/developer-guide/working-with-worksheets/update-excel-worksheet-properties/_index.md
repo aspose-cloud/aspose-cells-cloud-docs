@@ -7,7 +7,7 @@ weight: 170
 
 ## **Introduction**
 This example shows how to update properties of a worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to update properties of a worksheet using Aspose.Cells Cl
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1?appSID=xxxx&signature=xxxx" \
-     -X POST \
-     -d '{"DisplayRightToLeft":true, "DisplayZeros":true, "FirstVisibleColumn":1, "FirstVisibleRow":1, "Name":"sheet1", "Index":0, "IsGridlinesVisible":true, "IsOutlineShown":true, "IsPageBreakPreview":true, "IsVisible":true, "IsRowColumnHeadersVisible":true, "IsRulerVisible":true, "IsSelected":true, "TransitionEntry":true, "TransitionEvaluation":true, "Type":"Worksheet", "ViewType":"PageBreakPreview", "Zoom":80}' \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"Links\": [ { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } ], \"DisplayRightToLeft\": true, \"DisplayZeros\": true, \"FirstVisibleColumn\": 1, \"FirstVisibleRow\": 0, \"Name\": \"string\", \"Index\": 0, \"IsGridlinesVisible\": true, \"IsOutlineShown\": true, \"IsPageBreakPreview\": true, \"IsVisible\": true, \"IsProtected\": true, \"IsRowColumnHeadersVisible\": true, \"IsRulerVisible\": true, \"IsSelected\": true, \"TabColor\": { \"A\": 0, \"R\": 0, \"G\": 0, \"B\": 0 }, \"TransitionEntry\": true, \"TransitionEvaluation\": true, \"Type\": \"string\", \"ViewType\": \"string\", \"VisibilityType\": \"string\", \"Zoom\": 0, \"Cells\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"Charts\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"AutoShapes\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"OleObjects\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"Comments\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"Pictures\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"MergedCells\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"Validations\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"ConditionalFormattings\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }, \"Hyperlinks\": { \"link\": { \"Href\": \"string\", \"Rel\": \"string\", \"Title\": \"string\", \"Type\": \"string\" } }}"
 
 ```
 
@@ -34,269 +30,132 @@ curl -v "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1?appS
 ```java
 
 {
-
+  "Status": "string",
   "Worksheet": {
-
     "Links": [
-
       {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "self"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "alternate",
-
-        "Type": "image/tiff",
-
-        "Title": "Download As TIFF"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "alternate",
-
-        "Type": "image/jpeg",
-
-        "Title": "Download As Jpeg"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "alternate",
-
-        "Type": "image/png",
-
-        "Title": "Download As Png"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "alternate",
-
-        "Type": "image/bmp",
-
-        "Title": "Download As Bmp"
-
-      },
-
-      {
-
-        "Href": "http://api.aspose.cloud/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1",
-
-        "Rel": "alternate",
-
-        "Type": "image/gif",
-
-        "Title": "Download As Gif"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     ],
-
-    "DisplayRightToLeft": false,
-
-    "DisplayZeros": false,
-
-    "FirstVisibleColumn": 1,
-
-    "FirstVisibleRow": 1,
-
-    "Name": "sheet1",
-
+    "DisplayRightToLeft": true,
+    "DisplayZeros": true,
+    "FirstVisibleColumn": 0,
+    "FirstVisibleRow": 0,
+    "Name": "string",
     "Index": 0,
-
-    "IsGridlinesVisible": false,
-
-    "IsOutlineShown": false,
-
-    "IsPageBreakPreview": false,
-
-    "IsVisible": false,
-
-    "IsProtected": false,
-
-    "IsRowColumnHeadersVisible": false,
-
-    "IsRulerVisible": false,
-
-    "IsSelected": false,
-
+    "IsGridlinesVisible": true,
+    "IsOutlineShown": true,
+    "IsPageBreakPreview": true,
+    "IsVisible": true,
+    "IsProtected": true,
+    "IsRowColumnHeadersVisible": true,
+    "IsRulerVisible": true,
+    "IsSelected": true,
     "TabColor": {
-
-      "A": "0",
-
-      "R": "0",
-
-      "G": "0",
-
-      "B": "0"
-
+      "A": 0,
+      "R": 0,
+      "G": 0,
+      "B": 0
     },
-
-    "TransitionEntry": false,
-
-    "TransitionEvaluation": false,
-
-    "Type": "Worksheet",
-
-    "ViewType": "PageBreakPreview",
-
-    "VisibilityType": "Visible",
-
-    "Zoom": 80,
-
+    "TransitionEntry": true,
+    "TransitionEvaluation": true,
+    "Type": "string",
+    "ViewType": "string",
+    "VisibilityType": "string",
+    "Zoom": 0,
     "Cells": {
-
       "link": {
-
-        "Href": "/cells",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Charts": {
-
       "link": {
-
-        "Href": "/charts",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "AutoShapes": {
-
       "link": {
-
-        "Href": "/shapes",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "OleObjects": {
-
       "link": {
-
-        "Href": "/oleobjects",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Comments": {
-
       "link": {
-
-        "Href": "/comments",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Pictures": {
-
       "link": {
-
-        "Href": "/pictures",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "MergedCells": {
-
       "link": {
-
-        "Href": "/mergedcells",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Validations": {
-
       "link": {
-
-        "Href": "/validations",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "ConditionalFormattings": {
-
       "link": {
-
-        "Href": "/conditionalformattings",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     },
-
     "Hyperlinks": {
-
       "link": {
-
-        "Href": "/hyperlinks",
-
-        "Rel": "self"
-
+        "Href": "string",
+        "Rel": "string",
+        "Title": "string",
+        "Type": "string"
       }
-
     }
-
-  },
-
-  "Code": "200",
-
-  "Status": "OK"
-
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Objective C" tabName8="Perl" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

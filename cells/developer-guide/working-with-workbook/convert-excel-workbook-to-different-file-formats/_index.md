@@ -9,7 +9,7 @@ weight: 10
 
 ## **Introduction**
 This example shows how to convert a workbook to a different file format and save the resultant document to cloud storage using Aspose.Cells Cloud API.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -21,7 +21,7 @@ This example shows how to convert a workbook to a different file format and save
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/SaveAs?newfilename=test.pdf&isAutoFitRows=true&isAutoFitColumns=true" -H "accept: multipart/form-data" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk2MTc1MjMsImV4cCI6MTU2OTcwMzkyMywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.rumxrTCH5z-_7N-qhiZTdzt4dn1G0nJ0TRuoSqKdUS_roU7SGJn_JCA45ZsYibCLDJvsHfMQN7KnAijgKlPSqNQ6cuXnqKPaQdgfc_uEqLKNu91HIYJVX69lvI1FzoFpfpPpDc2E07MMBt_5373xkbQ53N6bMhJk4qES53Of5mENcCm1es9gXLytlUVNmrE-uQdMHLfVsERmO6YNOWxLS5bCx3OCVcBNkVCZMsGyzMOGH9JmJ0nUoaASlqTuct8zqzhw2TSnwxBuViOVI8v6a_P6o_JfSnkaZ6_coreQ1ET3CoXtn1Itpt8FNCXlcSEDu7ynF8FmXxS0Vs1c1HtiwA"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/sampleBook.xlsx/SaveAs?newfilename=sample.pdf&isAutoFitRows=true&isAutoFitColumns=true" -H "accept: multipart/form-data" 
 
 ```
 
@@ -32,41 +32,23 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/SaveAs?newfilename=t
 ```java
 
 {
-
   "SaveResult": {
-
     "SourceDocument": {
-
       "Href": "test.xlsx",
-
       "Rel": null,
-
       "Title": null,
-
       "Type": null
-
     },
-
     "DestDocument": {
-
       "Href": "test.pdf",
-
       "Rel": null,
-
       "Title": null,
-
       "Type": null
-
     },
-
     "AdditionalItems": []
-
   },
-
   "Code": 200,
-
   "Status": "OK"
-
 }
 
 ```
@@ -75,8 +57,8 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/SaveAs?newfilename=t
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="11" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Python" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" tabName11="Swift" >}}
 
 {{< tab tabNum="1" >}}

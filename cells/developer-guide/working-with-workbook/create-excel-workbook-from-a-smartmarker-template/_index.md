@@ -19,10 +19,7 @@ This example shows how to create a workbook from a SmartMarker template file usi
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/newworkbook_14.xlsx?templateFile=Sample_SmartMarker.xlsx&dataFile=Sample_SmartMarker_Data.xml&appSID=XXXX&signature=XXXX" \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X POST "https://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx/smartmarker?xmlFile=Sample_SmartMarker_Data.xml" -H "accept: multipart/form-data" -H "x-aspose-client: Containerize.Swagger"
 
 ```
 
@@ -32,203 +29,7 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook_14.xlsx?templateFile=Sampl
 
 ```java
 
-{
-
-  "Workbook":{
-
-    "FileName":"newworkbook_14.xlsx",
-
-    "Links":[
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"self"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"text/csv",
-
-        "Title":"Download As CSV"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"text/html",
-
-        "Title":"Download As HTML"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"application/vnd.oasis.opendocument.spreadsheet",
-
-        "Title":"Download As ODS"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"application/pdf",
-
-        "Title":"Download As PDF"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"text/plain",
-
-        "Title":"Download As Table Delimited Text Format"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"image/tiff",
-
-        "Title":"Download As TIFF"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"application/vnd.ms-excel",
-
-        "Title":"Download As Microsoft Excel 2003"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-
-        "Title":"Download As Microsoft Excel 2007"
-
-      },
-
-      {
-
-        "Href":"http://api.aspose.cloud/v3.0/cells/newworkbook_14.xlsx",
-
-        "Rel":"alternate",
-
-        "Type":"application/vnd.ms-xpsdocument",
-
-        "Title":"Download As XPS"
-
-      }
-
-    ],
-
-    "Worksheets":{
-
-      "link":{
-
-        "Href":"/worksheets",
-
-        "Rel":"self"
-
-      }
-
-    },
-
-    "DefaultStyle":{
-
-      "link":{
-
-        "Href":"/defaultstyle",
-
-        "Rel":"self"
-
-      }
-
-    },
-
-    "DocumentProperties":{
-
-      "link":{
-
-        "Href":"/documentproperties",
-
-        "Rel":"self"
-
-      }
-
-    },
-
-    "Names":{
-
-      "link":{
-
-        "Href":"/names",
-
-        "Rel":"self"
-
-      }
-
-    },
-
-    "Settings":{
-
-      "link":{
-
-        "Href":"/settings",
-
-        "Rel":"self"
-
-      }
-
-    },
-
-    "IsWriteProtected":"False",
-
-    "IsProtected":"False",
-
-    "IsEncryption":"false"
-
-  },
-
-  "Code":"200",
-
-  "Status":"OK"
+HttpResponseMessage with the processing result in content.
 
 }
 
@@ -238,8 +39,8 @@ curl -v "http://api.aspose.com/v3.0/cells/newworkbook_14.xlsx?templateFile=Sampl
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="11" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" tabName11="Swift" >}}
 
 {{< tab tabNum="1" >}}
