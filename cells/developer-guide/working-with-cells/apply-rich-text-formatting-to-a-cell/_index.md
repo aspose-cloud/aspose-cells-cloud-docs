@@ -14,50 +14,7 @@ This example shows how to apply Rich Text Formatting to a Cell using Aspose.Cell
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A1/characters?appSid=xxxx&signature=xxxx" \
-     -d '{
-
-          "FontSetting": [
-
-            {
-
-              "Font": {
-
-                "IsBold": "true",
-
-                "Size": "24"
-
-              },
-
-              "Length": "5",
-
-              "StartIndex": "0"
-
-            },
-
-            {
-
-              "Font": {
-
-                "IsItalic": "true",
-
-                "Size": "15"
-
-              },
-
-              "Length": "4",
-
-              "StartIndex": "5"
-
-            }
-
-          ]
-
-        }'    
-
-     -X POST \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A1/characters -d '{ "FontSetting": [ { "Font": { "IsBold": "true", "Size": "24" }, "Length": "5", "StartIndex": "0" }, { "Font": { "IsItalic": "true", "Size": "15" }, "Length": "4", "StartIndex": "5" } ] }' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -75,8 +32,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Perl" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
