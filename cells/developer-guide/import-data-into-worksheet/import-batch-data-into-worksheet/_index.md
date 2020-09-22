@@ -7,7 +7,7 @@ weight: 10
 
 ## **Introduction**
 This example shows how to import batch data e.g. integers, strings, dates etc simultaneously into worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to import batch data e.g. integers, strings, dates etc si
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
--X POST \
--d '{"BatchData":null, "DestinationWorksheet":"Sheet1", "IsInsert":false, "ImportDataType":"BatchData", "Source":{"FileSourceType":1, "FilePath":"Batch_data_json.txt"}}' \
--H "Content-Type: application/json" \
--H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"BatchData":null, "DestinationWorksheet":"Sheet1", "IsInsert":false, "ImportDataType":"BatchData", "Source":{"FileSourceType":1, "FilePath":"Batch_data_json.txt"}}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -41,8 +37,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&si
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" >}}
 
 {{< tab tabNum="1" >}}
