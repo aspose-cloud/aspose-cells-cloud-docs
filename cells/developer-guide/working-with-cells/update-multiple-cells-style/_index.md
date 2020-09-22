@@ -11,7 +11,7 @@ This example shows how to update multiple cells style of Excel Worksheet using A
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
-|/cells/{name}/worksheets/{sheetName}/cells/style|POST|Updates cell's range style in worksheet|` `[PostUpdateWorksheetRangeStyle](https://apireference.aspose.cloud/cells/#/Cells/PostUpdateWorksheetRangeStyle)|
+|/cells/{name}/worksheets/{sheetName}/cells/style|POST|Updates cell's range style in worksheet|[PostUpdateWorksheetRangeStyle](https://apireference.aspose.cloud/cells/#/Cells/PostUpdateWorksheetRangeStyle)|
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
