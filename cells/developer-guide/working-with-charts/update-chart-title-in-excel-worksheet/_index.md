@@ -7,7 +7,7 @@ weight: 140
 
 ## **Introduction**
 This example shows how to update chart title in a Worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to update chart title in a Worksheet using Aspose.Cells C
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/title?appSID=xxxx&signature=xxxx" \
-     -X POST \
-     -d '{"Text":"Stock exchange"}' \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X POST "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/title" -d '{"Text":"Stock exchange"}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -213,8 +209,8 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cell Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cell Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}
