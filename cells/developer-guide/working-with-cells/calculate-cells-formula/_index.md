@@ -7,7 +7,7 @@ weight: 90
 
 ## **Introduction**
 This example shows how to calculate cell's formula using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,15 +19,7 @@ This example shows how to calculate cell's formula using Aspose.Cells Cloud API 
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A1/calculate?appSid=xxxx&signature=xxxx" \      
-
--X POST \      
-
--d '{"CalcStackSize": "1"}' \      
-
--H "Content-Type: application/json" \      
-
--H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A1/calculate" -d '{"CalcStackSize": "1"}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -45,8 +37,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/cells/A
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Perl" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}
