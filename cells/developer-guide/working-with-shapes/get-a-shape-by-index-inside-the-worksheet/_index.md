@@ -210,6 +210,3 @@ InputStream responseStream = ProcessCommand(signedURL, "GET");
 
 {{< /tabs >}}
 
-
-
-**{ "Status": "string", "Shape": { "link": { "Href": "string", "Rel": "string", "Title": "string", "Type": "string" }, "Name": "string", "MsoDrawingType": "string", "AutoShapeType": "string", "Placement": "string", "UpperLeftRow": 0, "Top": 0, "UpperLeftColumn": 0, "Left": 0, "LowerRightRow": 0, "Bottom": 0, "LowerRightColumn": 0, "Right": 0, "Width": 0, "Height": 0, "X": 0, "Y": 0, "RotationAngle": 0, "HtmlText": "string", "Text": "string", "AlternativeText": "string", "TextHorizontalAlignment": "string", "TextHorizontalOverflow": "string", "TextOrientationType": "string", "TextVerticalAlignment": "string", "TextVerticalOverflow": "string", "IsGroup": true, "IsHidden": true, "IsLockAspectRatio": true, "IsLocked": true, "IsPrintable": true, "IsTextWrapped": true, "IsWordArt": true, "LinkedCell": "string", "ZOrderPosition": 0 } }**
