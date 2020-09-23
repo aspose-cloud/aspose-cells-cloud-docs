@@ -19,10 +19,7 @@ This example shows how to get conditional formatting of a worksheet using Aspose
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/0?appSID=xxxx&signature=xxxx" \
--X GET \
--H "Content-Type: application/json" \
--H "Accept: application/json"
+curl -X GET "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalFormattings/0" -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -33,393 +30,231 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditi
 ```java
 
 {
-
-  : ConditionalFormatting=>{
-
-    : sqref=>"C3:D5 E7:F9 ",
-
-    : FormatConditions=>[
-
+  "Status": "string",
+  "ConditionalFormatting": {
+    "link": {
+      "Href": "string",
+      "Rel": "string",
+      "Title": "string",
+      "Type": "string"
+    },
+    "sqref": "string",
+    "FormatConditions": [
       {
-
-        : Priority=>6,
-
-        : Type=>"IconSet",
-
-        : StopIfTrue=>false,
-
-        : IconSet=>{
-
-          : CfIcons=>[
-
-            {
-
-              : ImageData=>"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFUSURBVDhPtZPPKwRxGMbnL/EHuLvIwUGKcRJKrfJjZAf5mdLWRkhKNtSkKD+WrFonh8VZuW9jc3bgsEc7v5we87xGYzPZ78V7meY738/b+z7PM9q/lF28RGnexElHK/aam+TJd55HV5Lr5fEBN+YI7lP9qGQzqFoWvLM8qrkc7IVZ3PXq8p33IiQuHhb6dDyvr+KjeI2gcIXg/ALB8Sn8wyP41gH83X1UJtNy71cTdm4Ee9s78Da38GSMyiQR+rUzx1aB3bUNuNkV3Ha2x5pQIO6sCrvLGZQHB0RYaUCVKZgq7Cwu4c0wxB1pQKuotirszMzhPT0lFksDmSC0ShV2zGm8pobiCSQkoc+qcG18AuWe7lgDqsmQqMK14TGU2lrqk0lfGRIV2Na76nPA+k4iQ9IITkwii4fszJDQZ1pFtSmY7ByOze+J8M/ibhSIKv/9N2raJ0ssJUI0Ezm0AAAAAElFTkSuQmCC",
-
-              : Index=>0,
-
-              : Type=>"TrafficLights31"
-
-            },
-
-            {
-
-              : ImageData=>"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVDhPtVM9SwNRELzKv+AvMJh/ENCUgpCABKtgKdikTCPYCNqlsBAUggqmEKxEizQRLQQDtgZJ1BDFmPMDP+6wOSE7uVkPz+BhXuM2j9v3ZtidmbP+pd6qm7gvZdFcHkE9P6Qnv9kPnkTXR+MQ7Y0M7FIK7sk8Pq/XIY878BoFOMdzsLfG9J7vAkhYbN6sJOBWF4HXMvCyBzzvQp62IQ9FSGcV0i7APcrqu18kZB4ElrslyO0C3MqUThJAv3bm2CZgaeUhzRzs4mioCQXizqZguZqFU06qsEpAlSmYKVguZ+CdTao7SkCrqLYpWOrT6NZSarESkIlWmYLlIg3vdDycgLvQZ1Ow1Cbwvh8PNVAX/JCYgrvnSXTWhvuTqTnwQ2ICdg5i/TlgfSfRD8kgcGQSWWySmSGhz7SKalMw7syxeR8J/lncjQJR5b//RsvqAc7BZW2fkre1AAAAAElFTkSuQmCC",
-
-              : Index=>1,
-
-              : Type=>"TrafficLights31"
-
-            },
-
-            {
-
-              : ImageData=>"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVDhPtZNNSwJhFIXnl7R22yoyaCFJ5GQLJShCashgMskkQZSkwUAQCkEswYXgouhjGfYhRVop5br/c/LcJiZpyHfT3Qzzzvsc7j33jPYvddk+w87xJnwpLzxrY/LkO8/tK+7V/XiBWTIwV9RhnMaQbOWR6R0hfreHpcY6fAW/fOc9G3GKh2FLR/Q8AatfQe69jOxbCeneIXa7RSReC4g/HyDUWJV7v0SoPAo2OxaiTzkE6yvSiY1+zcy2VWDjMYvIQxqT+WnHExrEmVXh5VYKM7WwGCsCdJmGqcKL90nMXw1MHXAiwFXRbVU4dLuNYDMmKxYBKnFVqvDCzRb8FxGnA87CPavCgaaJqRPd8YBuMiSq8Oz1Bsb3J4aTyb0yJCqwt6oP54D1nUSGZBTsmkQWD6nMkHDPXBXdpmGcmW3zuyv8szgbDaLLf/+NmvYJNYboi7zW2bMAAAAASUVORK5CYII=",
-
-              : Index=>2,
-
-              : Type=>"TrafficLights31"
-
-            }
-
-          ],
-
-          : Cfvos=>[
-
-            {
-
-              : IsGTE=>false,
-
-              : Type=>"Percent",
-
-              : Value=>"0"
-
-            },
-
-            {
-
-              : IsGTE=>false,
-
-              : Type=>"Percent",
-
-              : Value=>"33"
-
-            },
-
-            {
-
-              : IsGTE=>false,
-
-              : Type=>"Percent",
-
-              : Value=>"67"
-
-            }
-
-          ],
-
-          : IsCustom=>false,
-
-          : Reverse=>false,
-
-          : ShowValue=>false,
-
-          : IconSetType=>"CustomSet"
-
+        "link": {
+          "Href": "string",
+          "Rel": "string",
+          "Title": "string",
+          "Type": "string"
         },
-
-        : Style=>{
-
-          : Font=>{
-
-            : Color=>{
-
-              : A=>"255",
-
-              : R=>"0",
-
-              : G=>"0",
-
-              : B=>"0"
-
-            },
-
-            : DoubleSize=>11.0,
-
-            : IsBold=>false,
-
-            : IsItalic=>false,
-
-            : IsStrikeout=>false,
-
-            : IsSubscript=>false,
-
-            : IsSuperscript=>false,
-
-            : Name=>"宋体",
-
-            : Size=>11,
-
-            : Underline=>"None"
-
-          },
-
-          : Custom=>"",
-
-          : BackgroundColor=>{
-
-            : A=>"0",
-
-            : R=>"0",
-
-            : G=>"0",
-
-            : B=>"0"
-
-          },
-
-          : ForegroundColor=>{
-
-            : A=>"0",
-
-            : R=>"0",
-
-            : G=>"0",
-
-            : B=>"0"
-
-          },
-
-          : IsFormulaHidden=>false,
-
-          : IsDateTime=>false,
-
-          : IsTextWrapped=>false,
-
-          : IsGradient=>false,
-
-          : IsLocked=>false,
-
-          : IsPercent=>false,
-
-          : ShrinkToFit=>false,
-
-          : IndentLevel=>0,
-
-          : Number=>0,
-
-          : RotationAngle=>0,
-
-          : Pattern=>"None",
-
-          : TextDirection=>"Context",
-
-          : VerticalAlignment=>"Center",
-
-          : HorizontalAlignment=>"General",
-
-          : BorderCollection=>[
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"BottomBorder"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"DiagonalDown"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"DiagonalUp"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"Horizontal"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"LeftBorder"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"RightBorder"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"TopBorder"
-
-            },
-
-            {
-
-              : LineStyle=>"None",
-
-              : Color=>{
-
-                : A=>"255",
-
-                : R=>"0",
-
-                : G=>"0",
-
-                : B=>"0"
-
-              },
-
-              : BorderType=>"Vertical"
-
-            }
-
-          ]
-
+        "Priority": 0,
+        "Type": "string",
+        "StopIfTrue": true,
+        "AboveAverage": {
+          "IsAboveAverage": true,
+          "IsEqualAverage": true,
+          "StdDev": 0
         },
-
-        : link=>{
-
-          : Href=>"/0",
-
-          : Rel=>"self"
-
+        "ColorScale": {
+          "MaxCfvo": {
+            "IsGTE": true,
+            "Type": "string"
+          },
+          "MaxColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "MidCfvo": {
+            "IsGTE": true,
+            "Type": "string"
+          },
+          "MidColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "MinCfvo": {
+            "IsGTE": true,
+            "Type": "string"
+          },
+          "MinColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          }
+        },
+        "DataBar": {
+          "AxisColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "AxisPosition": "string",
+          "BarBorder": {
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "Type": "string"
+          },
+          "BarFillType": "string",
+          "Color": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "Direction": "string",
+          "MaxCfvo": {
+            "IsGTE": true,
+            "Type": "string"
+          },
+          "MaxLength": 0,
+          "MinCfvo": {
+            "IsGTE": true,
+            "Type": "string"
+          },
+          "MinLength": 0,
+          "NegativeBarFormat": {
+            "BorderColor": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "BorderColorType": "string",
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ColorType": "string"
+          },
+          "ShowValue": true
+        },
+        "Formula1": "string",
+        "Formula2": "string",
+        "IconSet": {
+          "CfIcons": [
+            {
+              "ImageData": "string",
+              "Index": 0,
+              "Type": "string"
+            }
+          ],
+          "Cfvos": [
+            {
+              "IsGTE": true,
+              "Type": "string"
+            }
+          ],
+          "IsCustom": true,
+          "Reverse": true,
+          "ShowValue": true,
+          "IconSetType": "string"
+        },
+        "Operator": "string",
+        "Style": {
+          "link": {
+            "Href": "string",
+            "Rel": "string",
+            "Title": "string",
+            "Type": "string"
+          },
+          "Font": {
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "DoubleSize": 0,
+            "IsBold": true,
+            "IsItalic": true,
+            "IsStrikeout": true,
+            "IsSubscript": true,
+            "IsSuperscript": true,
+            "Name": "string",
+            "Size": 0,
+            "Underline": "string"
+          },
+          "Name": "string",
+          "CultureCustom": "string",
+          "Custom": "string",
+          "BackgroundColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "ForegroundColor": {
+            "A": 0,
+            "R": 0,
+            "G": 0,
+            "B": 0
+          },
+          "IsFormulaHidden": true,
+          "IsDateTime": true,
+          "IsTextWrapped": true,
+          "IsGradient": true,
+          "IsLocked": true,
+          "IsPercent": true,
+          "ShrinkToFit": true,
+          "IndentLevel": 0,
+          "Number": 0,
+          "RotationAngle": 0,
+          "Pattern": "string",
+          "TextDirection": "string",
+          "VerticalAlignment": "string",
+          "HorizontalAlignment": "string",
+          "BorderCollection": [
+            {
+              "LineStyle": "string",
+              "Color": {
+                "A": 0,
+                "R": 0,
+                "G": 0,
+                "B": 0
+              },
+              "BorderType": "string"
+            }
+          ],
+          "BackgroundThemeColor": {
+            "ColorType": "string",
+            "Tint": 0
+          },
+          "ForegroundThemeColor": {
+            "ColorType": "string",
+            "Tint": 0
+          }
+        },
+        "Text": "string",
+        "TimePeriod": "string",
+        "Top10": {
+          "IsBottom": true,
+          "IsPercent": true,
+          "Rank": 0
         }
-
       }
-
-    ],
-
-    : link=>{
-
-      : Href=>"http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/conditionalformattings/0",
-
-      : Rel=>"self"
-
-    }
-
-  },
-
-  : Code=>"200",
-
-  : Status=>"OK"
-
+    ]
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Python" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}
