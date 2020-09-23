@@ -7,15 +7,41 @@ weight: 50
 
 ## **Introduction**
 This example shows how to work with SaveResult Task using Aspose.Cells for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-## **Source Excel File and Output Tiff image**
-Please upload the [sample excel file](attachments/1540276/1837218.xlsx) in your Cloud File System to run the example. After execution of the code you will get this [output tiff image](attachments/1540276/1837196.tiff).
-## **Resource**
-The following Aspose.Cells for Cloud REST API resource has been used in the examples: [task](), [saveResult task](), [Convert task]().
-## **REST Methods References**
-We're referring some common methods in the REST examples to perform general operations. These methods can be found at the following page: [REST API Methods](http://www.aspose.com/docs/display/rest/REST+API+Methods)
-## **REST Examples**
-![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
-#### **C#**
+## **API Information**
+
+|**API**|**Type**|**Description**|**Resource Link**|
+| :- | :- | :- | :- |
+|/cells/task/runtask|POST|Run Task|[PostRunTask](https://apireference.aspose.cloud/cells/#/Task/PostRunTask)|
+### **cURL Example**
+{{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
+
+{{< tab tabNum="1" >}}
+
+```java
+
+curl -X POST "https://api.aspose.cloud/v3.0/cells/task/runtask" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ <Tasks>\t<TaskDescription>\t <TaskType>ImportData</TaskType>\t <ImportDataTaskParameter>\t\t<Workbook>\t\t <FileSourceType>CloudFileSystem</FileSourceType>\t\t <FilePath>TaskBook.xlsx</FilePath>\t\t</Workbook>\t\t<ImportBatchDataOption>\t\t <DestinationWorksheet>Sheet1</DestinationWorksheet>\t\t <IsInsert>true</IsInsert>\t\t <Source>\t\t\t<FileSourceType>RequestFiles</FileSourceType>\t\t\t<FilePath>Batch_data_xml.txt</FilePath>\t\t </Source>\t\t</ImportBatchDataOption>\t </ImportDataTaskParameter>\t</TaskDescription>\t<TaskDescription>\t <TaskType>ImportData</TaskType>\t <ImportDataTaskParameter>\t\t<Workbook>\t\t <FileSourceType>InMemoryFiles</FileSourceType>\t\t <FilePath>TaskBook.xlsx</FilePath>\t\t</Workbook>\t\t<ImportBatchDataOption>\t\t <DestinationWorksheet>Sheet2</DestinationWorksheet>\t\t <IsInsert>true</IsInsert>\t\t <Source>\t\t\t<FileSourceType>RequestFiles</FileSourceType>\t\t\t<FilePath>Batch_data_xml_2.txt</FilePath>\t\t </Source>\t\t</ImportBatchDataOption>\t </ImportDataTaskParameter>\t</TaskDescription>\t<TaskDescription>\t <TaskType>SaveResult</TaskType>\t <SaveResultTaskParameter>\t\t<ResultSource>InMemoryFiles</ResultSource>\t\t<ResultDestination>\t\t <DestinationType>CloudFileSystem</DestinationType>\t\t <InputFile>TaskBook.xlsx</InputFile>\t\t <OutputFile>ImpDataBook.xlsx</OutputFile>\t\t</ResultDestination>\t </SaveResultTaskParameter>\t</TaskDescription> </Tasks></TaskData>}"
+
+```
+
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+```java
+
+HttpResponseMessage with the operation result.
+
+```
+
+{{< /tab >}}
+
+{{< /tabs >}}
+## **SDK Source**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
+{{< tabs tabTotal="1" tabID="4" tabName1="Java" >}}
+
+{{< tab tabNum="1" >}}
 ```java
 
 var xml = @"
@@ -106,29 +132,6 @@ using (HttpWebResponse response = helper.CallPost("http://api.aspose.com/v3.0/ce
 
 
 ```
-#### **VB.NET**
-```java
+{{< /tab >}}
 
-Dim xml = "<TaskData><Tasks><TaskDescription><TaskType>Convert</TaskType><ConvertTaskParameter><Workbook><FileSourceType>CloudFileSystem</FileSourceType><FilePath>Source.xlsx</FilePath></Workbook><DestinationFile>Temp.tiff</DestinationFile><ImageSaveOptions><HorizontalResolution>200</HorizontalResolution><OnePagePerSheet>true</OnePagePerSheet><VerticalResolution>100</VerticalResolution></ImageSaveOptions></ConvertTaskParameter></TaskDescription><TaskDescription><TaskType>SaveResult</TaskType><SaveResultTaskParameter><ResultSource>InMemoryFiles</ResultSource><ResultDestination><DestinationType>OutputStream</DestinationType><InputFile>Temp.tiff</InputFile><OutputFile>Output.tiff</OutputFile></ResultDestination></SaveResultTaskParameter></TaskDescription></Tasks></TaskData>"
-
-Dim helper As New ServiceHelper(sid, key)
-
-Using response As HttpWebResponse = helper.CallPost("http://api.aspose.com/v3.0/cells/task/runtask", xml, "application/xml")
-
-	If response.StatusCode = HttpStatusCode.OK Then
-
-		System.Console.WriteLine("OK")
-
-		Dim st As Stream = response.GetResponseStream()
-
-		Dim fs As New FileStream("Output.tiff", FileMode.OpenOrCreate)
-
-		st.CopyTo(fs)
-
-	End If
-
-End Using
-
-
-
-```
+{{< /tabs >}}
