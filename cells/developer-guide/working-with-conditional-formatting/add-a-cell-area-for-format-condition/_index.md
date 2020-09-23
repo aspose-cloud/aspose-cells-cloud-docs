@@ -29,7 +29,10 @@ curl -X PUT "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/sheet1/con
 
 ```java
 
-{:Code=>"200", :Status=>"OK"}
+{
+  "Code": "200",
+  "Status": "OK"
+}
 
 ```
 
