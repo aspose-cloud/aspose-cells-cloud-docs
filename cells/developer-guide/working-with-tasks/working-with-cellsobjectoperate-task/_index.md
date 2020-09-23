@@ -30,10 +30,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/task/runtask" -H "accept: appl
 
 ```java
 
-{
-  "Code": 200,
-  "Status": "OK"
-}
+HttpResponseMessage with the operation result.
 
 ```
 
