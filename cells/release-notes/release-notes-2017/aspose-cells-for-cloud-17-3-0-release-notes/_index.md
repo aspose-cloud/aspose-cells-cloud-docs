@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Cells for Cloud 17.3.0](https://dow
 |CELLSCLOUD-10028|Insert page breaks in Excel worksheet|New Feature|
 |CELLSCLOUD-10035|Support AutoFit row heights|New Feature|
 |CELLSCLOUD-10036|Support AutoFit columns' width|New Feature|
-#### **Get Horizontal Page Breaks inside Worksheet**
+## **Get Horizontal Page Breaks inside Worksheet**
 The following sample code illustrates how to get Horizontal Page Breaks inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -50,7 +50,7 @@ using (HttpWebResponse response = _helper.CallGet(url, data, contentType))
 }
 
 ```
-#### **Get Vertical Page Breaks inside Worksheet**
+## **Get Vertical Page Breaks inside Worksheet**
 The following sample code illustrates how to get Vertical Page Breaks inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -84,7 +84,7 @@ using (HttpWebResponse response = _helper.CallGet(url, data, contentType))
 }
 
 ```
-#### **Insert Horizontal Page Break inside Worksheet**
+## **Insert Horizontal Page Break inside Worksheet**
 The following sample code illustrates how to insert Horizontal Page Break inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -124,7 +124,7 @@ using (HttpWebResponse response = _helper.CallPut(url, data, contentType))
 }
 
 ```
-#### **Insert Vertical Page Break inside Worksheet**
+## **Insert Vertical Page Break inside Worksheet**
 The following sample code illustrates how to insert Vertical Page Break inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -164,7 +164,7 @@ using (HttpWebResponse response = _helper.CallPut(url, data, contentType))
 }
 
 ```
-#### **Delete Horizontal Page Break inside Worksheet**
+## **Delete Horizontal Page Break inside Worksheet**
 The following sample code illustrates how to get delete Horizontal Page Break inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -204,7 +204,7 @@ using (HttpWebResponse response = _helper.CallDelete(url, data, contentType))
 }
 
 ```
-#### **Delete Vertical Page Break inside Worksheet**
+## **Delete Vertical Page Break inside Worksheet**
 The following sample code illustrates how to get delete Vertical Page Break inside Worksheet using Aspose.Cells for Cloud API.
 
 ```java
@@ -244,7 +244,7 @@ using (HttpWebResponse response = _helper.CallDelete(url, data, contentType))
 }
 
 ```
-#### **AutoFit Single Column of Worksheet**
+## **AutoFit Single Column of Worksheet**
 The following sample code illustrates how to autofit single column of the worksheet. It autofits the **column C**.
 
 ```java
@@ -274,7 +274,7 @@ using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentTyp
 }
 
 ```
-#### **AutoFit Multiple Columns of Worksheet**
+## **AutoFit Multiple Columns of Worksheet**
 The following sample code illustrates how to autofit multiple columns of the worksheet. It autofits the **columns A, B, C, D, E and F**.
 
 ```java
@@ -304,7 +304,7 @@ using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentTyp
 }
 
 ```
-#### **AutoFit Single Row of Worksheet**
+## **AutoFit Single Row of Worksheet**
 The following sample code illustrates how to autofit single row of the worksheet. It autofits the **2nd row**.
 
 ```java
@@ -334,7 +334,7 @@ using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentTyp
 }
 
 ```
-#### **AutoFit Multiple Rows of Worksheet**
+## **AutoFit Multiple Rows of Worksheet**
 The following sample code illustrates how to autofit multiple rows of the worksheet. It autofits the multiple rows starting from 2nd row to 8th row.
 
 ```java
@@ -364,16 +364,3 @@ using (HttpWebResponse response = _helper.CallPost(url, string.Empty, contentTyp
 }
 
 ```
-#### **Usage Examples**
-Please check the list of help topics added in the Aspose.Cells Wiki docs: 
-
-1. [Get Horizontal Page Breaks inside Worksheet](https://docs.aspose.com/display/cellscloud/Get+Horizontal+Page+Breaks+inside+Worksheet)
-1. [Get Vertical Page Breaks inside Worksheet](https://docs.aspose.com/display/cellscloud/Get+Vertical+Page+Breaks+inside+Worksheet)
-1. [Insert Horizontal Page Break inside Worksheet](https://docs.aspose.com/display/cellscloud/Insert+Horizontal+Page+Break+inside+Worksheet)
-1. [Insert Vertical Page Break inside Worksheet](https://docs.aspose.com/display/cellscloud/Insert+Vertical+Page+Break+inside+Worksheet)
-1. [Delete Horizontal Page Break inside Worksheet](https://docs.aspose.com/display/cellscloud/Delete+Horizontal+Page+Break+inside+Worksheet)
-1. [Delete Vertical Page Break inside Worksheet](https://docs.aspose.com/display/cellscloud/Delete+Vertical+Page+Break+inside+Worksheet)
-1. [AutoFit Single Column of Worksheet](https://docs.aspose.com/display/cellscloud/AutoFit+Single+Column+of+Worksheet)
-1. [AutoFit Multiple Columns of Worksheet](https://docs.aspose.com/display/cellscloud/AutoFit+Multiple+Columns+of+Worksheet)
-1. [AutoFit Single Row of Worksheet](https://docs.aspose.com/display/cellscloud/AutoFit+Single+Row+of+Worksheet)
-1. [AutoFit Multiple Rows of Worksheet](https://docs.aspose.com/display/cellscloud/AutoFit+Multiple+Rows+of+Worksheet)
