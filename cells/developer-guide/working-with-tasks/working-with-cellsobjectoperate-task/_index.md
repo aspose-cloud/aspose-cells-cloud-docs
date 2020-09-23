@@ -12,7 +12,7 @@ This example shows how to work with CellsObjectOperate Task using Aspose.Cells f
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
-|/cells/task/runtask|POST|Moves pivot field in pivot table|[PostRunTask](https://apireference.aspose.cloud/cells/#/Task/PostRunTask)|
+|/cells/task/runtask|POST|Run Task|[PostRunTask](https://apireference.aspose.cloud/cells/#/Task/PostRunTask)|
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
