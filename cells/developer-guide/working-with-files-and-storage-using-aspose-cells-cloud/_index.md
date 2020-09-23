@@ -6,7 +6,7 @@ weight: 10
 ---
 
 ## **Introduction**
-Aspose.Cells Cloud provides helper functions to work with files uploaded to Aspose.Cells Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/display/totalcloud/Aspose+Cloud+UI+Help+Topics).
+Aspose.Cells Cloud provides helper functions to work with files uploaded to Aspose.Cells Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](/total/aspose-cloud-ui-help-topics/).
 ### **Upload a file to Cloud Storage**
 #### **API Information**
 
@@ -18,9 +18,10 @@ Aspose.Cells Cloud provides helper functions to work with files uploaded to Asp
 
 {{< tab tabNum="1" >}}
 
-**Create Request Token**
 
 ```java
+
+//Create Request Token
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -28,7 +29,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl  -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/sample.xlsx" -H "Content-Type:application/octet-stream" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAwOTI3OTcsImV4cCI6MTU2MDE3OTE5NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.rFS4KehYAg1yOVGmteeinIh-AFq7nVEmtUr_cDltIfk0iN0JJJ3o6TK1StpnItAAqlkb_QtF0WcY5D8NCjeyTVKL1oewdIshjjODoPEN1tmCsRXceHGYTG5f--B8sWrMuZtOqSzlbr-x3_Mat9Fy7xcNbS6nNNmBv7mo3suRDF4xdUZWdIY7bO6yBptc-qyhIFb0olNMxdeAZPsN8sPLW0XIbEGf8CaE16p9al_O5SjWLtEZT7APuvDesJwWYOSPtG6hCsXtHItphKDAcMULEnqJ-QW_QpzBxybTnQ1VNzundQWOYM_viYzU8hOlf6VTE4YQKyCmgz72Ena8KZx0VA" --ssl-no-revoke --binary @destination.pptx
+curl  -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/sample.xlsx" -H "Content-Type:application/octet-stream"
 
 ```
 
@@ -68,9 +69,9 @@ curl  -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/sample.xlsx" -
 
 {{< tab tabNum="1" >}}
 
-**Create Request Token**
 
 ```java
+//Create Request Token
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -78,7 +79,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/copy/inpuit.xlsx" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
+curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/copy/inpuit.xlsx" -H "Content-Type:application/json"
 
 ```
 
@@ -96,9 +97,10 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/copy/inpuit.xls
 
 {{< tab tabNum="1" >}}
 
-**Create Request Token**
 
 ```java
+
+//Create Request Token
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -106,7 +108,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/move/input.xlsx" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
+curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/move/input.xlsx" -H "Content-Type:application/json"
 
 ```
 
@@ -124,9 +126,10 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/cells/storage/file/move/input.xlsx
 
 {{< tab tabNum="1" >}}
 
-**Create Request Token**
 
 ```java
+
+//Create Request Token
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -134,7 +137,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl  -v -X GET "https://api.aspose.cloud/v3.0/cells/storage/file/presentation_images.xlsx" -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAwOTI3OTcsImV4cCI6MTU2MDE3OTE5NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.rFS4KehYAg1yOVGmteeinIh-AFq7nVEmtUr_cDltIfk0iN0JJJ3o6TK1StpnItAAqlkb_QtF0WcY5D8NCjeyTVKL1oewdIshjjODoPEN1tmCsRXceHGYTG5f--B8sWrMuZtOqSzlbr-x3_Mat9Fy7xcNbS6nNNmBv7mo3suRDF4xdUZWdIY7bO6yBptc-qyhIFb0olNMxdeAZPsN8sPLW0XIbEGf8CaE16p9al_O5SjWLtEZT7APuvDesJwWYOSPtG6hCsXtHItphKDAcMULEnqJ-QW_QpzBxybTnQ1VNzundQWOYM_viYzU8hOlf6VTE4YQKyCmgz72Ena8KZx0VA" --ssl-no-revoke
+curl  -v -X GET "https://api.aspose.cloud/v3.0/cells/storage/file/presentation_images.xlsx" -H "Content-Type: application/json"
 
 ```
 
@@ -152,9 +155,10 @@ curl  -v -X GET "https://api.aspose.cloud/v3.0/cells/storage/file/presentation_i
 
 {{< tab tabNum="1" >}}
 
-**Create Request Token**
 
 ```java
+
+//Create Request Token
 
 curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=XXXXX&client_secret=XXXXX" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
 
@@ -162,7 +166,7 @@ curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_c
 
 ```java
 
-curl -v -X DELETE "https://api.aspose.cloud/v3.0/cells/storage/file/input.xlsx" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
+curl -v -X DELETE "https://api.aspose.cloud/v3.0/cells/storage/file/input.xlsx" -H "Content-Type:application/json"
 
 ```
 

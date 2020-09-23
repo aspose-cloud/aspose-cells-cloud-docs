@@ -7,7 +7,7 @@ weight: 20
 
 ## **Introduction**
 This example shows how to add a comments from a Excel Worksheet using Aspose.Cells Cloud in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example shows how to add a comments from a Excel Worksheet using Aspose.Cel
 
 ```java
 
-curl -X PUT "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/comments/a1" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NzIxMjkzMTYsImV4cCI6MTU3MjIxNTcxNiwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5IiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.EtpFm61rEM1D9A0JPZo-shO_LjNr44DwSjur-CWnuwQU5eiNscS7Te__D4JjxMGkCuVgOcF9tZKsmuI76d2P18JV5TgbO86Fp2Ky6S93s7z9KP0ezweeMOppiGkQACKNJhbA-1dOV452vWErYDBvp_FL7w6XsbxKJWUYebB_JOm89xsNK0WESPFFXD0O6APvwruNYs2KOX5ieODfDd3zDC4BQePJATSD8nL7Ou48O_7rY2-DYZ5zgBBWIyTl9fANeh8wqa3RwWMUw1_dl7dNRoFHpMy42UaN_5fsCJD_FCAao_dsBb0Ly1wK4wtdC-e0LNYq6hZprYVu7r7oV2yM8g" -H "Content-Type: application/json" -d "{ \"CellName\": \"a1\", \"Author\": \"test\", \"HtmlNote\": \"string\", \"Note\": \"this is a comment\", \"AutoSize\": true, \"IsVisible\": true, \"Width\": 10, \"Height\": 10}"
+curl -X PUT "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/comments/a1" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"CellName\": \"a1\", \"Author\": \"test\", \"HtmlNote\": \"string\", \"Note\": \"this is a comment\", \"AutoSize\": true, \"IsVisible\": true, \"Width\": 10, \"Height\": 10}"
 
 ```
 
@@ -81,8 +81,8 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/com
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="1" tabID="4" tabName1="Go" >}}
 
 {{< tab tabNum="1" >}}

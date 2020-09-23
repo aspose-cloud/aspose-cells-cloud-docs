@@ -7,7 +7,7 @@ weight: 100
 
 ## **Introduction**
 This example shows how to filter a list using a color filter with Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,67 +19,7 @@ This example shows how to filter a list using a color filter with Aspose.Cells C
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/colorFilter?range=A1:B1&fieldIndex=0&matchBlanks=true&appSID=xxxx&signature=xxxx" \
--X PUT \
--d '{
-
-  "Pattern": "Solid",
-
-  "ForegroundColor": {
-
-    "Color": {
-
-      "A": "255",
-
-      "R": "0",
-
-      "G": "255",
-
-      "B": "255"
-
-    },
-
-    "ThemeColor": {
-
-      "ColorType": "Text2",
-
-      "Tint": "1"
-
-    },
-
-    "Type": "Automatic"
-
-  },
-
-  "BackgroundColor": {
-
-    "Color": {
-
-      "A": "255",
-
-      "R": "255",
-
-      "G": "0",
-
-      "B": "0"
-
-    },
-
-    "ThemeColor": {
-
-      "ColorType": "Text2",
-
-      "Tint": "1"
-
-    },
-
-    "Type": "Automatic"
-
-  }
-
-}' \
--H "Content-Type: application/json" \
--H "Accept: application/json"
+curl -X PUT "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter/colorFilter?range=A1%3AB1&fieldIndex=0" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"Pattern\": \"Solid\", \"ForegroundColor\": { \"Color\": { \"A\": 255, \"R\": 0, \"G\": 255, \"B\": 255 }, \"ColorIndex\": 0, \"IsShapeColor\": true, \"ThemeColor\": { \"ColorType\": \"Text2\", \"Tint\": 1 }, \"Type\": \"Automatic\" }, \"BackgroundColor\": { \"Color\": { \"A\": 255, \"R\": 0, \"G\": 255, \"B\": 255 }, \"ColorIndex\": 0, \"IsShapeColor\": true, \"ThemeColor\": { \"ColorType\": \"Text2\", \"Tint\": 0 }, \"Type\": \"Automatic\" }}"
 
 ```
 
@@ -103,8 +43,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFil
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="6" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Node.js" tabName5="Perl" tabName6="Go" >}}
 
 {{< tab tabNum="1" >}}

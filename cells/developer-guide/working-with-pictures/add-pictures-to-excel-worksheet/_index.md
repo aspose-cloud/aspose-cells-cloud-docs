@@ -7,7 +7,7 @@ weight: 20
 
 ## **Introduction**
 This example shows how to add a image to a Worksheet of a Excel document using Aspose.Cells Cloud API.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example shows how to add a image to a Worksheet of a Excel document using A
 
 ```java
 
-curl -v "http://api.aspose.com/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6/pictures?picturePath=aspose-cloud.png&appSID=xxxx&signature=xxxx" \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X PUT "http://api.aspose.com/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6/pictures?picturePath=aspose-cloud.png"  -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -86,8 +83,8 @@ curl -v "http://api.aspose.com/v1.1/cells/Sample_Test_Book.xls/worksheets/Sheet6
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Objective C" tabName8="Android" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}

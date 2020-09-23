@@ -7,7 +7,7 @@ weight: 10
 
 ## **Introduction**
 This example shows how to get a specific OleObject from a worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,10 +19,7 @@ This example shows how to get a specific OleObject from a worksheet using Aspose
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/worksheets/Sheet1/oleobjects/0?appSID=xxxx&signature=xxxx" \
-     -X GET \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X GET "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/worksheets/Sheet1/oleobjects/0" -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -46,8 +43,8 @@ curl -v "http://api.aspose.com/v3.0/cells/Embeded_OleObject_Sample_Book1.xlsx/wo
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="9" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" tabName6="Android" tabName7="Objective C" tabName8="Perl" tabName9="Go" >}}
 
 {{< tab tabNum="1" >}}

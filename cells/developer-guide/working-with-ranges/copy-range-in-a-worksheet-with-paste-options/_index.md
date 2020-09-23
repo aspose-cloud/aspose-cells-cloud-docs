@@ -7,7 +7,7 @@ weight: 60
 
 ## **Introduction**
 This example explains how to copy range in a worksheet with paste options using Aspose.Cells Cloud API in your applications.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,75 +19,7 @@ This example explains how to copy range in a worksheet with paste options using
 
 ```java
 
-curl -X POST "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/ranges" 
-
--d "{
-
-     "Operate":  "string",
-
-     "Source":  {
-
-         "ColumnCount":  0,
-
-         "ColumnWidth":  0,
-
-         "FirstColumn":  0,
-
-         "FirstRow":  0,
-
-         "Name":  "string",
-
-         "RefersTo":  "string",
-
-         "RowCount":  0,
-
-         "RowHeight":  0,
-
-         "Worksheet":  "string" 
-
-    },
-
-     "Target":  {
-
-         "ColumnCount":  0,
-
-         "ColumnWidth":  0,
-
-         "FirstColumn":  0,
-
-         "FirstRow":  0,
-
-         "Name":  "string",
-
-         "RefersTo":  "string",
-
-         "RowCount":  0,
-
-         "RowHeight":  0,
-
-         "Worksheet":  "string" 
-
-    },
-
-     "PasteOptions":  {
-
-         "OnlyVisibleCells":  true,
-
-         "PasteType":  "string",
-
-         "SkipBlanks":  true,
-
-         "Transpose":  true 
-
-    }
-
-}"
-
--H "accept: application/json" 
-
--H "Content-Type: application/json" 
-
--H "x-aspose-client: Containerize.Swagger" 
+curl -X POST "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/ranges" -H "accept: application/json" -H "Content-Type: application/json" -H "x-aspose-client: Containerize.Swagger" -d "{ \"Operate\": \"string\", \"Source\": { \"ColumnCount\": 0, \"ColumnWidth\": 0, \"FirstColumn\": 0, \"FirstRow\": 0, \"Name\": \"string\", \"RefersTo\": \"string\", \"RowCount\": 0, \"RowHeight\": 0, \"Worksheet\": \"string\" }, \"Target\": { \"ColumnCount\": 0, \"ColumnWidth\": 0, \"FirstColumn\": 0, \"FirstRow\": 0, \"Name\": \"string\", \"RefersTo\": \"string\", \"RowCount\": 0, \"RowHeight\": 0, \"Worksheet\": \"string\" }, \"PasteOptions\": { \"OnlyVisibleCells\": true, \"PasteType\": \"string\", \"SkipBlanks\": true, \"Transpose\": true }}"
 
 ```
 
@@ -111,15 +43,13 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/r
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Go" >}}
 
 {{< tab tabNum="1" >}}
 
-**C#**
-
-```java
+```csharp
 
 string AppSID = "Use your AppSID";
 
