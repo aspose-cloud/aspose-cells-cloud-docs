@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Cells for Cloud 17.02.0](https://do
 |CELLSCLOUD-10025|List object - Summarize with Pivot Table|New Feature|
 |CELLSCLOUD-10026|Move Pivot Table|New Feature|
 |CELLSCLOUD-10027|Move Pivot Table field|New Feature|
-#### **Working with Pivot Filters**
+## **Working with Pivot Filters**
 The following sample code illustrates how to work with pivot filters using Aspose.Cells for Cloud.
 
 ```java
@@ -162,7 +162,7 @@ public void Run_PivotTable_PivotFilter()
 }
 
 ```
-#### **Working with Pivot Table using CellsObjectOperate Task**
+## **Working with Pivot Table using CellsObjectOperate Task**
 The following sample code illustrates how to work with Pivot Table using CellsObjectOperate Task object with Aspose.Cells for Cloud.
 
 ```java
@@ -804,7 +804,7 @@ public void Run_PivotTable_TaskPivot()
 }
 
 ```
-#### **Recalculate Pivot Table after Hiding Pivot Field Item**
+## **Recalculate Pivot Table after Hiding Pivot Field Item**
 The following sample code illustrates how to recalculate Pivot Table after hiding Pivot Field Item using Aspose.Cells for Cloud.
 
 ```java
@@ -897,7 +897,7 @@ public void Run_PivotTable_NeedReCalculate()
 
 ```
 
-#### **Convert List Object or Table to Range**
+## **Convert List Object or Table to Range**
 The following sample code illustrates how to convert List Object or Table to Range using Aspose.Cells for Cloud.
 
 ```java
@@ -977,7 +977,7 @@ public void Run_ListObject_ConvertToRange()
     }
 
 ```
-#### **Create new Pivot Table with List Object as Source Data**
+## **Create new Pivot Table with List Object as Source Data**
 The following sample code illustrates how to create new Pivot Table with List Object as Source Data using Aspose.Cells for Cloud.
 
 ```java
@@ -1091,11 +1091,11 @@ public void Run_ListObject_SummarizeWithPivotTable()
 }
 
 ```
-#### **Usage Examples**
+## **Usage Examples**
 Please check the list of help topics added in the Aspose.Cells Wiki docs: 
 
-1. [Working with Pivot Filters](https://docs.aspose.com/display/cellscloud/Working+with+Pivot+Filters)
-1. [Working with Pivot Table using CellsObjectOperate Task](https://docs.aspose.com/display/cellscloud/Working+with+Pivot+Table+using+CellsObjectOperate+Task)
-1. [Recalculate Pivot Table after Hiding Pivot Field Item](https://docs.aspose.com/display/cellscloud/Recalculate+Pivot+Table+after+Hiding+Pivot+Field+Item)
-1. [Convert List Object or Table to Range](https://docs.aspose.com/display/cellscloud/Convert+List+Object+or+Table+to+Range)
-1. [Create new Pivot Table with List Object as Source Data](https://docs.aspose.com/display/cellscloud/Create+new+Pivot+Table+with+List+Object+as+Source+Data)
+1. [Working with Pivot Filters](/cells/working-with-pivot-tables/)
+1. [Working with Pivot Table using CellsObjectOperate Task](/cells/working-with-pivot-table-using-cellsobjectoperate-task/)
+1. [Recalculate Pivot Table after Hiding Pivot Field Item](/cells/hide-pivot-field-item/)
+1. [Convert List Object or Table to Range](/cells/convert-list-object-or-table-to-range/)
+1. [Create new Pivot Table with List Object as Source Data](/cells/add-a-pivot-table-in-a-worksheet/)
