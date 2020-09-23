@@ -49,8 +49,6 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="1" >}}
 
-**C#**
-
 ```csharp
 
 public void Run_PivotTable_NeedReCalculate()
