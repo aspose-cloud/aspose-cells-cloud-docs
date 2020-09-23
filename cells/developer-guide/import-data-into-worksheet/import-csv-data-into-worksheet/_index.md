@@ -7,7 +7,7 @@ weight: 50
 
 ## **Introduction**
 This example shows how to import csv data into worksheet using Aspose.Cells for Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to import csv data into worksheet using Aspose.Cells for 
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
--X POST \
--d '{"SeparatorString":",", "ConvertNumericData":true, "FirstRow":1, "FirstColumn":2, "SourceFile":"TestImportDataCSV.csv", "DestinationWorksheet":"Sheet1", "IsInsert":true, "ImportDataType":"CSVData", "Source":null}' \
--H "Content-Type: application/json" \
--H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"SeparatorString":",", "ConvertNumericData":true, "FirstRow":1, "FirstColumn":2, "SourceFile":"TestImportDataCSV.csv", "DestinationWorksheet":"Sheet1", "IsInsert":true, "ImportDataType":"CSVData", "Source":null}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -41,4 +37,4 @@ curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&si
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)

@@ -7,7 +7,7 @@ weight: 40
 
 ## **Introduction**
 This example shows how to autofit multiple rows of the worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,11 +19,7 @@ This example shows how to autofit multiple rows of the worksheet using Aspose
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/sampleAutoFit.xlsx/worksheets/Sheet1/autofitcolumns?firstRow=1&lastColumn=10&lastRow=7&firstColumn=1&appSID=xxxx&signature=xxxx" \
-     -X POST \
-     -d '{"AutoFitMergedCells" : true, "IgnoreHidden" : true, "OnlyAuto" : false}' \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X POST "http://api.aspose.cloud/v3.0/cells/sampleAutoFit.xlsx/worksheets/Sheet1/autofitcolumns?firstRow=1&lastColumn=10&lastRow=7&firstColumn=1" -d '{"AutoFitMergedCells" : true, "IgnoreHidden" : true, "OnlyAuto" : false}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -47,8 +43,8 @@ curl -v "http://api.aspose.cloud/v3.0/cells/sampleAutoFit.xlsx/worksheets/Sheet1
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="2" tabID="4" tabName1="C#" tabName2="Go" >}}
 
 {{< tab tabNum="1" >}}

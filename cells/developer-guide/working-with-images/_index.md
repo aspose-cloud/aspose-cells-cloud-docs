@@ -5,4 +5,4 @@ url: /working-with-images/
 weight: 70
 ---
 
-- [Convert AutoShape to Image](/convert-autoshape-to-image/)
+- [Convert AutoShape to Image](/cells/convert-autoshape-to-image/)

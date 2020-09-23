@@ -19,10 +19,7 @@ This example shows how to show chart legend of a chart using Aspose.Cells Cloud 
 
 ```java
 
-curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/legend?appSID=xxxx&signature=xxxx" \
-     -X PUT \
-     -H "Content-Type: application/json" \
-     -H "Accept: application/json"
+curl -X PUT "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5/charts/0/legend" -H "Content-Type: application/json"  -H "Accept: application/json"
 
 ```
 
@@ -46,8 +43,8 @@ curl -v "http://api.aspose.com/v3.0/cells/Sample_Test_Book.xls/worksheets/Sheet5
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}

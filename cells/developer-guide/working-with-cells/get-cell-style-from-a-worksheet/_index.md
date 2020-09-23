@@ -7,7 +7,7 @@ weight: 10
 
 ## **Introduction**
 This example shows how to read Cell Style information from a Excel Worksheet using Aspose.Cells Cloud API.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
@@ -19,7 +19,7 @@ This example shows how to read Cell Style information from a Excel Worksheet usi
 
 ```java
 
-curl -X GET "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/cells/a1/style" -H "accept: application/json" -H "authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Njk3ODcxODksImV4cCI6MTU2OTg3MzU4OSwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiOWYwYjI2ZDEtMGYxZi00MDNiLTliYTQtMTMzMzk4MGFjNmRiIiwiY2xpZW50X2lkU3J2SWQiOiIiLCJzY29wZSI6WyJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXX0.mF1ctCv6x3Kszw2Izt6q4CwBg5vmeGvfHc-yjuYFh5f61jJckNpaJTLS0cpeKx7PUfKsEtdKt-UdhqKT9BJdmVGG305D7P7NGFs7fU3T0GXDFjxh0dzMRbbmhGQC9wHoa5PlV-BZ9xoNk-utW_FqMP_0GJ9zTgXBAFcE2uA8LD_CyiGMLDCvOgPc614jHUqREfk2oJD0rPc6rrZiv3XL-zJUncUIyXxbNRJvIImcukC7w7TJfZQ3_fPnw-xvjFwY3Bc8VfMdBZhmyFpiRH6_7oinsP11FD8fPSUb5ph4M8x5XL1bgGLp54RUguMzzbj__MgdT4dte8lGe8UkTN5Qyw"
+curl -X GET "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/cells/a1/style" -H "accept: application/json" 
 
 ```
 
@@ -319,8 +319,8 @@ curl -X GET "https://api.aspose.cloud/v3.0/cells/test.xlsx/worksheets/Sheet1/cel
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}
