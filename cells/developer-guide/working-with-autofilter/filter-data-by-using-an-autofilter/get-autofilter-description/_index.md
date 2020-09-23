@@ -7,11 +7,11 @@ weight: 10
 
 ## **Introduction**
 This example shows how to get AutoFilter description using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-### **API Information**
+## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
-|/cells/{name}/worksheets/{sheetName}/autoFilter|GET|Get auto filters description in worksheet|[GetWorksheetAutoFilter](https://apireference.aspose.cloud/cells/#/ConditionalFormattings/https://apireference.aspose.cloud/cells/#/AutoFilter/GetWorksheetAutoFilter)|
+|/cells/{name}/worksheets/{sheetName}/autoFilter|GET|Get auto filters description in worksheet|[GetWorksheetAutoFilter](https://apireference.aspose.cloud/cells/#/AutoFilter/GetWorksheetAutoFilter)|
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -19,10 +19,7 @@ This example shows how to get AutoFilter description using Aspose.Cells Cloud A
 
 ```java
 
- curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter?appSID=xxxx&signature=xxxx" \
--X GET \
--H "Content-Type: application/json" \
--H "Accept: application/json"
+ curl -X GET "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/autoFilter"-H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
@@ -33,61 +30,117 @@ This example shows how to get AutoFilter description using Aspose.Cells Cloud A
 ```java
 
  {
-
+  "Status": "string",
   "AutoFilter": {
-
-    "FilterColumns": [
-
-
-
-    ],
-
-    "Range": null,
-
-    "Sorter": {
-
-      "CaseSensitive": false,
-
-      "HasHeaders": false,
-
-      "KeyList": [
-
-
-
-      ],
-
-      "SortLeftToRight": false
-
-    },
-
     "link": {
-
-      "Href": "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/AutoFilter",
-
-      "Rel": "self",
-
-      "Title": null,
-
-      "Type": null
-
+      "Href": "string",
+      "Rel": "string",
+      "Title": "string",
+      "Type": "string"
+    },
+    "FilterColumns": [
+      {
+        "FieldIndex": 0,
+        "FilterType": "string",
+        "MultipleFilters": {
+          "MatchBlank": true,
+          "MultipleFilterList": [
+            {}
+          ]
+        },
+        "ColorFilter": {
+          "FilterByFillColor": "string",
+          "Pattern": "string",
+          "Color": {
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ColorIndex": 0,
+            "IsShapeColor": true,
+            "ThemeColor": {
+              "ColorType": "string",
+              "Tint": 0
+            },
+            "Type": "string"
+          },
+          "ForegroundColorColor": {
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ColorIndex": 0,
+            "IsShapeColor": true,
+            "ThemeColor": {
+              "ColorType": "string",
+              "Tint": 0
+            },
+            "Type": "string"
+          },
+          "BackgroundColor": {
+            "Color": {
+              "A": 0,
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ColorIndex": 0,
+            "IsShapeColor": true,
+            "ThemeColor": {
+              "ColorType": "string",
+              "Tint": 0
+            },
+            "Type": "string"
+          }
+        },
+        "CustomFilters": [
+          {
+            "FilterOperatorType": "string"
+          }
+        ],
+        "DynamicFilter": {
+          "DynamicFilterType": "string"
+        },
+        "IconFilter": {
+          "IconId": 0,
+          "IconSetType": "string"
+        },
+        "Top10Filter": {
+          "Criteria": "string",
+          "IsPercent": true,
+          "IsTop": true,
+          "Items": 0
+        },
+        "Visibledropdown": "string"
+      }
+    ],
+    "Range": "string",
+    "Sorter": {
+      "CaseSensitive": true,
+      "HasHeaders": true,
+      "KeyList": [
+        {
+          "Key": 0,
+          "SortOrder": "string",
+          "CustomList": "string"
+        }
+      ],
+      "SortLeftToRight": true
     }
-
-  },
-
-  "Code": 200,
-
-  "Status": "OK"
-
+  }
 }
-
 ```
 
 {{< /tab >}}
 
 {{< /tabs >}}
 ## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/available-sdks/)
-## **SDK Examples**
+The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
+### **SDK Examples**
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Perl" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}
