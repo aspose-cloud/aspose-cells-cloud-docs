@@ -2,7 +2,7 @@
 title: "Aspose.Cells Cloud 20.4 Release Notes"
 type: docs
 url: /aspose-cells-cloud-20-4-release-notes/
-weight: 40
+weight: 50
 ---
 
 {{% alert color="primary" %}} 
