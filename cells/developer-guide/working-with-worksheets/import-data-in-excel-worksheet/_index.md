@@ -19,7 +19,7 @@ This example shows how to import data from a text file into the worksheet using 
 
 ```java
 
-curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?appSid=xxxx&signature=xxxx" \
+curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata?Client_Id=xxxx&signature=xxxx" \
 -X POST \
 -d '{"BatchData":null, "DestinationWorksheet":"Sheet1", "IsInsert":false, "ImportDataType":"BatchData", "Source":{"FileSourceType":1, "FilePath":"Batch_data_json.txt"}}' \
 -H "Content-Type: application/json" \

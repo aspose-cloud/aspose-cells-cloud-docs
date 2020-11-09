@@ -53,13 +53,13 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 //Please upload sample.xlsx file in the cloud storage.
 
-//Sign ListObject API with your AppSID and AppKey
+//Sign ListObject API with your Client_Id and Client_Secret
 
 //The URL updates the first list object or table inside the Sheet1 of workbook
 
 string strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0";
 
-strURI = Sign(strURI, m_AppSID, m_AppKey);
+strURI = Sign(strURI, client_id,client_secret);
 
 //XML body that updates the end row, end column and style of list object or table
 
@@ -95,13 +95,13 @@ Stream responseStream = ProcessCommand(strURI, "POST", xmlBody, "XML");
 
 'Please upload sample.xlsx file in the cloud storage.
 
-'Sign ListObject API with your AppSID and AppKey
+'Sign ListObject API with your Client_Id and Client_Secret
 
 'The URL updates the first list object or table inside the Sheet1 of workbook
 
 Dim strURI As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0"
 
-strURI = Sign(strURI, m_AppSID, m_AppKey)
+strURI = Sign(strURI, client_id,client_secret)
 
 'XML body that updates the end row, end column and style of list object or table
 
@@ -125,13 +125,13 @@ Dim responseStream As Stream = ProcessCommand(strURI, "POST", xmlBody, "XML")
 
 //Please upload sample.xlsx file in the cloud storage.
 
-//Sign ListObject API with your AppSID and AppKey
+//Sign ListObject API with your Client_Id and Client_Secret
 
 //The URL updates the first list object or table inside the Sheet1 of workbook
 
 String strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects/0";
 
-strURI = Sign(strURI, m_AppSID, m_AppKey);
+strURI = Sign(strURI, client_id,client_secret);
 
 //XML body that updates the end row, end column and style of list object or table
 

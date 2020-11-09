@@ -139,9 +139,9 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 string url = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100";
 
-//Sign the url with your AppSID and AppKey.
+//Sign the url with your Client_Id and Client_Secret.
 
-string signedURL = Sign(url, m_AppSID, m_AppKey);
+string signedURL = Sign(url, client_id,client_secret);
 
 //Call process command with the signed URL.
 
@@ -165,9 +165,9 @@ Stream responseStream = ProcessCommand(signedURL, "PUT");
 
 Dim url As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100"
 
-'Sign the url with your AppSID and AppKey.
+'Sign the url with your Client_Id and Client_Secret.
 
-Dim signedURL As String = Sign(url, m_AppSID, m_AppKey)
+Dim signedURL As String = Sign(url, client_id,client_secret)
 
 'Call process command with the signed URL.
 
@@ -191,9 +191,9 @@ Dim responseStream As Stream = ProcessCommand(signedURL, "PUT")
 
 String url = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100";
 
-//Sign the url with your AppSID and AppKey.
+//Sign the url with your Client_Id and Client_Secret.
 
-String signedURL = Sign(url, m_AppSID, m_AppKey);
+String signedURL = Sign(url, client_id,client_secret);
 
 //Call process command with the signed URL.
 
