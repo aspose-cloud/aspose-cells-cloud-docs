@@ -51,9 +51,9 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 ```csharp
 
-string AppSID = "Use your AppSID";
+string Client_Id = "Use your Client_Id";
 
-string AppKEY = "Use your AppKEY";
+string Client_Secret = "Use your Client_Secret";
 
 //Copy Range in a Worksheet with Paste Options - URL
 
@@ -65,7 +65,7 @@ string strJson = "{ \"Operate\": \"copyto\", \"Source\": { \"ColumnCount\": 5, \
 
 //Sign the URL
 
-string surl = Sign(url, AppSID, AppKEY);
+string surl = Sign(url, Client_Id, Client_Secret);
 
 //Process Command - Post Signed URL with JSON body
 

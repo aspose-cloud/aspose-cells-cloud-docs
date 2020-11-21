@@ -58,9 +58,9 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 string url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes/3";
 
-//Sign the url with your AppSID and AppKey.
+//Sign the url with your Client_Id and Client_Secret.
 
-string signedURL = Sign(url, m_AppSID, m_AppKey);
+string signedURL = Sign(url, client_id,client_secret);
 
 //Call process command with the signed URL.
 
@@ -84,9 +84,9 @@ Stream responseStream = ProcessCommand(signedURL, "DELETE");
 
 Dim url As String = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes/3"
 
-'Sign the url with your AppSID and AppKey.
+'Sign the url with your Client_Id and Client_Secret.
 
-Dim signedURL As String = Sign(url, m_AppSID, m_AppKey)
+Dim signedURL As String = Sign(url, client_id,client_secret)
 
 'Call process command with the signed URL.
 
@@ -110,9 +110,9 @@ Dim responseStream As Stream = ProcessCommand(signedURL, "DELETE")
 
 String url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes/3";
 
-//Sign the url with your AppSID and AppKey.
+//Sign the url with your Client_Id and Client_Secret.
 
-String signedURL = Sign(url, m_AppSID, m_AppKey);
+String signedURL = Sign(url, client_id,client_secret);
 
 //Call process command with the signed URL.
 

@@ -307,13 +307,13 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 //Please upload sample.xlsx file in the cloud storage.
 
-//Sign ListObject API with your AppSID and AppKey
+//Sign ListObject API with your client_id and client_secret
 
 //The URL adds a List Object or Table in a range F5:I9 with headers
 
 string strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True";
 
-strURI = Sign(strURI, m_AppSID, m_AppKey);
+strURI = Sign(strURI, client_id, client_secret);
 
 //Call Process Command with Signed URI
 
@@ -333,13 +333,13 @@ Stream responseStream = ProcessCommand(strURI, "PUT");
 
 'Please upload sample.xlsx file in the cloud storage.
 
-'Sign ListObject API with your AppSID and AppKey
+'Sign ListObject API with your Client_Id and Client_Secret
 
 'The URL adds a List Object or Table in a range F5:I9 with headers
 
 Dim strURI As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True"
 
-strURI = Sign(strURI, m_AppSID, m_AppKey)
+strURI = Sign(strURI, client_id,client_secret)
 
 'Call Process Command with Signed URI
 
@@ -359,13 +359,13 @@ Dim responseStream As Stream = ProcessCommand(strURI, "PUT")
 
 //Please upload sample.xlsx file in the cloud storage.
 
-//Sign ListObject API with your AppSID and AppKey
+//Sign ListObject API with your Client_Id and Client_Secret
 
 //The URL adds a List Object or Table in a range F5:I9 with headers
 
 String strURI = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/listobjects?startRow=4&startColumn=5&endRow=8&endColumn=8&hasHeaders=True";
 
-strURI = Sign(strURI, m_AppSID, m_AppKey);
+strURI = Sign(strURI, client_id,client_secret);
 
 //Call Process Command with Signed URI
 

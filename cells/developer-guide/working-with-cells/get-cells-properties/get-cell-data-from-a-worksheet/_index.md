@@ -19,7 +19,7 @@ This example shows how to get a specific cell from a worksheet using Aspose.Cell
 
 ```java
 
-curl -X GET "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/A3?appSID=xxxx&signature=xxxx" -H "Content-Type: application/json" -H "Accept: application/json"
+curl -X GET "http://api.aspose.com/v3.0/cells/myWorkbook.xlsx/worksheets/Sheet1/cells/A3?client_id=xxxx&client_secret=xxxx" -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
 
