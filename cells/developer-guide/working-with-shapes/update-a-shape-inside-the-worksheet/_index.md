@@ -1,5 +1,5 @@
 ---
-title: "Add a Shape inside the Worksheet"
+title: "Update a Shape inside the Worksheet"
 type: docs
 url: /update-a-shape-inside-the-worksheet/
 weight: 31
