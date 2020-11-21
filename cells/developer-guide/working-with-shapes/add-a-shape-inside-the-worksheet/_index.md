@@ -127,89 +127,35 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/sh
 ## **SDK Source**
 The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="VB.NET" tabName3="Java" tabName4="Go" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Perl" tabName4="Go" tabName5="Swift" >}}
 
 {{< tab tabNum="1" >}}
 
-```java
-
-//Please upload sample.xlsx file in the cloud storage.
-
-//The following url will add Arc shape inside the Sheet1.
-
-string url = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100";
-
-//Sign the url with your Client_Id and Client_Secret.
-
-string signedURL = Sign(url, client_id,client_secret);
-
-//Call process command with the signed URL.
-
-Stream responseStream = ProcessCommand(signedURL, "PUT");
-
-//Convert response stream into string.
-
-//Download sample.xlsx file from cloud storage to view the added shape.
-
-```
+{{< gist "aspose-cloud" "1e994f29ef29e752b6d02a2c5b63ea9b" "Example-PutWorksheetShape.cs">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-```java
-
-'Please upload sample.xlsx file in the cloud storage.
-
-'The following url will add Arc shape inside the Sheet1.
-
-Dim url As String = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100"
-
-'Sign the url with your Client_Id and Client_Secret.
-
-Dim signedURL As String = Sign(url, client_id,client_secret)
-
-'Call process command with the signed URL.
-
-Dim responseStream As Stream = ProcessCommand(signedURL, "PUT")
-
-'Convert response stream into string.
-
-'Download sample.xlsx file from cloud storage to view the added shape.
-
-```
+{{< gist "aspose-cloud" "af3fea45644d431483f6df52cf3bfe26" "Example-PutWorksheetShape.java">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-```java
-
-//Please upload sample.xlsx file in the cloud storage.
-
-//The following url will add Arc shape inside the Sheet1.
-
-String url = "http://api.aspose.com/v3.0/cells/sample.xlsx/worksheets/Sheet1/shapes?DrawingType=Arc&upperLeftRow=2&upperLeftColumn=3&top=0&left=0&width=100&height=100";
-
-//Sign the url with your Client_Id and Client_Secret.
-
-String signedURL = Sign(url, client_id,client_secret);
-
-//Call process command with the signed URL.
-
-InputStream responseStream = ProcessCommand(signedURL, "PUT");
-
-//Convert response stream into string.
-
-//Download sample.xlsx file from cloud storage to view the added shape.
-
-```
+{{< gist "aspose-cloud" "7effbad588b0c24b5f8ed2d7c7759b72" "Example-PutWorksheetShape.pl">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "34f478cae8c02848db0e376bd592a087" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "f342d1e6f85982e0429fcd9bed8b11a8" "Example-PutWorksheetShape.swift">}}
 
 {{< /tab >}}
 

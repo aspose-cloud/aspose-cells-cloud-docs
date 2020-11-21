@@ -45,89 +45,35 @@ curl -X DELETE "https://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1
 ## **SDK Source**
 The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="4" tabID="4" tabName1="C#" tabName2="VB.NET" tabName3="Java" tabName4="Go" >}}
+{{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="Java" tabName3="Perl" tabName4="Go" tabName5="Swift" >}}
 
 {{< tab tabNum="1" >}}
 
-```java
-
-//Please upload sampleShapes.xlsx file in the cloud storage.
-
-//The following url will delete all shapes inside the Sheet1.
-
-string url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes";
-
-//Sign the url with your Client_Id and Client_Secret.
-
-string signedURL = Sign(url, client_id,client_secret);
-
-//Call process command with the signed URL.
-
-Stream responseStream = ProcessCommand(signedURL, "DELETE");
-
-//Convert response stream into string.
-
-//Download sampleShapes.xlsx file from cloud storage.
-
-```
+{{< gist "aspose-cloud" "1e994f29ef29e752b6d02a2c5b63ea9b" "Example-DeleteWorksheetShapes.cs">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-```java
-
-'Please upload sampleShapes.xlsx file in the cloud storage.
-
-'The following url will delete all shapes inside the Sheet1.
-
-Dim url As String = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes"
-
-'Sign the url with your Client_Id and Client_Secret.
-
-Dim signedURL As String = Sign(url, client_id,client_secret)
-
-'Call process command with the signed URL.
-
-Dim responseStream As Stream = ProcessCommand(signedURL, "DELETE")
-
-'Convert response stream into string.
-
-'Download sampleShapes.xlsx file from cloud storage.
-
-```
+{{< gist "aspose-cloud" "af3fea45644d431483f6df52cf3bfe26" "Example-DeleteWorksheetShapes.java">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-```java
-
-//Please upload sampleShapes.xlsx file in the cloud storage.
-
-//The following url will delete all shapes inside the Sheet1.
-
-String url = "http://api.aspose.com/v3.0/cells/sampleShapes.xlsx/worksheets/Sheet1/shapes";
-
-//Sign the url with your Client_Id and Client_Secret.
-
-String signedURL = Sign(url, client_id,client_secret);
-
-//Call process command with the signed URL.
-
-InputStream responseStream = ProcessCommand(signedURL, "DELETE");
-
-//Convert response stream into string.
-
-//Download sampleShapes.xlsx file from cloud storage.
-
-```
+{{< gist "aspose-cloud" "7effbad588b0c24b5f8ed2d7c7759b72" "Example-DeleteWorksheetShapes.pl">}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
 {{< gist "aspose-cloud" "a92427978a88b27918aeec5929efff97" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+{{< gist "aspose-cloud" "f342d1e6f85982e0429fcd9bed8b11a8" "Example-DeleteWorksheetShapes.swift">}}
 
 {{< /tab >}}
 
