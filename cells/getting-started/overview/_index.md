@@ -14,4 +14,6 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 [Aspose.Cells Cloud API Reference](https://apireference.aspose.cloud/cells/) is the easiest way to try out our APIs right away in your browser! It allows you to effortlessly interact and try out every single operation our APIs exposes.
 
 ## **Security and Authentication**
-The Aspose.Cells for Cloud APIs are secured and requires authentication. For more information about authenticationc requests, please check the [Authentication API Requests Page](/total/getting-started/rest-api-overview/authenticating-api-requests/)
+The Aspose.Cells for Cloud APIs are secured and requires authentication.
+
+For more information about authenticating requests, please check the [Authenticating API Requests Page](/total/getting-started/rest-api-overview/authenticating-api-requests/)
