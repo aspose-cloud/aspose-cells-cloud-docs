@@ -2,13 +2,13 @@
 title: "Convert Excel Workbook to Different File Formats"
 type: docs
 url: /convert-excel-workbook-to-different-file-formats/
-keywords: "Perl, Python, Java, .NET, dotnet, Cells into PDF, Cloud API, REST api"
+keywords: "Perl, Python, Java, .NET, dotnet, Cells into PDF, Spreadsheets into PDF, Cloud API, REST api"
 description: "REST API to convert XLS XLSX into PDF and many other formats like HTML, ODS, XPS, CSV etc. SDKs are available for .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more languages."
 weight: 10
 ---
 
 ## **Introduction**
-This example shows how to convert a workbook to a different file format and save the resultant document to cloud storage using Aspose.Cells Cloud API.
+Aspose.Cells Cloud API provides the ability to convert spreadsheets into different formats like DOCX, PPTX, HTML, ODS, XPS and PDF. This example shows how to convert spreadsheets into PDF and save that resultant document to cloud storage using our REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
