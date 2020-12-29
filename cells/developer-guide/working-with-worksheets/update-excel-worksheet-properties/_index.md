@@ -166,7 +166,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cells" "af3fea45644d431483f6df52cf3bfe26" "Examples-Java-worksheet-UpdateWorksheetProperties-update-worksheet-properties.java" >}}
+{{< gist "aspose-cloud" "af3fea45644d431483f6df52cf3bfe26" "Examples-Java-worksheet-UpdateWorksheetProperties-update-worksheet-properties.java" >}}
 
 
 {{< /tab >}}
