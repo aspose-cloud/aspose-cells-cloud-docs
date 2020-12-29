@@ -84,7 +84,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "e6fd01c4bbf280df7d4b09796edd8d66" "Examples-Java-SDK-src-main-java-com-aspose-cells-cloud-examples-text-FindTextWorkbook-find-text-workbook.java" >}}
+{{< gist "aspose-cloud" "af3fea45644d431483f6df52cf3bfe26" "Examples-Java-text-FindTextWorkbook-find-text-workbook.java" >}}
 
 {{< /tab >}}
 
