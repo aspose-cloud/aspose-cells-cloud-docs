@@ -2,11 +2,13 @@
 title: "Set Modify Password of Excel Workbooks"
 type: docs
 url: /set-modify-password-of-excel-workbooks/
+keywords: "set a password of workbook, modify a password of workbook, set a password of spreadsheets using SDK for Python, modify a password of spreadsheets, protect the workbook from changes"
+description: "REST API provides the ability to set or modify password of a workbook. SDKs are available for .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more languages."
 weight: 100
 ---
 
 ## **Introduction**
-This example shows how to set modify password of a workbook using Aspose.Cells Cloud API in your applications. 
+A workbook can be protected from changes by setting a password and the Aspsoe.Cells Cloud REST API provides a feature to modify that password. This REST API can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|

@@ -2,11 +2,13 @@
 title: "Auto Fit Rows in Excel Workbooks"
 type: docs
 url: /auto-fit-rows-in-excel-workbooks/
+keywords: "REST API, auto-fit rows, auto-fit height, auto-fit width, spreadsheets, excel "
+description: "Auto-fit the height and the width of the rows using Aspose.Cells Cloud REST API in Python, Perl, .Net, Java and many more."
 weight: 90
 ---
 
 ## **Introduction**
-This example shows how to automatically fit rows height and width using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+The Aspose.Cells Cloud API provides a straightforward approach to auto-fit the height and the width of rows in a worksheet, by just giving the row index. Our REST API can be used with any language: . NET, Java, PHP, Ruby, Rails, Python, jQuery and many more. Following example shows how to auto-fit the rows using Aspose.Cells Cloud API.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
