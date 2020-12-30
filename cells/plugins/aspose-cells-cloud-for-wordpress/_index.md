@@ -7,4 +7,4 @@ weight: 10
 
 This section has following topics:
 
-- [Aspose Cloud Excel To Form Builder](/aspose-cloud-excel-to-form-builder/)
+- [Aspose.Cells Forms](/aspose-cells-forms/)
