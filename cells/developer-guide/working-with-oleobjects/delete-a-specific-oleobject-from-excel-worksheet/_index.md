@@ -89,7 +89,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="8" >}}
 
-{{< gist "aspose-cells" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-app-src-main-java-com-aspose-cells-cloud-examples-oleobjects-DeleteOleObjectsIndexWorksheet-delete-ole-index-objects-worksheet.java" >}}
+{{< gist "aspose-cells" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-oleobjects-DeleteOleObjectsIndexWorksheet-delete-ole-index-objects-worksheet.java" >}}
 
 {{< /tab >}}
 

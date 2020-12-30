@@ -123,7 +123,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="9" >}}
 
-{{< gist "aspose-cells" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-app-src-main-java-com-aspose-cells-cloud-examples-chart-AddChart-AddChart.jave" >}}
+{{< gist "aspose-cells" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-chart-AddChart-AddChart.jave" >}}
 
 {{< /tab >}}
 

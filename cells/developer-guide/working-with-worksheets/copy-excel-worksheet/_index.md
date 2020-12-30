@@ -85,7 +85,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="7" >}}
 
-{{< gist "" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-app-src-main-java-com-aspose-cells-cloud-examples-worksheet-CopyWorksheet-copy-excel-worksheet.java" >}}
+{{< gist "aspose-cloud" "365f9217a09f4965d9519c52e018e636" "Examples-Android-worksheet-CopyWorksheet-copy-excel-worksheet.java" >}}
 
 {{< /tab >}}
 
