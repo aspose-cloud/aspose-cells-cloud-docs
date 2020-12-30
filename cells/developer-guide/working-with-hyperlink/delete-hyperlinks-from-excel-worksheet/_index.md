@@ -49,7 +49,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availabl
 
 {{< tab tabNum="1" >}}
 
-{{< gist "" "0c40af270fa7ae0ad4ec3936676653b8" "Examples-DotNET-CSharp-Hyperlinks-DeleteHyperlinkWorksheet-1.cs" >}}
+{{< gist "aspose-cloud" "1e994f29ef29e752b6d02a2c5b63ea9b" "Examples-DotNET-CSharp-Hyperlinks-DeleteHyperlinkWorksheet-1.cs" >}}
 
 {{< /tab >}}
 
