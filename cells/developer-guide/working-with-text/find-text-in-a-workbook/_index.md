@@ -62,7 +62,7 @@ curl -X POST "https://api.aspose.cloud/v3.0/cells/test.xlsx/findText?text=a" -H 
 ## **SDK Source**
 The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
 ### **SDK Examples**
-{{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Java" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Objective C" tabName9="Perl" tabName10="Go" >}}
+{{< tabs tabTotal="10" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Java" tabName5="Python" tabName6="Node.js" tabName7="Android" tabName8="Swift" tabName9="Perl" tabName10="Go" >}}
 
 {{< tab tabNum="1" >}}
 
