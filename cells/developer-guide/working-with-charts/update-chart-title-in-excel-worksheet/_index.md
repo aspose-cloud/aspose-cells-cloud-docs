@@ -239,7 +239,7 @@ The Aspose.Cell Cloud SDKs can be downloaded from the following page: [Availabl
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cells" "7d86d3fa01334f7cee49097d5446e46b" "UpdateChartTitleInExcelWorkbook.py" >}}
+{{< gist "aspose-cloud" "5161752550311c9baf73ffa0a811ea0b" "UpdateChartTitleInExcelWorkbook.py" >}}
 
 {{< /tab >}}
 

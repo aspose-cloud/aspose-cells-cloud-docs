@@ -227,7 +227,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cells" "7d86d3fa01334f7cee49097d5446e46b" "GetChartAreaFromWorksheet.py" >}}
+{{< gist "aspose-cloud" "5161752550311c9baf73ffa0a811ea0b" "GetChartAreaFromWorksheet.py" >}}
 
 {{< /tab >}}
 
