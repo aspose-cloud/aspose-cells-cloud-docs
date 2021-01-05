@@ -245,7 +245,7 @@ The Aspose.Cell Cloud SDKs can be downloaded from the following page: [Availabl
 
 {{< tab tabNum="6" >}}
 
-{{< gist "" "610ddf5b691b8385a63a29ae6ec89b06" "Examples-Node.js-SDK-Charts-UpdateChartTitle-1.js" >}}
+{{< gist "aspose-cloud" "04e9dd952c704f334a4eceb3925d479e" "Examples-Node.js-SDK-Charts-UpdateChartTitle-1.js" >}}
 
 {{< /tab >}}
 
