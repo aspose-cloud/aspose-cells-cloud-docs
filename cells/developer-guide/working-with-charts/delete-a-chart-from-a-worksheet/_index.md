@@ -81,7 +81,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "ac7f938785f2dae1fcb906067f5e06cb" "Examples-PHP-Charts-DeleteWorksheetDeleteChart-.php" >}}
+{{< gist "aspose-cloud" "5c1a68c4cea73845b221ff0d3b9ec9df" "Examples-PHP-Charts-DeleteWorksheetDeleteChart-.php" >}}
 
 {{< /tab >}}
 
