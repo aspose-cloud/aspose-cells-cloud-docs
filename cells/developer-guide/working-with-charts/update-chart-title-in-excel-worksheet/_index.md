@@ -233,7 +233,7 @@ The Aspose.Cell Cloud SDKs can be downloaded from the following page: [Availabl
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Charts-update_chart_title-.rb" >}}
+{{< gist "aspose-cloud" "3c5c9f9fff9898bb8251aa7ee9191641" "Examples-Ruby-Charts-update_chart_title-.rb" >}}
 
 {{< /tab >}}
 
