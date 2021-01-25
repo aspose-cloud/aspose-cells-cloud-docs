@@ -17,5 +17,5 @@ This page contains release notes for Aspose.Cells Cloud 21.1
 | CELLSCLOUD-10343 | Optimize the PostCellCalculate method.| Improvement   |
 | CELLSCLOUD-10344 | Upgrade Billing Module to 21.1 version.| Improvement |
 | CELLSCLOUD-10345 | Upgrade Aspose.Cells.DLL to 21.1 version.| Improvement |
-| CELLSCLOUD-10344 | Support to convert worksheet on task API.| New Feature|
-| CELLSCLOUD-10344 | upport to add and delete cell or range in worksheet.| New Feature|
+| CELLSCLOUD-10346 | Support to convert worksheet on task API.| New Feature|
+| CELLSCLOUD-10348 | upport to add and delete cell or range in worksheet.| New Feature|
