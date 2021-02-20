@@ -99,37 +99,37 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="1" >}}
 
-{{< gist "" "0c40af270fa7ae0ad4ec3936676653b8" "Examples-DotNET-CSharp-Cells-GetCellWorksheet-1.cs" >}}
+{{< gist "aspose-cloud" "1e994f29ef29e752b6d02a2c5b63ea9b" "Examples-DotNET-CSharp-Cells-GetCellWorksheet-1.cs" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
-{{< gist "aspose-cells" "e6fd01c4bbf280df7d4b09796edd8d66" "Examples-Java-SDK-src-main-java-com-aspose-cells-cloud-examples-cells-GetCellWorksheet-get-cell-from-worksheet.java" >}}
+{{< gist "aspose-cloud" "af3fea45644d431483f6df52cf3bfe26" "Examples-Java-cells-GetCellWorksheet-get-cell-from-worksheet.java" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="3" >}}
 
-{{< gist "" "ac7f938785f2dae1fcb906067f5e06cb" "Examples-PHP-Cells-GetWorksheetCell-.php" >}}
+{{< gist "aspose-cloud" "5c1a68c4cea73845b221ff0d3b9ec9df" "Examples-PHP-Cells-GetWorksheetCell-.php" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cells" "53fb9eb3d3d0d6e836078d4677a51ab5" "Examples-Ruby-Cells-read_cell_data_by_cell_name-.rb" >}}
+{{< gist "aspose-cloud" "3c5c9f9fff9898bb8251aa7ee9191641" "Examples-Ruby-Cells-read_cell_data_by_cell_name-.rb" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="5" >}}
 
-{{< gist "aspose-cells" "7d86d3fa01334f7cee49097d5446e46b" "GetCellFromWorksheet.py" >}}
+{{< gist "aspose-cloud" "5161752550311c9baf73ffa0a811ea0b" "GetCellFromWorksheet.py" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="6" >}}
 
-{{< gist "" "610ddf5b691b8385a63a29ae6ec89b06" "Examples-Node.js-SDK-Cells-GetCellWorksheet-1.js" >}}
+{{< gist "aspose-cloud" "04e9dd952c704f334a4eceb3925d479e" "Examples-Node.js-SDK-Cells-GetCellWorksheet-1.js" >}}
 
 {{< /tab >}}
 
@@ -139,7 +139,7 @@ The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Availab
 
 {{< tab tabNum="8" >}}
 
-{{< gist "" "5e354c1674e561aeb369d1d0f697ddbc" "Examples-Android-app-src-main-java-com-aspose-cells-cloud-examples-cells-GetCellWorksheet-get-cell-from-worksheet.java" >}}
+{{< gist "aspose-cloud" "9d725d4678edaac53f95c5208e17783c" "Examples-Android-cells-GetCellWorksheet-get-cell-from-worksheet.java" >}}
 
 {{< /tab >}}
 

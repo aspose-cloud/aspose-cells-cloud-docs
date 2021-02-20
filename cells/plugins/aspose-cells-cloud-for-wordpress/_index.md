@@ -7,4 +7,5 @@ weight: 10
 
 This section has following topics:
 
-- [Aspose Cloud Excel To Form Builder](/aspose-cloud-excel-to-form-builder/)
+- [Aspose.Cells Forms](/cells/aspose-cells-forms/)
+- [Aspose.Cells Cloud for WordPress - FAQs](/cells/aspose-cells-cloud-for-wordpress-faqs/)
