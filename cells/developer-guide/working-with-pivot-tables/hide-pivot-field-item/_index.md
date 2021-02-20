@@ -6,7 +6,7 @@ weight: 100
 ---
 
 ## **Introduction**
-The following sample code illustrates how to recalculate Pivot Table after hiding Pivot Field Item using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, Objective C, jQuery and many more.
+The following sample code illustrates how to recalculate pivot table after hiding pivot field item, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, Objective C, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

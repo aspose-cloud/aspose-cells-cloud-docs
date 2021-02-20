@@ -6,7 +6,7 @@ weight: 70
 ---
 
 ## **Introduction**
-This example shows how to decrypt a workbook using Aspose.Cells Cloud API in your applications.
+This example shows how to decrypt a workbook using our REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|

@@ -6,7 +6,9 @@ weight: 50
 ---
 
 ## **Introduction**
-This example shows how to merge multiple workbooks into a single workbook using Aspose.Cells Cloud API in your applications.  Aspose.Cells Cloud provides the following API. The API accepts a source and a destination Excel file that is uploaded to the Cloud Storage
+This example shows how to merge multiple workbooks into a single workbook using Aspose.Cells Cloud API in your applications. Aspose.Cells Cloud REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+
+This example shows how to convert spreadsheets into [PDF](https://docs.fileformat.com/view/pdf/) and save that resultant document to cloud storage using our 
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Swagger Link**|

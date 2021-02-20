@@ -6,7 +6,7 @@ weight: 20
 ---
 
 ## **Introduction**
-This example explains how to get Cells Data based on Named Range using Aspose.Cells Cloud API.
+This example explains how to get cells data based on named range, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

@@ -6,7 +6,7 @@ weight: 40
 ---
 
 ## **Introduction**
-This example shows how to change the width of a column of a named range in a Excel Worksheet using Aspose.Cells Cloud API.
+This example shows how to change the column width of a named range in a worksheet, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

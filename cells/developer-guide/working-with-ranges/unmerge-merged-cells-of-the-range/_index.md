@@ -6,7 +6,7 @@ weight: 80
 ---
 
 ## **Introduction**
-This example allows you to unmerge merged cells of the range using Aspose.Cells Cloud API in your applications.
+This example allows you to unmerge merged cells of the range, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
