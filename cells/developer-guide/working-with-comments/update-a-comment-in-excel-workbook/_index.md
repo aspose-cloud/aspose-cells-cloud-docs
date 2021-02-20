@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## **Introduction**
-This example shows how to update a comment in a Excel Worksheet using Aspose.Cells Cloud in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+This example shows how to update a comment in a worksheet, using Aspose.Cells Cloud in your application. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

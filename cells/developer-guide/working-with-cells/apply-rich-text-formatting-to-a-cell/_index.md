@@ -6,7 +6,7 @@ weight: 40
 ---
 
 ## **Introduction**
-This example shows how to apply Rich Text Formatting to a Cell using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+This example shows how to apply Rich Text Formatting to a cell, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ### **cURL Example**
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

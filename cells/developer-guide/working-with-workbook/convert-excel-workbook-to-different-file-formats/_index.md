@@ -8,7 +8,7 @@ weight: 10
 ---
 
 ## **Introduction**
-Aspose.Cells Cloud API provides the ability to convert spreadsheets into different formats like DOCX, PPTX, HTML, ODS, XPS and PDF. This example shows how to convert spreadsheets into PDF and save that resultant document to cloud storage using our REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+Aspose.Cells Cloud API provides the ability to convert spreadsheets into different formats like [DOCX](https://docs.fileformat.com/word-processing/docx/), [PPTX](https://docs.fileformat.com/presentation/pptx/), [HTML](https://docs.fileformat.com/web/html/), [ODS](https://docs.fileformat.com/spreadsheet/ods/), [XPS](https://docs.fileformat.com/page-description-language/xps/) and [PDF](https://docs.fileformat.com/view/pdf/). This example shows how to convert spreadsheets into [PDF](https://docs.fileformat.com/view/pdf/) and save that resultant document to cloud storage using our REST API which can be used with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

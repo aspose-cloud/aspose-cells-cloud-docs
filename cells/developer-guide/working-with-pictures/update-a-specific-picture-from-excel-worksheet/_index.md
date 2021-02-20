@@ -6,13 +6,13 @@ weight: 30
 ---
 
 ## **Introduction**
-This example shows how to update a image in a Excel Worksheet using Aspose.Cells Cloud API.
+This example shows how to update a image in a worksheet, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/cells/{name}/worksheets/{sheetName}/pictures/{pictureIndex}|POST|Update picture in an Excel Worksheet|[PostWorkSheetPicture](https://apireference.aspose.cloud/cells/#/Pictures/PostWorkSheetPicture)|
-### **cURL Example**
+### **cURL Example** 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

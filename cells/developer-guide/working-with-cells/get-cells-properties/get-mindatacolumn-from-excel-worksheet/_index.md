@@ -6,7 +6,7 @@ weight: 110
 ---
 
 ## **Introduction**
-This example shows how to get index of first column which contains data in a worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+This example shows how to get index of first column which contains data in a worksheet, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|

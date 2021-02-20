@@ -6,7 +6,7 @@ weight: 30
 ---
 
 ## **Convert List Object or Table to Range**
-The following sample code illustrates how to convert List Object or Table to Range using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
+The following sample code illustrates how to convert List Object or table to range, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
 ## **API Information**
 
 |**API**|**Type**|**Description**|**Resource Link**|
