@@ -29,3 +29,4 @@ weight: 50
 - [Set Range Value in Excel Worksheet](/cells/set-range-value-in-excel-worksheet/)
 - [Get Worksheet for Area](/cells/get-worksheet-for-area/)
 - [Get Worksheet for Page Index](/cells/get-worksheet-for-page-index/)
+- [Set zoom in Excel Worksheet](/cells/set-zoom-in-excel-worksheet/)
