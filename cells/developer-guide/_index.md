@@ -218,6 +218,7 @@ weight: 20
     <div class="col-md-6">
         <p>Zoom</p>
         <ul>
+            <li><a href="/cells/set-zoom-in-excel-worksheet/">Set zoom in Excel Worksheet</a></li>
         </ul>
     </div>
 </div>
