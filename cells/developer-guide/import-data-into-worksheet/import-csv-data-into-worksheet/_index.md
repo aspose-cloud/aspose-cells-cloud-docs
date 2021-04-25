@@ -14,27 +14,19 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 The important parameters are described in the following table:
 
-
-{{< tabs tabTotal="4" tabID="1" tabName1="Query Parameter" tabName2="Request Body Parameter" tabName3="ImportCSVDataOption" tabName4="CustomParserConfig" >}}
-
-{{< tab tabNum="1" >}} 
+**Query Parameter**
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |
 |folder|string|Original workbook folder.|
 |storageName|string|Storage name.|
 
-{{< /tab >}}
-
-{{< tab tabNum="2" >}}
+**Request Body Parameter**
 
 |Parameter Name|Type|Description|
 |ImportCSVDataOption|Object | import csv data option.The first part of the multipart content.|
 |datafile|data file |If the file source type of data file is the request body, The data file save into the second part of the multipart content.|
 
-{{< /tab >}}
-
-{{< tab tabNum="3" >}}
 
 **ImportCSVDataOption**
 
@@ -47,9 +39,6 @@ The important parameters are described in the following table:
 | SourceFile | string | |
 | CustomParsers | List<CustomParserConfig> |  |
 
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
 
 **CustomParserConfig**
 
@@ -58,8 +47,6 @@ The important parameters are described in the following table:
 | ColumnIndex | int |  | 
 | ParseMethod | string |  | 
 | CustomStyle | string |  |
-
-{{< /tab >}}
 
 
 
