@@ -1,5 +1,5 @@
 ---
-title: "Import Integer Array into Worksheet"
+title: "Import Integer Array into Excel Worksheet"
 type: docs
 url: /import-integer-array-into-worksheet/
 aliases: [/import-integer-array-into-excel-worksheet/]

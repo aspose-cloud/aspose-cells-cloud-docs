@@ -1,5 +1,5 @@
 ---
-title: "Import String Array into Worksheet"
+title: "Import String Array into Excel Worksheet"
 type: docs
 url: /import-string-array-into-worksheet/
 aliases: [/import-string-array-into-excel-worksheet/]

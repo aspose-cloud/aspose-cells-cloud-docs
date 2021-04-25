@@ -1,5 +1,5 @@
 ---
-title: "Import Double Array into Worksheet"
+title: "Import Double Array into Excel Worksheet"
 type: docs
 url: /import-2dimension-double-array-into-worksheet/
 aliases: [/import-2dimension-double-array-into-excel-worksheet/]
