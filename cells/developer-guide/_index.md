@@ -2,6 +2,7 @@
 title: "Developer Guide"
 type: docs
 url: /developer-guide/
+description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Cells for .NET features, achieve a certain Excel document appearance, or make a use case possible."
 weight: 20
 ---
 

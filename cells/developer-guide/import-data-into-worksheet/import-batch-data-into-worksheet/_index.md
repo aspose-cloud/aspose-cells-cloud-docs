@@ -1,24 +1,46 @@
 ---
-title: "Import Batch Data into Worksheet"
+title: "Import Batch Data into Excel Worksheet"
 type: docs
 url: /import-batch-data-into-worksheet/
+aliases: [/import-batch-data-into-excel-worksheet/]
+description: "Cells.Cloud API for Excel operate: Import Batch Data into Excel Worksheet."
 weight: 10
 ---
 
-## **Introduction**
-This example shows how to import batch data e.g. integers, strings, dates etc simultaneously into worksheet using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-## **API Information**
+
+This REST API import batch data into Excel work sheet.
+
+The request is an HTTP request with multipart content (see [RFC 2046](http://tools.ietf.org/html/rfc2046#page-17) or [RFC 1341](http://www.w3.org/Protocols/rfc1341/7_2_Multipart.html)). The first part of the multipart content contains the ImportBatchDataOption data and the second contains a data file.
+
+The important parameters are described in the following table:
+
+|Query Parameter Name|Type|Description|
+| :- | :- | :- |
+|folder|string|Original workbook folder.|
+|storageName|string|Storage name.|
+
+|Request Body Parameter Name|Type|Description|
+|ImportBatchDataOption|Object |Batch import option.The first part of the multipart content.|
+|datafile|data file |If the file source type of data file is the request body, The data file save into the second part of the multipart content.|
+
+
+## REST API
+
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/cells/{name}/importdata|POST|Imports data into workbook|[PostImportData](https://apireference.aspose.cloud/cells/#/Workbook/PostImportData)|
-### **cURL Example**
+
+The [OpenAPI Specification](https://apireference.aspose.cloud/cells/#/Workbook/PostImportData) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser. 
+
+You can use **cURL** command-line tool to access Aspose.Cells web services easily. The following example shows how to make calls to Cloud API with cURL.
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
 
-```java
-
+```bash
+# cURL example to import batch data into excel work book
 curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"BatchData":null, "DestinationWorksheet":"Sheet1", "IsInsert":false, "ImportDataType":"BatchData", "Source":{"FileSourceType":1, "FilePath":"Batch_data_json.txt"}}' -H "Content-Type: application/json" -H "Accept: application/json"
 
 ```
@@ -36,9 +58,14 @@ curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"Ba
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
-### **SDK Examples**
+
+## Cloud SDK Family
+
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-cells-cloud) for a complete list of Aspose.Cells Cloud SDKs.
+
+The following code examples demonstrate how to make calls to Aspose.Cells web services using various SDKs:
+
+
 {{< tabs tabTotal="3" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" >}}
 
 {{< tab tabNum="1" >}}
