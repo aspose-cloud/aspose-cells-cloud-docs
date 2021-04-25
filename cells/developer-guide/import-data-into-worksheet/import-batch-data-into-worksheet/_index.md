@@ -14,26 +14,20 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 The important parameters are described in the following table:
 
-{{< tabs tabTotal="5" tabID="1" tabName1="Query Parameter" tabName2="Request Body Parameter" tabName3="ImportCSVDataOption" tabName4="CellValue" tabName5="FileSource" >}}
-
-{{< tab tabNum="1" >}} 
+**Query Parameter**
 
 |Parameter Name|Type|Description|
 | :- | :- | :- |
 |folder|string|Original workbook folder.|
 |storageName|string|Storage name.|
 
-{{< /tab >}}
-
-{{< tab tabNum="2" >}}
+**Request Body Parameter**
 
 |Parameter Name|Type|Description|
 |ImportBatchDataOption|Object | import batch data option.The first part of the multipart content.|
 |datafile|data file |If the file source type of data file is the request body, The data file save into the second part of the multipart content.|
 
-{{< /tab >}}
 
-{{< tab tabNum="3" >}}
 
 **ImportBatchDataOption**
 
@@ -46,9 +40,6 @@ The important parameters are described in the following table:
 | Source | FileSource | Indicates data file position when the BatchData parameter is null. |
 | DestinationWorksheet | string | destination work sheet name. |
 
-{{< /tab >}}
-
-{{< tab tabNum="4" >}}
 
 **CellValue**
 
@@ -60,9 +51,7 @@ The important parameters are described in the following table:
 | value | string |  |
 | style | Style(object) |  |
 
-{{< /tab >}}
 
-{{< tab tabNum="5" >}}
 
 **FileSource**
 | Parameter Name|Type|Description|
@@ -70,7 +59,7 @@ The important parameters are described in the following table:
 | FileSourceType | string | InMemoryFiles/CloudFileSystem/RequestFiles | 
 | FilePath | string | file position |
 
-{{< /tab >}}
+
 
 
 
