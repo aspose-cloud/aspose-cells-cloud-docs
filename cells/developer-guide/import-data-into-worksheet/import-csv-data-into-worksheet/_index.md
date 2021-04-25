@@ -45,11 +45,9 @@ The important parameters are described in the following table:
 
 | Parameter Name|Type|Description|
 | :- | :- | :- |
-| ColumnIndex | int |  | 
-| ParseMethod | string |  | 
+| ColumnIndex | int |  |
+| ParseMethod | string |  |
 | CustomStyle | string |  |
-
-
 
 
 ## REST API
@@ -88,6 +86,7 @@ curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"Se
 {{< /tab >}}
 
 {{< /tabs >}}
+
 ## Cloud SDK Family
 
 Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-cells-cloud) for a complete list of Aspose.Cells Cloud SDKs.
