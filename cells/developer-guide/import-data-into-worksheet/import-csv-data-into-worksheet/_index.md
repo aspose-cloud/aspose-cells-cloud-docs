@@ -15,7 +15,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 The important parameters are described in the following table:
 
 
-{{< tabs tabTotal="5" tabID="1" tabName1="Query Parameter" tabName2="Request Body Parameter" tabName3="ImportCSVDataOption" tabName4="CellValue" tabName5="FileSource" >}}
+{{< tabs tabTotal="4" tabID="1" tabName1="Query Parameter" tabName2="Request Body Parameter" tabName3="ImportCSVDataOption" tabName4="CustomParserConfig" >}}
 
 {{< tab tabNum="1" >}} 
 
@@ -40,38 +40,27 @@ The important parameters are described in the following table:
 
 | Parameter Name|Type|Description|
 | :- | :- | :- |
-| BatchData | List<CellValue> | batch data
-| DestinationWorksheet | string | destination work sheet name.
-| IsInsert | string | true/false.
-| ImportDataType | string | IntArray/DoubleArray/StringArray/TwoDimensionIntArray/TwoDimensionDoubleArray/TwoDimensionStringArray/BatchData/CSVData.
-| Source | FileSource | Indicates data file position when the BatchData parameter is null.
-| DestinationWorksheet | string | destination work sheet name.
+| SeparatorString | string |  |
+| ConvertNumericData | string | true/false.|
+| FirstRow | int | |
+| FirstColumn | int | |
+| SourceFile | string | |
+| CustomParsers | List<CustomParserConfig> |  |
 
 {{< /tab >}}
 
 {{< tab tabNum="4" >}}
 
-**CellValue**
+**CustomParserConfig**
 
 | Parameter Name|Type|Description|
 | :- | :- | :- |
-| rowIndex | int |  | 
-| columnIndex | int |  | 
-| type | string | data type |
-| value | string |  |
-| style | Style(object) |  |
+| ColumnIndex | int |  | 
+| ParseMethod | string |  | 
+| CustomStyle | string |  |
 
 {{< /tab >}}
 
-{{< tab tabNum="5" >}}
-
-**FileSource**
-| Parameter Name|Type|Description|
-| :- | :- | :- |
-| FileSourceType | string | InMemoryFiles/CloudFileSystem/RequestFiles | 
-| FilePath | string | file position |
-
-{{< /tab >}}
 
 
 

@@ -14,14 +14,64 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 The important parameters are described in the following table:
 
-|Query Parameter Name|Type|Description|
+{{< tabs tabTotal="5" tabID="1" tabName1="Query Parameter" tabName2="Request Body Parameter" tabName3="ImportCSVDataOption" tabName4="CellValue" tabName5="FileSource" >}}
+
+{{< tab tabNum="1" >}} 
+
+|Parameter Name|Type|Description|
 | :- | :- | :- |
 |folder|string|Original workbook folder.|
 |storageName|string|Storage name.|
 
-|Request Body Parameter Name|Type|Description|
-|ImportBatchDataOption|Object |Batch import option.The first part of the multipart content.|
+{{< /tab >}}
+
+{{< tab tabNum="2" >}}
+
+|Parameter Name|Type|Description|
+|ImportBatchDataOption|Object | import batch data option.The first part of the multipart content.|
 |datafile|data file |If the file source type of data file is the request body, The data file save into the second part of the multipart content.|
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+**ImportBatchDataOption**
+
+| Parameter Name|Type|Description|
+| :- | :- | :- |
+| BatchData | List<CellValue> | batch data | 
+| DestinationWorksheet | string | destination work sheet name. |
+| IsInsert | string | true/false. |
+| ImportDataType | string | IntArray/DoubleArray/StringArray/TwoDimensionIntArray/TwoDimensionDoubleArray/TwoDimensionStringArray/BatchData/CSVData.|
+| Source | FileSource | Indicates data file position when the BatchData parameter is null. |
+| DestinationWorksheet | string | destination work sheet name. |
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+**CellValue**
+
+| Parameter Name|Type|Description|
+| :- | :- | :- |
+| rowIndex | int |  | 
+| columnIndex | int |  | 
+| type | string | data type |
+| value | string |  |
+| style | Style(object) |  |
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+**FileSource**
+| Parameter Name|Type|Description|
+| :- | :- | :- |
+| FileSourceType | string | InMemoryFiles/CloudFileSystem/RequestFiles | 
+| FilePath | string | file position |
+
+{{< /tab >}}
+
 
 
 ## REST API
