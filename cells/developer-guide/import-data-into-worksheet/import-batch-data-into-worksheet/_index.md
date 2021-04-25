@@ -24,6 +24,7 @@ The important parameters are described in the following table:
 **Request Body Parameter**
 
 |Parameter Name|Type|Description|
+| :- | :- | :- |
 |ImportBatchDataOption|Object | import batch data option.The first part of the multipart content.|
 |datafile|data file |If the file source type of data file is the request body, The data file save into the second part of the multipart content.|
 
