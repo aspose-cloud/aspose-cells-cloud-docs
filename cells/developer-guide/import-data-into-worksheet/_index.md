@@ -1,5 +1,5 @@
 ---
-title: "Import data into Excel"
+title: "Import Data"
 type: docs
 url: /import-data/
 aliases: [/import-data-into-excel-worksheet/, /import-data-into-worksheet/]
