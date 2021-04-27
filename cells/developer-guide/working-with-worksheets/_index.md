@@ -18,7 +18,6 @@ weight: 50
 - [Calculate Formula in a Worksheet](/cells/calculate-formula-in-a-worksheet/)
 - [Sort Worksheet Data](/cells/sort-worksheet-data/)
 - [Convert Worksheet to Image](/cells/convert-worksheet-to-image/)
-- [Get Column from a Worksheet](/cells/get-column-from-a-worksheet/)
 - [Copy Excel Worksheet](/cells/copy-excel-worksheet/)
 - [Rename Excel Worksheet](/cells/rename-excel-worksheet/)
 - [Update Excel Worksheet Properties](/cells/update-excel-worksheet-properties/)
