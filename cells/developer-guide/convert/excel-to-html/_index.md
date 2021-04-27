@@ -6,7 +6,7 @@ url: /convert/excel-to-html/
 aliases: [/convert-excel-file-to-html-in-cloud/]
 keywords: "REST API, convert, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: convert excel file to html file."
-weight: 150
+weight: 100
 ---
 
 This REST API `saveas` excel file to HTML.

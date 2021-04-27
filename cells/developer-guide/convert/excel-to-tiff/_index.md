@@ -6,7 +6,7 @@ url: /convert/excel-to-tiff/
 aliases: [/convert-excel-file-to-tiff-in-cloud/]
 keywords: "REST API, convert, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: convert excel file to tiff file."
-weight: 150
+weight: 90
 ---
 
 This REST API `saveas` excel file to TIFF.

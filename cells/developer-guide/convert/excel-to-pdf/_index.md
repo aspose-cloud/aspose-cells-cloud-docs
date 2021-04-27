@@ -6,7 +6,7 @@ url: /convert/excel-to-pdf/
 aliases: [/convert-excel-file-to-pdf-in-cloud/]
 keywords: "REST API, convert, spreadsheets, excel, pdf"
 description: "Cells.Cloud API for Excel operate: convert excel file to html file."
-weight: 150
+weight: 80
 ---
 
 Aspose provides a high-fidelity API to programmatically convert Excel documents to PDF format and in the opposite directions with professional quality. The combined use of Adobe and Microsoft Office technologies has a lot to offer to the end-user.
