@@ -39,7 +39,11 @@ You can use **cURL** command-line tool to access Aspose.Cells web services easil
 
 ```bash
 
-curl -X POST "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" -d '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"IntegerArray","Source":{"FileSourceType":1,"FilePath":"Array_integer_json.txt"}}' -H "Content-Type: application/json" -H "Accept: application/json"
+curl -v "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/importdata" \
+-X POST  \
+-d '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"IntegerArray","Source":{"FileSourceType":1,"FilePath":"Array_integer_json.txt"}}' \
+-H "Content-Type: application/json" \
+-H "Accept: application/json"
 
 ```
 

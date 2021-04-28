@@ -1,7 +1,11 @@
 ---
 title: "Working with Pivot Tables"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-pivot-tables/
+url: /pivottables/
+aliases: [/working-with-pivot-tables/]
+keywords: "REST API, pivot table, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: create pivot table with table."
 weight: 150
 ---
 
