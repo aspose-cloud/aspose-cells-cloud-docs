@@ -1,5 +1,5 @@
 ---
-title: "Working with Columns"
+title: "Columns"
 second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /columns/columns/
@@ -8,6 +8,8 @@ keywords: "REST API, columns, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: unhide columns from an Excel Worksheet."
 weight: 110
 ---
+
+## Working with Columns on an Excel file.
 
 - [Get Column from a Worksheet](/cells/get-columns-from-a-worksheet/)
 - [Add an Empty Column in a Worksheet](/cells/add-an-empty-column-in-a-worksheet/)

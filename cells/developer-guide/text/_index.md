@@ -1,9 +1,15 @@
 ---
-title: "Working with Text"
+title: "Text"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-text/
+url: /text/
+aliases: [/working-with-text/]
+keywords: "REST API, spreadsheets, excel, worksheets"
+description: "Cells.Cloud API for Excel operate: worksheets operate."
 weight: 80
 ---
+
+## Working with text on an Excel file.
 
 - [Get Text Items from a Workbook](/cells/get-text-items-from-a-workbook/)
 - [Get Text Items from a Worksheet](/cells/get-text-items-from-a-worksheet/)

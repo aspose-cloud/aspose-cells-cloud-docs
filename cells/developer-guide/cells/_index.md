@@ -1,9 +1,15 @@
 ---
-title: "Working with Cells"
+title: "Cells"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /working-with-cells/
+aliases: [/working-with-worksheets/]
+keywords: "REST API, spreadsheets, excel, cells"
+description: "Cells.Cloud API for Excel operate: cells operate."
 weight: 120
 ---
+
+## Working with cells on an Excel file.
 
 - [Get Cell Style from a Worksheet](/cells/get-cell-style-from-a-worksheet/)
 - [Update Multiple Cells Style](/cells/update-multiple-cells-style/)

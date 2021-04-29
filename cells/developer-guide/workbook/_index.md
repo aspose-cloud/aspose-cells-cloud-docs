@@ -1,13 +1,15 @@
 ---
-title: "Working with Workbook"
+title: "Workbook"
 second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /workbook/
 aliases: [/working-with-workbook/]
-keywords: "REST API, spreadsheets, excel"
+keywords: "REST API, spreadsheets, excel, workbook"
 description: "Cells.Cloud API for Excel operate: workbook operate."
 weight: 20
 ---
+
+## Working with an Excel workbook.
 
 - [Convert Excel Workbook to Different File Formats](/cells/convert-excel-workbook-to-different-file-formats/)
 - [Create an Empty Excel Workbook](/cells/create-an-empty-excel-workbook/)

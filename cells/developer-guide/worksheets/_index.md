@@ -1,9 +1,15 @@
 ---
-title: "Working with Worksheets"
+title: "Worksheets"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-worksheets/
+url: /worksheets/
+aliases: [/working-with-worksheets/]
+keywords: "REST API, spreadsheets, excel, worksheets"
+description: "Cells.Cloud API for Excel operate: worksheets operate."
 weight: 50
 ---
+
+## Working with an Excel worksheets.
 
 - [Get Worksheet Count](/cells/get-worksheet-count/)
 - [Add a New Excel Worksheet](/cells/add-a-new-excel-worksheet/)

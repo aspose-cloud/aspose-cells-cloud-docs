@@ -1,9 +1,15 @@
 ---
-title: "Working with OleObjects"
+title: "OleObjects"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-oleobjects/
+url: /oleobjects/
+aliases: [/working-with-oleobjects/]
+keywords: "REST API, oleobjects, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: working with ole-objects on an Excel file."
 weight: 130
 ---
+
+## Working with OleObjects
 
 - [Get OleObject from a Worksheet](/cells/get-oleobject-from-a-worksheet/)
 - [Add OleObject to Excel Worksheet](/cells/add-oleobject-to-excel-worksheet/)

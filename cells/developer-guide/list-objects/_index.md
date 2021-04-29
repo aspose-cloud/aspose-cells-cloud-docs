@@ -1,9 +1,15 @@
 ---
-title: "Working with List Object or Table"
+title: "ListObjects"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-list-object-or-table/
+url: /list-objects/
+aliases: [/working-with-list-objects/,/working-with-list-object-or-table/]
+keywords: "REST API, table, list-object, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: working with list-objects on an Excel file."
 weight: 180
 ---
+
+## Working with List Object or Table
 
 - [Add a List Object or Table inside the Worksheet](/cells/add-a-list-object-or-table-inside-the-worksheet/)
 - [Update a List Object or Table inside the Worksheet](/cells/update-a-list-object-or-table-inside-the-worksheet/)

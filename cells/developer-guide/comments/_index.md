@@ -1,6 +1,13 @@
 ---
-title: "Working with Comments"
+title: "Comments"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-comments/
+url: /comments/
+aliases: [/working-with-comments/]
+keywords: "REST API, spreadsheets, excel, comments"
+description: "Cells.Cloud API for Excel operate: comments operate."
 weight: 220
 ---
+
+
+## Working with comments on an Excel file.

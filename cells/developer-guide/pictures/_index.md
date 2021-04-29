@@ -1,9 +1,15 @@
 ---
-title: "Working with Pictures"
+title: "Pictures"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-pictures/
+url: /pictures/
+aliases: [/working-with-pictures/]
+keywords: "REST API, task, spreadsheets, excel, pictures"
+description: "Cells.Cloud API for Excel operate: working with pictures on an Excel file."
 weight: 140
 ---
+
+## Working with Pictures
 
 - [Get Picture from a Worksheet](/cells/get-picture-from-a-worksheet/)
 - [Add Pictures to Excel Worksheet](/cells/add-pictures-to-excel-worksheet/)

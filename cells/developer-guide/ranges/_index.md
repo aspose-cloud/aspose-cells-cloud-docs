@@ -1,9 +1,15 @@
 ---
-title: "Working with Ranges"
+title: "Ranges"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-ranges/
+url: /ranges/
+aliases: [/working-with-ranges/]
+keywords: "REST API, task, spreadsheets, excel, ranges"
+description: "Cells.Cloud API for Excel operate: working with range on an Excel file."
 weight: 190
 ---
+
+## Working with ranges on an Excel file.
 
 - [Get Named Ranges inside the Workbook](/cells/get-named-ranges-inside-the-workbook/)
 - [Get Cells Data Based on Named Range](/cells/get-cells-data-based-on-named-range/)

@@ -1,9 +1,15 @@
 ---
-title: "Working with Charts"
+title: "Charts"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-charts/
+url: /charts/
+aliases: [/working-with-charts/]
+keywords: "REST API, spreadsheets, excel, charts"
+description: "Cells.Cloud API for Excel operate: charts operate."
 weight: 90
 ---
+
+## Working with Charts on an Excel file.
 
 - [Get Chart from a Worksheet](/cells/get-chart-from-a-worksheet/)
 - [Add a Chart in a Worksheet](/cells/add-a-chart-in-a-worksheet/)

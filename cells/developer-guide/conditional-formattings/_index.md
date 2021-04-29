@@ -1,9 +1,15 @@
 ---
-title: "Working with Conditional Formatting"
+title: "Conditional Formattings"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-conditional-formatting/
+url: /conditional-formattings/
+aliases: [/working-with-conditional-formatting/]
+keywords: "REST API, spreadsheets, excel, conditional formatting"
+description: "Cells.Cloud API for Excel operate: conditional-formatting operate."
 weight: 200
 ---
+
+## Working with conditional formatting on an Excel file.
 
 - [Get Conditional Formattings of Worksheet](/cells/get-conditional-formattings-of-worksheet/)
 - [Get Conditional Formatting](/cells/get-conditional-formatting/)

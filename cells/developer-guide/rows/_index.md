@@ -1,9 +1,15 @@
 ---
-title: "Working with Rows"
+title: "Rows"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /working-with-rows/
+url: /rows/
+aliases: [/working-with-rows/]
+keywords: "REST API, task, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: operate excel with rows."
 weight: 110
 ---
+
+## Working with rows on an Excel file.
 
 - [Get Row from a Worksheet](/cells/get-row-from-a-worksheet/)
 - [Add an Empty Row in a Worksheet](/cells/add-an-empty-row-in-a-worksheet/)
