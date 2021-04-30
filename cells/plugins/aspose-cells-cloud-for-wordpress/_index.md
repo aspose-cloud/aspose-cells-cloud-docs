@@ -1,7 +1,9 @@
 ---
 title: "Aspose.Cells Cloud for WordPress"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /aspose-cells-cloud-for-wordpress/
+description: "Aspose.Cells Cloud supports Excel to create, convert, merge, split, protected, inner object operation, and so on."
 weight: 10
 ---
 
