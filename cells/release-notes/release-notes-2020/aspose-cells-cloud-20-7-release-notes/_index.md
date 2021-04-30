@@ -1,5 +1,6 @@
 ---
 title: "Aspose.Cells Cloud 20.7 Release Notes"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /aspose-cells-cloud-20-7-release-notes/
 description: "Aspose.Cells Cloud supports Excel to create, convert, merge, split, protected, inner object operation, and so on."
