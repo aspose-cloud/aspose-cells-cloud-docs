@@ -1,12 +1,14 @@
 ---
 title: "Available SDKs"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /available-sdks/
+description: "Aspose.Cells Cloud supports Excel to create, convert, merge, split, protected, inner object operation, and so on."
 weight: 30
 ---
 
 ## **Aspose.Cells Cloud SDKs**
-Aspose.Cells for Cloud is a modern REST oriented API, that allows easy integration into existing systems.
+Aspose.Cells Cloud is a modern REST oriented API, that allows easy integration into existing systems.
 ### **Why use an SDK?**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project.
 ### **SDK benefits**
