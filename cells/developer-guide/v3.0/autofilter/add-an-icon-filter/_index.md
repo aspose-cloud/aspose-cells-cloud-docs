@@ -1,18 +1,40 @@
 ---
-title: "Add an Icon Filter"
+title: "Add an icon filter"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /add-an-icon-filter/
+url: /autofilter/add-icon-filter/
+aliases: [/add-an-icon-filter/]
+keywords: "REST API, autofilter, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: add an icon filter on an Excel file."
 weight: 50
 ---
 
-## **Introduction**
-This example shows how to add an icon filter, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-## **API Information**
+This REST API add an `IconFilter` on an Excel Worksheet.
+
+**Query Parameter**
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|range|string||
+|fieldIndex|integer||
+|iconSetType|string|Arrows3/ArrowsGray3/Flags3/Signs3/Symbols3/Symbols32/TrafficLights31/TrafficLights32/Arrows4/ArrowsGray4/Rating4/RedToBlack4/TrafficLights4/Arrows5/ArrowsGray5/Quarters5/Rating5/Stars3/Boxes5/Triangles3/None/CustomSet/Smilies3/ColorSmilies3  |
+|iconId|integer| |
+|matchBlanks|string|true/false|
+|refresh|string|true/false|
+|folder|string|Original workbook folder.|
+|storageName|string|Storage name.|
+
+
+## REST API ##
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/cells/{name}/worksheets/{sheetName}/autoFilter/iconFilter|PUT|Adds an icon filter in worksheet|[PutWorksheetIconFilter](https://apireference.aspose.cloud/cells/#/AutoFilter/PutWorksheetIconFilter)|
-### **cURL Example**
+
+The [OpenAPI Specification](https://apireference.aspose.cloud/cells/#/AutoFilter/PutWorksheetIconFilter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
+
+You can use **cURL** command-line tool to access Aspose.Cells web services easily. The following example shows how to make calls to Cloud API with cURL.
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -42,9 +64,13 @@ curl -X PUT "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/aut
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
-### **SDK Examples**
+
+## Cloud SDK Family
+
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-cells-cloud) for a complete list of Aspose.Cells Cloud SDKs.
+
+The following code examples demonstrate how to make calls to Aspose.Cells web services using various SDKs:
+
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Perl" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

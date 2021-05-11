@@ -1,18 +1,40 @@
 ---
-title: "Add a Filter for a Filter Column"
+title: "Add a filter"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /add-a-filter-for-a-filter-column/
+url: /autofilter/add-filter/
+aliases: [/add-a-filter-for-a-filter-column/]
+keywords: "REST API, autofilter, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: add autofilter on an Excel file."
 weight: 30
 ---
 
-## **Introduction**
-This example shows how to add a filter for a filter column, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-## **API Information**
+
+This REST API add an `AutoFilter` on an Excel Worksheet.
+
+**Query Parameter**
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|range|string||
+|fieldIndex|integer||
+|criteria|string| |
+|matchBlanks|string|true/false|
+|refresh|string|true/false|
+|folder|string|Original workbook folder.|
+|storageName|string|Storage name.|
+
+
+## REST API ##
 
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/cells/{name}/worksheets/{sheetName}/autoFilter/filter|PUT|Adds a filter for a filter column in worksheet|[PutWorksheetFilter](https://apireference.aspose.cloud/cells/#/AutoFilter/PutWorksheetFilter)|
-### **cURL Example**
+
+The [OpenAPI Specification](https://apireference.aspose.cloud/cells/#/AutoFilter/PutWorksheetFilter) defines a publicly accessible programming interface and lets you carry out REST interactions directly from a web browser.
+
+You can use **cURL** command-line tool to access Aspose.Cells web services easily. The following example shows how to make calls to Cloud API with cURL.
+
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}
@@ -39,9 +61,13 @@ curl -X PUT "http://api.aspose.cloud/v3.0/cells/Book1.xlsx/worksheets/Sheet1/aut
 {{< /tab >}}
 
 {{< /tabs >}}
-## **SDK Source**
-The Aspose.Cells Cloud SDKs can be downloaded from the following page: [Available SDKs](/cells/available-sdks/)
-### **SDK Examples**
+
+## Cloud SDK Family
+
+Using an SDK is the best way to speed up the development. An SDK takes care of low-level details and lets you focus on your project tasks. Please check out the [GitHub repository](https://github.com/aspose-cells-cloud) for a complete list of Aspose.Cells Cloud SDKs.
+
+The following code examples demonstrate how to make calls to Aspose.Cells web services using various SDKs:
+
 {{< tabs tabTotal="8" tabID="4" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Ruby" tabName5="Node.js" tabName6="Android" tabName7="Perl" tabName8="Go" >}}
 
 {{< tab tabNum="1" >}}

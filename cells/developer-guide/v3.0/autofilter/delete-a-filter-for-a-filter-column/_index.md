@@ -1,14 +1,36 @@
 ---
-title: "Delete a Filter for a Filter Column"
+title: "Delete a filter"
+second_title: "Aspose.Cells Cloud Document"
 type: docs
-url: /delete-a-filter-for-a-filter-column/
+url: /delete-filter/
+aliases: [/delete-a-filter-for-a-filter-column/]
+keywords: "REST API, autofilter, spreadsheets, excel"
+description: "Cells.Cloud API for Excel operate: add an date filter on an Excel file."
 weight: 40
 ---
 
-## **Introduction**
-This example shows how to delete a filter for a filter column, using Aspose.Cells Cloud API in your applications. You can use our REST API with any language: .NET, Java, PHP, Ruby, Rails, Python, jQuery and many more.
-## **API Information**
+This REST API add an `DateFilter` on an Excel Worksheet.
 
+**Query Parameter**
+
+|Parameter Name|Type|Description|
+| :- | :- | :- |
+|range|string||
+|fieldIndex|integer||
+|dateTimeGroupingType|string|Day/Hour/Minute/Month/Second/Year |
+|year|integer| |
+|month|integer| |
+|day|integer| |
+|hour|integer| |
+|minute|integer| |
+|second|integer| |
+|matchBlanks|string|true/false|
+|refresh|string|true/false|
+|folder|string|Original workbook folder.|
+|storageName|string|Storage name.|
+
+
+## REST API ##
 |**API**|**Type**|**Description**|**Resource Link**|
 | :- | :- | :- | :- |
 |/cells/{name}/worksheets/{sheetName}/autoFilter/filter|DELETE|Deletes a filter for a filter column in worksheet|[DeleteWorksheetFilter](https://apireference.aspose.cloud/cells/#/AutoFilter/DeleteWorksheetFilter)|

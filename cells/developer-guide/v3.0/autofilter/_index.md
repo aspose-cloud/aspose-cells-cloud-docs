@@ -6,8 +6,11 @@ url: /autofilter/
 aliases: [/working-with-autofilter/]
 keywords: "REST API, autofilter, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: working with autofilter on an Excel file."
-weight: 210
+weight: 10
 ---
 
-## Working with auto filter on an Excel file.
+## Working filter data with auto filter on an Excel file.
 
+
+
+- [Get Cell Style from a Worksheet](/cells/get-cell-style-from-a-worksheet/)

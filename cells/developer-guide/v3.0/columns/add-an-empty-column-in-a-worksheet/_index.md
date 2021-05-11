@@ -9,7 +9,7 @@ description: "Cells.Cloud API for Excel operate: Add an Empty Column in an Excel
 weight: 20
 ---
 
-This REST API add a `column`  into an Excel Worksheet.
+This REST API add a `column` into an Excel Worksheet.
 
 **Query Parameter**
 
