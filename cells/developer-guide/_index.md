@@ -7,29 +7,6 @@ description: "This Developer Guide describes practical scenarios and tips to hel
 weight: 20
 ---
 
-## Working with Aspose.Cells Cloud v4.0  REST APIs.
-
-
-<div class="row">
-    <div class="col-md-6">
-        <p>Convert,Merge,Split</p>
-        <ul>
-            <li><a href="/cells/lite/convert/">Convert multipart Excel files to different format files.</a></li>
-             <li><a href="/cells/lite/merge/">Merge multipart Excel files into an Excel file.</a></li>
-            <li><a href="/cells/lite/split/">Split an Excel file into different format multipart files.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <p>Protected,Search</p>
-        <ul>
-            <li><a href="/cells/lite/unlock/">Unlock Excel files.</a></li>
-            <li><a href="/cells/lite/search/">Search text from multipart Excel files.</a></li>
-        </ul>
-    </div>
-</div>
-
-
-
 ## Working with Aspose.Cells Cloud v3.0  REST APIs.
 
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" >}}
