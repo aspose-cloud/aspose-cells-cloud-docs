@@ -6,7 +6,7 @@ url: /pivottables/
 aliases: [/working-with-pivot-tables/]
 keywords: "REST API, pivot table, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: working with pivot table on an Excel file."
-weight: 150
+weight: 100
 ---
 
 ## Working with pivot tables on an Excel file.

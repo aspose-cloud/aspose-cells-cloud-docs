@@ -6,7 +6,7 @@ url: /worksheets/
 aliases: [/working-with-worksheets/]
 keywords: "REST API, spreadsheets, excel, worksheets"
 description: "Cells.Cloud API for Excel operate: worksheets operate."
-weight: 50
+weight: 100
 ---
 
 ## Working with an Excel worksheets.

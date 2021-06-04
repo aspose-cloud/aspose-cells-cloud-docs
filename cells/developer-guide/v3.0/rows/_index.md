@@ -6,7 +6,7 @@ url: /rows/
 aliases: [/working-with-rows/]
 keywords: "REST API, task, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: operate excel with rows."
-weight: 110
+weight: 100
 ---
 
 ## Working with rows on an Excel file.

@@ -6,7 +6,7 @@ url: /charts/
 aliases: [/working-with-charts/]
 keywords: "REST API, spreadsheets, excel, charts"
 description: "Cells.Cloud API for Excel operate: charts operate."
-weight: 90
+weight: 100
 ---
 
 ## Working with Charts on an Excel file.

@@ -6,7 +6,7 @@ url: /list-objects/
 aliases: [/working-with-list-objects/,/working-with-list-object-or-table/]
 keywords: "REST API, table, list-object, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: working with list-objects on an Excel file."
-weight: 180
+weight: 100
 ---
 
 ## Working with List Object or Table

@@ -6,7 +6,7 @@ url: /shapes/
 aliases: [/working-with-shapes/,/working-with-images/]
 keywords: "REST API, task, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: operate excel with shapes."
-weight: 170
+weight: 100
 ---
 
 ## Working with shapes on an Excel file.

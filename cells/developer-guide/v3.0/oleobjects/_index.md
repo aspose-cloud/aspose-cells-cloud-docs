@@ -6,7 +6,7 @@ url: /oleobjects/
 aliases: [/working-with-oleobjects/]
 keywords: "REST API, oleobjects, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: working with ole-objects on an Excel file."
-weight: 130
+weight: 100
 ---
 
 ## Working with OleObjects

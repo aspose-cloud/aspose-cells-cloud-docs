@@ -5,7 +5,7 @@ type: docs
 url: /import-data/
 aliases: [/import-data-into-excel-worksheet/, /import-data-into-worksheet/]
 description: "Cells.Cloud API for Excel operate: Import Data into Excel Worksheet."
-weight: 20
+weight: 100
 ---
 
 - [Import Batch Data into Excel Worksheet](/cells/import-batch-data-into-worksheet/)

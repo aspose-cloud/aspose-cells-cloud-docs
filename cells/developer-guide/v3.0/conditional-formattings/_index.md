@@ -6,7 +6,7 @@ url: /conditional-formattings/
 aliases: [/working-with-conditional-formatting/]
 keywords: "REST API, spreadsheets, excel, conditional formatting"
 description: "Cells.Cloud API for Excel operate: conditional-formatting operate."
-weight: 200
+weight: 100
 ---
 
 ## Working with conditional formatting on an Excel file.

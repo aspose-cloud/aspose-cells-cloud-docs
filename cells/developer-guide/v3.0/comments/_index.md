@@ -6,7 +6,7 @@ url: /comments/
 aliases: [/working-with-comments/]
 keywords: "REST API, spreadsheets, excel, comments"
 description: "Cells.Cloud API for Excel operate: comments operate."
-weight: 220
+weight: 100
 ---
 
 

@@ -6,7 +6,7 @@ url: /document-properties/
 aliases: [/working-with-document-properties/]
 keywords: "REST API, spreadsheets, excel, document-properties"
 description: "Cells.Cloud API for Excel operate: document-properties operate."
-weight: 30
+weight: 100
 ---
 
 ## Working with document properties on an Excel file.

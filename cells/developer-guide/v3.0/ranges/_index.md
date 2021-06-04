@@ -6,7 +6,7 @@ url: /ranges/
 aliases: [/working-with-ranges/]
 keywords: "REST API, task, spreadsheets, excel, ranges"
 description: "Cells.Cloud API for Excel operate: working with range on an Excel file."
-weight: 190
+weight: 100
 ---
 
 ## Working with ranges on an Excel file.

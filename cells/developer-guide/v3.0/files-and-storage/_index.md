@@ -6,7 +6,7 @@ url: /files-and-storage/
 aliases: [/working-with-files-and-storage-using-aspose-cells-cloud/]
 keywords: "REST API, upload, download, delelte, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: upload, download and delete excel file to storage."
-weight: 10
+weight: 100
 ---
 
 Aspose.Cells Cloud provides helper functions to work with files uploaded to Aspose.Cells Cloud Storage or any other Cloud Storage of your choice. If you need any help getting started with setting third party storage please refer to [Aspose Cloud UI Help Topics](https://docs.aspose.cloud/display/totalcloud/Aspose+Cloud+UI+Help+Topics).

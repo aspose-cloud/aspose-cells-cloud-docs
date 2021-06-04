@@ -6,7 +6,7 @@ url: /pictures/
 aliases: [/working-with-pictures/]
 keywords: "REST API, task, spreadsheets, excel, pictures"
 description: "Cells.Cloud API for Excel operate: working with pictures on an Excel file."
-weight: 140
+weight: 100
 ---
 
 ## Working with Pictures

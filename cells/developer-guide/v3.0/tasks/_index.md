@@ -1,12 +1,12 @@
 ---
-title: "tasks"
+title: "Tasks"
 second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /tasks/
 aliases: [/working-with-tasks/]
 keywords: "REST API, task, spreadsheets, excel"
 description: "Cells.Cloud API for Excel operate: operate excel with tasks."
-weight: 160
+weight: 100
 ---
 
 
