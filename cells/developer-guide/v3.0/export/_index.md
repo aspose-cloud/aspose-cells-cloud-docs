@@ -1,5 +1,5 @@
 ---
-title: "Export Excel objects"
+title: "Export Excel Objects"
 second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /export/
@@ -32,7 +32,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 | :- | :- | :- |
 |excel file|data file | The data file save into the first part of the multipart content.|
 
-**Response body**
+**Response**
 
 ```bash
 {
