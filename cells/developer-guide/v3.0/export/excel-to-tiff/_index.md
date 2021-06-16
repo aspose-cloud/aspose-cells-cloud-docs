@@ -32,6 +32,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=workbook&form
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
+```bash
 {
     "Files":
     [
@@ -47,6 +48,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=workbook&form
         }
     ]
 }
+```
 {{< /tab >}}
 {{< /tabs >}}
 

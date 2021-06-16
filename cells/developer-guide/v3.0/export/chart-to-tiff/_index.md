@@ -34,6 +34,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=chart&format=
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
+```bash
 {
     "Files": [{
         "Filename": "Book1_xlsx_Sheet4_Charts_0.tif",
@@ -69,6 +70,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=chart&format=
         "FileContent": "-----Base64String--------"
     }]
 }
+```
 {{< /tab >}}
 {{< /tabs >}}
 

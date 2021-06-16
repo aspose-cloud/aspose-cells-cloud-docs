@@ -1,5 +1,5 @@
 ---
-title: "Export Excel"
+title: "Export Excel Shapes"
 second_title: "Aspose.Cells Cloud Document"
 type: docs
 url: /export/excel-shape-to-different-formats/
@@ -34,6 +34,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=shape&format=
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
+```bash
 {
     "Files": [{
         "Filename": "Book1_xlsx_Sheet1_Shapes_0.tif",
@@ -197,6 +198,7 @@ curl -X PUT "https://api.aspose.cloud/v3.0/cells/export?objectType=shape&format=
         "FileContent": "-----Base64String--------"
     }]
 }
+```
 {{< /tab >}}
 {{< /tabs >}}
 

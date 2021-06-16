@@ -34,6 +34,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 
 **Response body**
 
+```bash
 {
     "Files":
     [
@@ -49,7 +50,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
         }
     ]
 }
-
+```
 The following articles explain each API in detail and contain cURL and SDK Examples of each API:
 
 
