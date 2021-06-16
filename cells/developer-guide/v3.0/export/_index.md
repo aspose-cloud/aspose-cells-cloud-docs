@@ -53,7 +53,7 @@ The request is an HTTP request with multipart content (see [RFC 2046](http://to
 The following articles explain each API in detail and contain cURL and SDK Examples of each API:
 
 
-- [Export Excel chart to different file format](/export/excel-chart-to-different-formats/)
-- [Export Excel picture to different file format](/export/excel-picture-to-different-formats/)
-- [Export Excel shape to different file format](/export/excel-shape-to-different-formats/)
-- [Export Excel workbook to different file format](/export/excel-to-different-formats/)
+- [Export Excel chart to different file format](/cells/export/excel-chart-to-different-formats/)
+- [Export Excel picture to different file format](/cells/export/excel-picture-to-different-formats/)
+- [Export Excel shape to different file format](/cells/export/excel-shape-to-different-formats/)
+- [Export Excel workbook to different file format](/cells/export/excel-to-different-formats/)
