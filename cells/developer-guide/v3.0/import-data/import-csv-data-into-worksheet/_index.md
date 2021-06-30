@@ -94,3 +94,12 @@ Using an SDK is the best way to speed up the development. An SDK takes care of l
 
 The following code examples demonstrate how to make calls to Aspose.Cells web services using various SDKs:
 
+{{< tabs tabTotal="1" tabID="1" tabName1="PHP"  >}}
+
+{{< tab tabNum="1" >}}
+
+{{< gist "aspose-cloud" "5c1a68c4cea73845b221ff0d3b9ec9df" "Examples-PHP-Workbook-PostImportCSVData.php" >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
