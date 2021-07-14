@@ -125,6 +125,8 @@ Complete source code of Aspose.Cells Cloud SDK for PHP is freely available on [G
 
 {{< tab tabNum="4" >}}
 
+**Aspose.Cells Cloud SDK for Android** allows you to incorporate Aspose.Cells Cloud services in your Android App quickly and easily.
+
 Please visit the Aspose.Cells Cloud [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-android) to get started with using Aspose.Cells Cloud SDK for Android
 
 {{< /tab >}}
